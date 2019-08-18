@@ -23,8 +23,8 @@ Two steps: matching and ranking.
 
 - [x] basic, functional styling
 - [x] list emojis from a data source
+- [x] put on github
 - [ ] filter emoji (basic)
-- [ ] 
 - [ ] hitting enter copies to clipboard
 - [ ] clicking copies to clipboard
 - [ ] "copied" notification / animation
