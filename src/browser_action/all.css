@@ -15,7 +15,7 @@ aside {
   width: 300px;
   max-height: 485.410196625px;
   font-family: Helvetica, Ubuntu, Arial, sans-serif;
-  border: 1px dashed #ddd;
+  outline: 1px dashed #ddd;
 }
 
 .search {
@@ -95,7 +95,7 @@ button {
 }
 
 .copy {
-  background: #AA8DD8;
+  background: #7553ac;
   border: none;
   color: white;
   font-weight: 500;

@@ -2,7 +2,7 @@
 
 > Find Emoji using keywords.
 
-![gif in action](screenshots/2019 08-18 emoji-magic.gif)
+![gif in action](./screenshots/2019 08-18 emoji-magic.gif)
 
 Inspired by the ease of use from mojibar.
 
@@ -23,34 +23,38 @@ Two steps: matching and ranking.
 
 ## TODO
 
+### Basic Functionality
+
 - [x] basic, functional styling
 - [x] list emojis from a data source
 - [x] put on github
-- [ ] filter emoji (basic)
+- [x] filter emoji (basic)
 - [ ] hitting enter copies to clipboard
 - [ ] clicking copies to clipboard
 - [ ] "copied" notification / animation
 - [ ] append to a "clipboard" area
+
+### Advanced Functionality
+
 - [ ] skin tone setting
-- [ ] store the last k emoji the user copied (to fill in recently used)
-- [ ] 
+
+### Platform Render Quirks
+
 - [ ] detect which emoji the user's current platform can render (big user pain point)
 - [ ] if cannot render, don't suggest it unless it's the only option(s). provide explanation.
-- [ ] 
-- [ ] 
-- [ ] emoji count (for marketing)
-- [ ] 
+
+### Searching, suggesting
+
+- [ ] support multi-token matching (eg: "red car" and "green heart")
+- [ ] store the last k emoji the user copied (to fill in recently used)
 - [ ] enhanced findability: identify color(s). eg: purple
 - [ ] enhanced findability: store user behavior
 
-## Thanks and Citations
+### Marketing
 
-* Extension boilerplate from [extensionizr](extensionizr.com).
-* Product logo from [twemoji](https://github.com/twitter/twemoji).
+- [ ] emoji count (for marketing)
 
-## emoji data source investigation
 
-* https://github.com/muan/emojilib -- keywords and data about emoji
 
 ## emoji app investigation
 
@@ -75,3 +79,9 @@ unclear: unknown emoji
   my text editor shows two symbols
   apple textedit supports it
 ```
+
+## Thanks and Credits
+
+* Extension boilerplate from [extensionizr](extensionizr.com).
+* Logo from [twemoji](https://github.com/twitter/twemoji).
+* Initial data source from [emojilib](https://github.com/muan/emojilib).

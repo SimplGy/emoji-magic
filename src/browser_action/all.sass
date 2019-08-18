@@ -1,5 +1,7 @@
 $colorBg: #fafafa;
-$colorBrand: #AA8DD8;
+$colorBrandL70: #AA8DD8; // Luminosity 70
+$colorBrandL50: #7553ac; // L 50
+$colorBrand: $colorBrandL70;
   
 // reset
 html, body, ol 
@@ -10,15 +12,17 @@ body, input, button
 
 
 
-// Outer containers
+// ------------------------------------------ Outer containers
 body 
 	background: $colorBg 
 aside 
 	width: 300px 
 	max-height: 485.410196625px // golden ratio
 	font-family: Helvetica, Ubuntu, Arial, sans-serif 
-	border: 1px dashed #ddd 
+	outline: 1px dashed #ddd // for the dev environment only
 
+
+// ------------------------------------------ Search Area
 .search 
 	margin: 0.5rem 
 	margin-bottom: 0 
@@ -30,6 +34,7 @@ aside
 	&:focus 
 		outline: none 
 		border: 2px solid $colorBrand
+
 input 
 	padding: 0 0.5rem 
 	min-width: 0 
@@ -37,7 +42,7 @@ input
 		background: white 
 
 
-
+// ------------------------------------------ Results Area
 .results 
 	padding: 0.5rem 1rem 
 	overflow: scroll 
@@ -67,7 +72,7 @@ input
 
 
 
-
+// ------------------------------------------ Output / copy area
 output
 	margin-top: 0.5rem
 	display: flex
@@ -83,7 +88,7 @@ button
 	margin: 10px 
 	border: none 
 .copy 
-	background: $colorBrand 
+	background: $colorBrandL50
 	border: none 
 	color: white 
 	font-weight: 500 

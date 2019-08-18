@@ -30,22 +30,6 @@
 
 	<script src="all.js"></script> <!-- window.emoji -->
 	<script src="data/emojilib.js"></script> <!-- window.emojilib -->
-	<script>
-		document.addEventListener("DOMContentLoaded", () => {
-			// init
-			// const chars = Object.values(window.emojilib || []).map(({char}) => char);
-			
-			// simple array of emoji data objects
-			// put key name into 'name' property
-			const data = Object.entries(window.emojilib).map(([name, obj]) => ({name, ...obj}));
-			console.log(data);
-
-			// bind events
-			const filter = emoji.filter(data); // 2nd order fn
-			document.getElementById('search').addEventListener('input', ({target}) => filter(target.value));
-
-			// document.getElementById('results').innerHTML = emoji.htmlForAllEmoji(chars);
-		});
-	</script>
+	<script src="run.js"></script>
 </body>
 </html>
