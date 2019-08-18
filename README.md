@@ -2,6 +2,8 @@
 
 > Find Emoji using keywords.
 
+![gif in action](screenshots/2019 08-18 emoji-magic.gif)
+
 Inspired by the ease of use from mojibar.
 
 Born of a desire to improve emoji searching even further.

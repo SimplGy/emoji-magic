@@ -80,6 +80,8 @@ output {
   line-height: 3rem;
   padding-left: 0.5rem;
   background: white;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 button {

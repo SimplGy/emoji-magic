@@ -1,11 +1,35 @@
 
 window.emoji = (function() {
-  const filter = (data) => (str) => {
-    console.log('emoji.onChangeFilter', str, data);
+
+  // given blob of data, return array of emoji chars
+  const charsFromEmojilibData = (data = []) => data.map(({char}) => char);
+  // does anything in this array start with str?
+  const someStartWith = (arr, str) => arr.some(a => a.startsWith(str));
+  const someInclude = (arr, str) => arr.some(a => a.includes(str));
+
+  // 2nd order. given data and str, return true if data has it
+  const emojiMatches = (str) => ({name, keywords = []} = {}) =>
+    name.includes(str) || someInclude(keywords, str); 
+
+
+
+  const filter = (data = []) => (str) => {
+    
+
+
     // filter the data set
-    // get just the chars
+    results = data.filter(emojiMatches(str));
+
+    if (results.length < 10) console.log(results);
+
+    const chars = charsFromEmojilibData(results);
+
     // render
+    render(chars)
   };
+
+  
+
 
   function getResults(filter) {
 
