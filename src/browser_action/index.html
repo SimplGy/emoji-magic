@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"> <!-- required to show platform-rendered emojis -->
+	<link rel="stylesheet" type="text/css" href="all.css">
+</style>
+</head>
+<body>
+
+<aside class="flex-kids-y">
+	<input id="search" class="search" autocomplete="off" autofocus type="text" placeholder="Search for Emoji. (eg: 'party')">
+	<div class="results">
+		<ol id="results">
+			<li><button>😀</button></li>
+			<li><button>😍</button></li>
+			<li><button>🔮</button></li>
+			<li><button>🐇</button></li>
+			<li><button>🎩</button></li>
+			<li><button>🎉</button></li>
+		</ol>
+		<!-- <p class="no-search muted">Enter a search query</p> -->
+		<!-- Maybe use most recent/popular instead? -->
+	</div>
+	<output>
+		<input class="pseudo-clipboard flex-1" type="text">
+		<button class="copy">Copy</button>
+	</output>
+</aside>
+
+
+	<script src="all.js"></script> <!-- window.emoji -->
+	<script src="data/emojilib.js"></script> <!-- window.emojilib -->
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+			// init
+			const chars = Object.values(window.emojilib || []).map(({char}) => char);
+			// console.log(chars);
+
+			// bind events
+			const filter = emoji.filter(chars); // 2nd order fn
+			document.getElementById('search').addEventListener('input', ({target}) => filter(target.value));
+
+			document.getElementById('results').innerHTML = emoji.htmlForAllEmoji(chars);
+		});
+	</script>
+</body>
+</html>

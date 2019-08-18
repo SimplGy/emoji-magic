@@ -1,0 +1,123 @@
+html, body, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body, input, button {
+  font-size: 1rem;
+}
+
+body {
+  background: #fafafa;
+}
+
+aside {
+  width: 300px;
+  max-height: 485.410196625px;
+  font-family: Helvetica, Ubuntu, Arial, sans-serif;
+  border: 1px dashed #ddd;
+}
+
+.search {
+  margin: 0.5rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
+  border: 2px solid #fafafa;
+  border-radius: 1rem;
+  line-height: 2rem;
+  -webkit-box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.search:focus {
+  outline: none;
+  border: 2px solid #AA8DD8;
+}
+
+input {
+  padding: 0 0.5rem;
+  min-width: 0;
+}
+
+input:focus {
+  background: white;
+}
+
+.results {
+  padding: 0.5rem 1rem;
+  overflow: scroll;
+}
+
+.results button {
+  background: transparent;
+  border: none;
+  -webkit-appearance: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.results ol {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2rem)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 2rem);
+  grid-auto-rows: 2rem;
+}
+
+.results li {
+  text-align: center;
+}
+
+output {
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 0.5rem;
+  background: white;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pseudo-clipboard {
+  margin: 10px;
+  border: none;
+}
+
+.copy {
+  background: #AA8DD8;
+  border: none;
+  color: white;
+  font-weight: 500;
+  margin: 5px 3px;
+  padding: 0 20px;
+}
+
+.muted {
+  color: #999;
+}
+
+.flex-kids-y {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+/*# sourceMappingURL=all.css.map */

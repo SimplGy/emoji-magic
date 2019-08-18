@@ -1,0 +1,107 @@
+$colorBg: #fafafa;
+$colorBrand: #AA8DD8;
+  
+// reset
+html, body, ol 
+	margin: 0
+	padding: 0
+body, input, button 
+	font-size: 1rem 
+
+
+
+// Outer containers
+body 
+	background: $colorBg 
+aside 
+	width: 300px 
+	max-height: 485.410196625px // golden ratio
+	font-family: Helvetica, Ubuntu, Arial, sans-serif 
+	border: 1px dashed #ddd 
+
+.search 
+	margin: 0.5rem 
+	margin-bottom: 0 
+	padding: 0 1rem 
+	border: 2px solid $colorBg // same color as bg
+	border-radius: 1rem // half of height
+	line-height: 2rem 
+	box-shadow: inset 1px 1px rgba(0,0,0,0.1) 
+	&:focus 
+		outline: none 
+		border: 2px solid $colorBrand
+input 
+	padding: 0 0.5rem 
+	min-width: 0 
+	&:focus 
+		background: white 
+
+
+
+.results 
+	padding: 0.5rem 1rem 
+	overflow: scroll 
+
+  // want the button for semantics and keyboard nav, not appearance
+	button
+		background: transparent 
+		border: none 
+		-webkit-appearance: none 
+		padding: 0 
+		margin: 0 
+		height: 100% 
+		width: 100% 
+	ol 
+		list-style: none 
+		display: grid 
+		grid-template-columns: repeat(auto-fill, 2rem) 
+		grid-auto-rows: 2rem 
+	li 
+		text-align: center 
+
+
+
+
+
+
+
+
+
+
+output 
+	margin-top: 0.5rem 
+	display: flex 
+	height: 3rem 
+	line-height: 3rem 
+	padding-left: 0.5rem 
+	background: white 
+button 
+	border-radius: 5px 
+	cursor: pointer 
+.pseudo-clipboard 
+	margin: 10px 
+	border: none 
+.copy 
+	background: $colorBrand 
+	border: none 
+	color: white 
+	font-weight: 500 
+	margin: 5px 3px 
+	padding: 0 20px 
+
+
+
+
+
+
+
+
+
+// css atoms
+.muted 
+	color: #999 
+.flex-kids-y 
+	display: flex 
+	flex-direction: column 
+.flex-1 
+	flex: 1 1 0 
