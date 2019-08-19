@@ -89,9 +89,18 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  cursor: default;
+}
+
 .pseudo-clipboard {
+  opacity: 0.4;
   margin: 10px;
   border: none;
+}
+
+.pseudo-clipboard:focus {
+  opacity: 1;
 }
 
 .copy {
@@ -99,8 +108,15 @@ button {
   border: none;
   color: white;
   font-weight: 500;
-  margin: 5px 3px;
-  padding: 0 20px;
+  margin: 5px 0;
+  margin-right: 0.75rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  min-width: 5rem;
+}
+
+.copy:disabled {
+  background: #ddd;
 }
 
 .muted {

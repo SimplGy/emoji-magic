@@ -1,9 +1,12 @@
+// ------------------------------------------ vars
 $colorBg: #fafafa;
 $colorBrandL70: #AA8DD8; // Luminosity 70
 $colorBrandL50: #7553ac; // L 50
 $colorBrand: $colorBrandL70;
-  
-// reset
+
+
+
+// ------------------------------------------ reset
 html, body, ol 
 	margin: 0
 	padding: 0
@@ -20,6 +23,7 @@ aside
 	max-height: 485.410196625px // golden ratio
 	font-family: Helvetica, Ubuntu, Arial, sans-serif 
 	outline: 1px dashed #ddd // for the dev environment only
+
 
 
 // ------------------------------------------ Search Area
@@ -40,6 +44,7 @@ input
 	min-width: 0 
 	&:focus 
 		background: white 
+
 
 
 // ------------------------------------------ Results Area
@@ -66,12 +71,6 @@ input
 
 
 
-
-
-
-
-
-
 // ------------------------------------------ Output / copy area
 output
 	margin-top: 0.5rem
@@ -84,26 +83,30 @@ output
 button 
 	border-radius: 5px 
 	cursor: pointer 
-.pseudo-clipboard 
+	&:disabled
+		cursor: default
+.pseudo-clipboard
+	opacity: 0.4
 	margin: 10px 
-	border: none 
+	border: none
+	&:focus
+		opacity: 1 
 .copy 
 	background: $colorBrandL50
 	border: none 
 	color: white 
 	font-weight: 500 
-	margin: 5px 3px 
-	padding: 0 20px 
+	margin: 5px 0
+	margin-right: 0.75rem // optical align with search box
+	padding: 0 0.5rem
+	font-size: 0.9rem
+	min-width: 5rem
+	&:disabled
+		background: #ddd
 
 
 
-
-
-
-
-
-
-// css atoms
+// ------------------------------------------ css atoms
 .muted 
 	color: #999 
 .flex-kids-y 

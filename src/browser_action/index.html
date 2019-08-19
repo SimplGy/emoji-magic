@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8"> <!-- required to show platform-rendered emojis -->
 	<link rel="stylesheet" type="text/css" href="all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </style>
 </head>
 <body>
@@ -22,8 +23,8 @@
 		<!-- Maybe use most recent/popular instead? -->
 	</div>
 	<output>
-		<input class="pseudo-clipboard flex-1" type="text">
-		<button class="copy">Copy</button>
+		<input id="clipboard" class="pseudo-clipboard flex-1" type="text">
+		<button id="copyBtn" class="copy animated fast">Copy</button>
 	</output>
 </aside>
 

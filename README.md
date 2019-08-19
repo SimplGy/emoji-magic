@@ -29,10 +29,17 @@ Two steps: matching and ranking.
 - [x] list emojis from a data source
 - [x] put on github
 - [x] filter emoji (basic)
-- [ ] hitting enter copies to clipboard
+- [x] append to a "clipboard" area
+- [x] can copy to clipboard
 - [ ] clicking copies to clipboard
+- [ ] hitting enter copies to clipboard
 - [ ] "copied" notification / animation
-- [ ] append to a "clipboard" area
+
+
+### Power User Features
+
+- [ ] Arrow keys work
+- [ ] Hitting enter right after a query works
 
 ### Advanced Functionality
 
@@ -85,3 +92,4 @@ unclear: unknown emoji
 * Extension boilerplate from [extensionizr](extensionizr.com).
 * Logo from [twemoji](https://github.com/twitter/twemoji).
 * Initial data source from [emojilib](https://github.com/muan/emojilib).
+* animation from [@danden's animate.css](https://github.com/daneden/animate.css).

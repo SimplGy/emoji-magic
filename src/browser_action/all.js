@@ -9,31 +9,15 @@ window.emoji = (function() {
 
   // 2nd order. given data and str, return true if data has it
   const emojiMatches = (str) => ({name, keywords = []} = {}) =>
-    name.includes(str) || someInclude(keywords, str); 
+    name.includes(str) || someInclude(keywords, str);
 
 
 
   const filter = (data = []) => (str) => {
-    
-
-
-    // filter the data set
-    results = data.filter(emojiMatches(str));
-
-    if (results.length < 10) console.log(results);
-
-    const chars = charsFromEmojilibData(results);
-
-    // render
-    render(chars)
+    results = data.filter(emojiMatches(str));       // 1. filter to matches
+    const chars = charsFromEmojilibData(results);   // 2. get plain chars
+    render(chars);                                  // 3. render
   };
-
-  
-
-
-  function getResults(filter) {
-
-  }
 
   function htmlForAllEmoji(charArray = []) {
     const html = charArray.map(htmlForEmoji).join('\n');
@@ -49,6 +33,39 @@ window.emoji = (function() {
     document.getElementById('results').innerHTML = htmlForAllEmoji(chars);
   }
 
+  // Dom aware
+  function onPressEmoji(char) {
+    console.log(char);
+    const $clipboard = document.getElementById('clipboard');
+    $clipboard.value += char;
+  }
+
+  // Dom aware
+  // true if there are any items in the tray ready to copy
+  function clipboardHasStuff() {
+    const $clipboard = document.getElementById('clipboard');
+    return $clipboard.value.trim().length > 0;
+  }
+  
+  // Dom aware
+  function copyToClipboard() {
+    // if (!clipboardHasStuff()) return;
+    const $clipboard = document.getElementById('clipboard');
+    $clipboard.select();
+    document.execCommand('copy');
+    animateCopySuccess();
+    console.log('copied');
+  }
+
+  function animateCopySuccess() {
+    const $copyBtn = document.getElementById('copyBtn');
+    $copyBtn.innerText = "Copied";
+    const animation = 'tada'; // from https://github.com/daneden/animate.css
+    $copyBtn.classList.add(animation);
+    setTimeout(() => $copyBtn.classList.remove(animation), 800); // matches "fast" speed: https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
+    setTimeout(() => $copyBtn.innerText = "Copy", 1500);
+  }
+
   // function htmlToElement(html) {
   //   var template = document.createElement('template');
   //   html = html.trim(); // Never return a text node of whitespace as the result
@@ -59,6 +76,8 @@ window.emoji = (function() {
   return {
     filter,
     htmlForAllEmoji,
+    onPressEmoji,
+    copyToClipboard,
   }
 })();
 
