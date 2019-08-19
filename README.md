@@ -36,8 +36,8 @@ Two steps: matching and ranking.
 
 ### Power User Features
 
-- [ ] Arrow keys work
-- [ ] Hitting enter right after a query works
+- [x] Hitting enter right after a query works
+- [x] Arrow keys work (up, down, left, right)
 
 ### Advanced Functionality
 
@@ -54,11 +54,12 @@ Two steps: matching and ranking.
 - [ ] store the last k emoji the user copied (to fill in recently used)
 - [ ] enhanced findability: identify color(s). eg: purple
 - [ ] enhanced findability: store user behavior
+- [ ] enhanced findability: add stored user behavior to keywords / revamp match+rank algo
 
 ### Marketing
 
 - [ ] emoji count (for marketing)
-
+- [ ] beautiful gif (queries: wave, blue, tree, hat)
 
 
 ## emoji app investigation

@@ -2,7 +2,14 @@
 $colorBg: #fafafa;
 $colorBrandL70: #AA8DD8; // Luminosity 70
 $colorBrandL50: #7553ac; // L 50
+$colorBrandL40: #5e428a; // L 40
+$colorBrandL30: #463267; // L 30
 $colorBrand: $colorBrandL70;
+$shade10: rgba(0,0,0,0.1);
+$shade20: rgba(0,0,0,0.2);
+$light50: rgba(255,255,255,0.5);
+$light70: rgba(255,255,255,0.7);
+$emojiSize: 24px;
 
 
 
@@ -11,7 +18,12 @@ html, body, ol
 	margin: 0
 	padding: 0
 body, input, button 
-	font-size: 1rem 
+	font-size: 1rem
+button 
+	border-radius: 5px 
+	cursor: pointer 
+	&:disabled
+		cursor: default
 
 
 
@@ -31,13 +43,13 @@ aside
 	margin: 0.5rem 
 	margin-bottom: 0 
 	padding: 0 1rem 
-	border: 2px solid $colorBg // same color as bg
 	border-radius: 1rem // half of height
 	line-height: 2rem 
-	box-shadow: inset 1px 1px rgba(0,0,0,0.1) 
+	box-shadow: 0 0 0 2px $shade10
+	border: none
 	&:focus 
 		outline: none 
-		border: 2px solid $colorBrand
+		box-shadow: 0 0 0 2px $colorBrand
 
 input 
 	padding: 0 0.5rem 
@@ -50,17 +62,23 @@ input
 // ------------------------------------------ Results Area
 .results 
 	padding: 0.5rem 1rem 
+	padding-bottom: 2px; // just enough for focus states to show
 	overflow: scroll 
 
   // want the button for semantics and keyboard nav, not appearance
 	button
-		background: transparent 
+		background: transparent
 		border: none 
 		-webkit-appearance: none 
 		padding: 0 
 		margin: 0 
 		height: 100% 
-		width: 100% 
+		width: 100%
+		font-size: $emojiSize
+		&:focus
+			outline: none
+			border-radius: 2px
+			box-shadow: 0 0 0 2px $colorBrand
 	ol 
 		list-style: none 
 		display: grid 
@@ -69,11 +87,16 @@ input
 	li 
 		text-align: center 
 
+// While search is focused, highlight the first item,
+// because "enter" will copy and close
+.search:focus + .results li:first-of-type button
+	background: $shade10
+
 
 
 // ------------------------------------------ Output / copy area
 output
-	margin-top: 0.5rem
+	margin-top: 0
 	display: flex
 	flex-direction: row-reverse // so the button can be first in tab order but last visually
 	height: 3rem
@@ -81,30 +104,37 @@ output
 	padding-left: 0.5rem
 	background: white
 	flex-shrink: 0
-button 
-	border-radius: 5px 
-	cursor: pointer 
-	&:disabled
-		cursor: default
+
 .pseudo-clipboard
 	opacity: 0.4
-	margin: 10px 
+	margin: 10px
+	font-size: $emojiSize 
 	border: none
 	&:focus
 		opacity: 1 
-.copy 
-	background: $colorBrandL50
-	border: none 
+button.copy
+	background-color: $colorBrandL50
+	border: none
+	border-bottom: 3px solid $colorBrandL30
 	color: white 
 	font-weight: 500 
-	margin: 5px 0
+	margin: 0.5rem
 	margin-right: 0.75rem // optical align with search box
 	padding: 0 0.5rem
-	font-size: 0.9rem
 	min-width: 5rem
+	transition: color ease 200ms
+	transition: background-color ease 200ms
 	&:disabled
 		background: #ddd
-
+		color: $light70
+		background-color: $colorBrand
+		border-bottom: 3px solid $colorBrandL50
+	&:focus
+		outline: none
+		box-shadow: 0 0 0 2px white, 0 0 0 4px $colorBrand
+	// during animation
+	// &.copied
+		
 
 
 // ------------------------------------------ css atoms

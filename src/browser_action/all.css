@@ -7,6 +7,15 @@ body, input, button {
   font-size: 1rem;
 }
 
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
 body {
   background: #fafafa;
 }
@@ -22,16 +31,17 @@ aside {
   margin: 0.5rem;
   margin-bottom: 0;
   padding: 0 1rem;
-  border: 2px solid #fafafa;
   border-radius: 1rem;
   line-height: 2rem;
-  -webkit-box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  border: none;
 }
 
 .search:focus {
   outline: none;
-  border: 2px solid #AA8DD8;
+  -webkit-box-shadow: 0 0 0 2px #AA8DD8;
+          box-shadow: 0 0 0 2px #AA8DD8;
 }
 
 input {
@@ -45,6 +55,7 @@ input:focus {
 
 .results {
   padding: 0.5rem 1rem;
+  padding-bottom: 2px;
   overflow: scroll;
 }
 
@@ -56,6 +67,14 @@ input:focus {
   margin: 0;
   height: 100%;
   width: 100%;
+  font-size: 24px;
+}
+
+.results button:focus {
+  outline: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 0 2px #AA8DD8;
+          box-shadow: 0 0 0 2px #AA8DD8;
 }
 
 .results ol {
@@ -71,8 +90,12 @@ input:focus {
   text-align: center;
 }
 
+.search:focus + .results li:first-of-type button {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 output {
-  margin-top: 0.5rem;
+  margin-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,18 +111,10 @@ output {
       flex-shrink: 0;
 }
 
-button {
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:disabled {
-  cursor: default;
-}
-
 .pseudo-clipboard {
   opacity: 0.4;
   margin: 10px;
+  font-size: 24px;
   border: none;
 }
 
@@ -107,20 +122,33 @@ button:disabled {
   opacity: 1;
 }
 
-.copy {
-  background: #7553ac;
+button.copy {
+  background-color: #7553ac;
   border: none;
+  border-bottom: 3px solid #463267;
   color: white;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 0.5rem;
   margin-right: 0.75rem;
   padding: 0 0.5rem;
-  font-size: 0.9rem;
   min-width: 5rem;
+  -webkit-transition: color ease 200ms;
+  transition: color ease 200ms;
+  -webkit-transition: background-color ease 200ms;
+  transition: background-color ease 200ms;
 }
 
-.copy:disabled {
+button.copy:disabled {
   background: #ddd;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #AA8DD8;
+  border-bottom: 3px solid #7553ac;
+}
+
+button.copy:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 2px white, 0 0 0 4px #AA8DD8;
+          box-shadow: 0 0 0 2px white, 0 0 0 4px #AA8DD8;
 }
 
 .flex-kids-y {
