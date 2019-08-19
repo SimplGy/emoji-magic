@@ -76,6 +76,10 @@ output {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   height: 3rem;
   line-height: 3rem;
   padding-left: 0.5rem;
@@ -117,10 +121,6 @@ button:disabled {
 
 .copy:disabled {
   background: #ddd;
-}
-
-.muted {
-  color: #999;
 }
 
 .flex-kids-y {

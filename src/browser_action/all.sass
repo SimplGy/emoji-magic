@@ -75,6 +75,7 @@ input
 output
 	margin-top: 0.5rem
 	display: flex
+	flex-direction: row-reverse // so the button can be first in tab order but last visually
 	height: 3rem
 	line-height: 3rem
 	padding-left: 0.5rem
@@ -107,10 +108,10 @@ button
 
 
 // ------------------------------------------ css atoms
-.muted 
-	color: #999 
-.flex-kids-y 
-	display: flex 
-	flex-direction: column 
-.flex-1 
-	flex: 1 1 0 
+// .muted
+	// color: #999
+.flex-kids-y
+	display: flex
+	flex-direction: column
+.flex-1
+	flex: 1 1 0

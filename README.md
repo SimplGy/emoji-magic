@@ -31,10 +31,8 @@ Two steps: matching and ranking.
 - [x] filter emoji (basic)
 - [x] append to a "clipboard" area
 - [x] can copy to clipboard
-- [ ] clicking copies to clipboard
-- [ ] hitting enter copies to clipboard
-- [ ] "copied" notification / animation
-
+- [x] "copied" notification / animation
+- [x] clicking emojis copies them to clipboard
 
 ### Power User Features
 

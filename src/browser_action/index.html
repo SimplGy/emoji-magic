@@ -12,19 +12,17 @@
 	<input id="search" class="search" autocomplete="off" autofocus type="text" placeholder="Search for Emoji. (eg: 'party')">
 	<div class="results">
 		<ol id="results">
-			<li><button>😀</button></li>
 			<li><button>😍</button></li>
 			<li><button>🔮</button></li>
-			<li><button>🐇</button></li>
 			<li><button>🎩</button></li>
+			<li><button>🐇</button></li>
 			<li><button>🎉</button></li>
 		</ol>
-		<!-- <p class="no-search muted">Enter a search query</p> -->
-		<!-- Maybe use most recent/popular instead? -->
+		<!-- Maybe use most recent/popular when there's no query? -->
 	</div>
 	<output>
+		<button id="copyBtn" class="copy animated fast">Copy</button> <!-- first in tab order -->
 		<input id="clipboard" class="pseudo-clipboard flex-1" type="text">
-		<button id="copyBtn" class="copy animated fast">Copy</button>
 	</output>
 </aside>
 

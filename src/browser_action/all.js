@@ -11,6 +11,21 @@ window.emoji = (function() {
   const emojiMatches = (str) => ({name, keywords = []} = {}) =>
     name.includes(str) || someInclude(keywords, str);
 
+  // from David Walsh
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  };
 
 
   const filter = (data = []) => (str) => {
@@ -38,6 +53,7 @@ window.emoji = (function() {
     console.log(char);
     const $clipboard = document.getElementById('clipboard');
     $clipboard.value += char;
+    copyToClipboard();
   }
 
   // Dom aware
@@ -49,21 +65,26 @@ window.emoji = (function() {
   
   // Dom aware
   function copyToClipboard() {
-    // if (!clipboardHasStuff()) return;
+    if (!clipboardHasStuff()) return;
     const $clipboard = document.getElementById('clipboard');
     $clipboard.select();
     document.execCommand('copy');
+    $clipboard.blur();
     animateCopySuccess();
-    console.log('copied');
+    setTimeout(closePopup, 1000);
   }
 
-  function animateCopySuccess() {
+  const animateCopySuccess = debounce(function animateCopySuccess() {
     const $copyBtn = document.getElementById('copyBtn');
     $copyBtn.innerText = "Copied";
     const animation = 'tada'; // from https://github.com/daneden/animate.css
     $copyBtn.classList.add(animation);
-    setTimeout(() => $copyBtn.classList.remove(animation), 800); // matches "fast" speed: https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
-    setTimeout(() => $copyBtn.innerText = "Copy", 1500);
+    setTimeout(() => $copyBtn.classList.remove(animation), 800); // match animation speed: https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
+    setTimeout(() => $copyBtn.innerText = "Copy", 1000);
+  }, 200);
+
+  function closePopup() {
+    window.close();
   }
 
   // function htmlToElement(html) {
