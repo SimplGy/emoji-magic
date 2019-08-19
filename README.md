@@ -25,7 +25,7 @@ This app requires absolutely minimal permissions.
 
 Other extensions want to "read and change the data on all the sites you visit".
 
-This is incredibly unsafe. Example: TODO.
+This is incredibly unsafe. Example: [1].
 
 ## Developing
 
@@ -128,3 +128,5 @@ unclear: unknown emoji
 * Logo from [twemoji](https://github.com/twitter/twemoji).
 * Initial emoji data source [emojilib](https://github.com/muan/emojilib).
 * animation from [@danden's animate.css](https://github.com/daneden/animate.css).
+
+[1]: https://www.extrahop.com/company/blog/2018/fake-chrome-extension-threat-hunt/
