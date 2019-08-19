@@ -2,7 +2,7 @@
 
 > Find Emoji using keywords.
 
-![gif in action](./screenshots/2019 08-18 emoji-magic.gif)
+![gif in action](./screenshots/2019 08-18 emoji-magic.gif?raw=true)
 
 Inspired by the ease of use from mojibar.
 
