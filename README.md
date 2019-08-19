@@ -16,6 +16,23 @@ Born of a desire to improve emoji searching even further.
 
 > Tip: works best with a keyboard shortcut.
 
+## Security
+
+This app requires absolutely minimal permissions.
+
+1. Only clipboard access
+1. No background script
+
+Other extensions want to "read and change the data on all the sites you visit".
+
+This is incredibly unsafe. Example: TODO.
+
+## Developing
+
+Create a deployable zip file:
+
+    node scripts/zip
+
 ## Technical Design
 
 Two steps: matching and ranking.
@@ -51,6 +68,7 @@ TODO
 
 ### Deployment
 
+- [x] create zip file (script)
 - [ ] Write short marketing pitch
 - [ ] Collect screenshots, icons
 - [ ] Put on Chrome extension store
@@ -79,10 +97,6 @@ TODO
 
 
 ## emoji app investigation
-
-Other extensions want to "read and change the data on all the sites you visit".
-
-This is incredibly unsafe.
 
 > Pitch: My extension only needs clipboard access to make it easy for you to add emoji wherever you want.
 
