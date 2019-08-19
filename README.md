@@ -4,22 +4,32 @@
 
 ![gif in action](./screenshots/demo.gif?raw=true)
 
-Inspired by the ease of use from mojibar.
+Inspired by the ease of use of [mojibar](https://github.com/muan/mojibar).
 
 Born of a desire to improve emoji searching even further.
 
-## Design
+## How to Use
+
+1. Click the extension icon: `🔮`
+2. Type in what you want, like "cat"
+3. Hit "enter" or click on the exact emoji you want
+
+> Tip: works best with a keyboard shortcut.
+
+## Technical Design
 
 Two steps: matching and ranking.
 
 ### Matching
 
-1. break search into tokens
-2. prefix match each token
+Dead simple version: Just return everything that contains the search query anywhere inside keywords or icon name.
+
+1. ~~break search into tokens~~
+2. ~~prefix match each token~~
 
 ### Ranking
 
-?
+TODO
 
 ## TODO
 
