@@ -49,6 +49,12 @@ TODO
 - [x] Hitting enter right after a query works
 - [x] Arrow keys work (up, down, left, right)
 
+### Deployment
+
+- [ ] Write short marketing pitch
+- [ ] Collect screenshots, icons
+- [ ] Put on Chrome extension store
+
 ### Advanced Functionality
 
 - [ ] skin tone setting
