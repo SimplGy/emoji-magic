@@ -14,7 +14,7 @@ Born of a desire to improve emoji searching even further.
 2. Type in what you want, like "cat"
 3. Hit "enter" or click on the exact emoji you want
 
-> Tip: works best with a keyboard shortcut.
+> Tip: choose a keyboard shortcut so you can add Emojis easily, anytime.
 
 ## Security
 
@@ -70,6 +70,12 @@ TODO
 
 - [x] create zip file (script)
 - [ ] Write short marketing pitch
+- [ ] 280x800 or 640x400 screenshots
+- [ ] Youtube video demo
+- [ ] promo tile images
+  - Small tile - 440x280:
+  - Large tile - 920x680: (optional)
+  - Marquee - 1400x560: (optional)
 - [ ] Collect screenshots, icons
 - [ ] Put on Chrome extension store
 
@@ -120,5 +126,5 @@ unclear: unknown emoji
 
 * Extension boilerplate from [extensionizr](extensionizr.com).
 * Logo from [twemoji](https://github.com/twitter/twemoji).
-* Initial data source from [emojilib](https://github.com/muan/emojilib).
+* Initial emoji data source [emojilib](https://github.com/muan/emojilib).
 * animation from [@danden's animate.css](https://github.com/daneden/animate.css).

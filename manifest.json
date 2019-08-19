@@ -1,8 +1,9 @@
 {
   "name": "Emoji Magic",
+  "short_name": "Fast and Secure Emoji Searching",
+  "description": "Find Emoji Easily",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Find Emoji Easily",
   "homepage_url": "https://simple.gy",
   "icons": {
     "16": "icons/icon16.png",
