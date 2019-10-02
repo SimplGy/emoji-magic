@@ -16,7 +16,7 @@ Born of a desire to improve emoji searching even further.
 
 > Tip: choose a keyboard shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts) -> `Emoji Magic` so you can add Emojis easily, anytime.
 
-## Security
+## Extension Security
 
 This app requires absolutely minimal permissions.
 
@@ -55,7 +55,10 @@ Dead simple version: Just return everything that contains the search query anywh
 
 * Extension boilerplate from [extensionizr](extensionizr.com).
 * Logo from [twemoji](https://github.com/twitter/twemoji).
-* Initial emoji data source [emojilib](https://github.com/muan/emojilib).
-* animation from [@danden's animate.css](https://github.com/daneden/animate.css).
+* Emoji data source [emojilib](https://github.com/muan/emojilib).
 
 [1]: https://www.extrahop.com/company/blog/2018/fake-chrome-extension-threat-hunt/
+
+## Disclaimer
+
+This is not an officially supported Google product.
