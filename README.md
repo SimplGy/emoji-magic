@@ -33,94 +33,16 @@ Create a deployable zip file:
 
     node scripts/zip
 
+## Contributing
+
+Contributions welcome. See `CONTRIBUTING.md`.
+
 ## Technical Design
-
-Two steps: matching and ranking.
-
-### Matching
 
 Dead simple version: Just return everything that contains the search query anywhere inside keywords or icon name.
 
 1. ~~break search into tokens~~
 2. ~~prefix match each token~~
-
-### Ranking
-
-TODO
-
-## TODO
-
-### Basic Functionality
-
-- [x] basic, functional styling
-- [x] list emojis from a data source
-- [x] put on github
-- [x] filter emoji (basic)
-- [x] append to a "clipboard" area
-- [x] can copy to clipboard
-- [x] "copied" notification / animation
-- [x] clicking emojis copies them to clipboard
-
-### Power User Features
-
-- [x] Hitting enter right after a query works
-- [x] Arrow keys work (up, down, left, right)
-
-### Deployment
-
-- [x] create zip file (script)
-- [ ] Write short marketing pitch
-- [ ] 280x800 or 640x400 screenshots
-- [ ] Youtube video demo
-- [ ] promo tile images
-  - Small tile - 440x280:
-  - Large tile - 920x680: (optional)
-  - Marquee - 1400x560: (optional)
-- [ ] Collect screenshots, icons
-- [ ] Put on Chrome extension store
-
-### Advanced Functionality
-
-- [ ] skin tone setting
-
-### Platform Render Quirks
-
-- [ ] detect which emoji the user's current platform can render (big user pain point)
-- [ ] if cannot render, don't suggest it unless it's the only option(s). provide explanation.
-
-### Searching, suggesting
-
-- [ ] support multi-token matching (eg: "red car" and "green heart")
-- [ ] store the last k emoji the user copied (to fill in recently used)
-- [ ] enhanced findability: identify color(s). eg: purple
-- [ ] enhanced findability: store user behavior
-- [ ] enhanced findability: add stored user behavior to keywords / revamp match+rank algo
-
-### Marketing
-
-- [ ] emoji count (for marketing)
-- [ ] beautiful gif (queries: wave, blue, tree, hat)
-
-
-## emoji app investigation
-
-> Pitch: My extension only needs clipboard access to make it easy for you to add emoji wherever you want.
-
-- [x] evaluate joypixels, top chrome extension
-
-```
-searches for "cat" don't even have cats on screen
-"happy" has odd symbols as the first few results
-"party" is much better.
-Seems to get very good broad results, but have poor sorting.
-nice: persistent skin tone setting
-nice: every click adds an emoji to a visible "clipboard" area, as well as copying.
-poor: slow performance
-unclear: unknown emoji
-  flag uses joypixels emoji in the ui. pastes into messenger as facebook emoji
-  my text editor shows two symbols
-  apple textedit supports it
-```
 
 ## Thanks and Credits
 
