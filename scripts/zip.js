@@ -33,7 +33,7 @@ const includes = [
   'src/*/*.css',
   'src/*/*.html',
   '_locales',
-  'src/*/data/*.js',
+  'third_party/emojilib/emojilib.js',
 ];
 
 child_process.execSync(`zip -r ${zipFile} ${includes.join(' ')}`, {

@@ -14,7 +14,7 @@ Born of a desire to improve emoji searching even further.
 2. Type in what you want, like "cat"
 3. Hit "enter" or click on the exact emoji you want
 
-> Tip: choose a keyboard shortcut so you can add Emojis easily, anytime.
+> Tip: choose a keyboard shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts) -> `Emoji Magic` so you can add Emojis easily, anytime.
 
 ## Security
 
@@ -29,7 +29,14 @@ This is incredibly unsafe. Example: [1].
 
 ## Developing
 
-Create a deployable zip file:
+Serve the local repo for live editing and a fast dev experience:
+
+    python3 -m http.server 8080 # run in repo root
+    
+    # You can now access the app at:
+    # http://0.0.0.0:8080/src/browser_action/
+
+Create an extension-deployable zip file:
 
     node scripts/zip
 
