@@ -1,31 +1,30 @@
-/*
-Copyright 2019 Google LLC
+// Copyright 2019 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+// https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-*/
 
 // ------------------------------------------ vars
-$colorBg: #fafafa;
-$colorBrandL70: #AA8DD8; // Luminosity 70
-$colorBrandL50: #7553ac; // L 50
-$colorBrandL40: #5e428a; // L 40
-$colorBrandL30: #463267; // L 30
-$colorBrand: $colorBrandL70;
-$shade10: rgba(0,0,0,0.1);
-$shade20: rgba(0,0,0,0.2);
-$light50: rgba(255,255,255,0.5);
-$light70: rgba(255,255,255,0.7);
-$emojiSize: 24px;
+$colorBg: #fafafa
+$colorBrandL70: #AA8DD8 // Luminosity 70
+$colorBrandL50: #7553ac // L 50
+$colorBrandL40: #5e428a // L 40
+$colorBrandL30: #463267 // L 30
+$colorBrand: $colorBrandL70
+$shade10: rgba(0,0,0,0.1)
+$shade20: rgba(0,0,0,0.2)
+$light50: rgba(255,255,255,0.5)
+$light70: rgba(255,255,255,0.7)
+$emojiSize: 24px
 
 
 
@@ -78,10 +77,10 @@ input
 // ------------------------------------------ Results Area
 .results 
 	padding: 0.5rem 1rem 
-	padding-bottom: 2px; // just enough for focus states to show
+	padding-bottom: 2px // just enough for focus states to show
 	overflow: scroll 
 
-  // want the button for semantics and keyboard nav, not appearance
+	// want the button for semantics and keyboard nav, not appearance
 	button
 		background: transparent
 		border: none 
@@ -105,8 +104,10 @@ input
 
 // While search is focused, highlight the first item,
 // because "enter" will copy and close
-.search:focus + .results li:first-of-type button
-	background: $shade10
+// .search:focus + .results li:first-of-type button
+// 	background: $shade10
+// ...actually, don't do this.
+// it makes it confusing when you hit the right arrow and that selects the 1st item instead of the 2nd one.
 
 
 

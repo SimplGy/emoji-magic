@@ -90,10 +90,6 @@ input:focus {
   text-align: center;
 }
 
-.search:focus + .results li:first-of-type button {
-  background: rgba(0, 0, 0, 0.1);
-}
-
 output {
   margin-top: 0;
   display: -webkit-box;
