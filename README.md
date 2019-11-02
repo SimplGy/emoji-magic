@@ -23,9 +23,9 @@ This app requires absolutely minimal permissions.
 1. Only clipboard access
 1. No background script
 
-Other extensions want to "read and change the data on all the sites you visit".
+Other emoji extensions I've seen want to "read and change the data on all the sites you visit".
 
-This is incredibly unsafe. Example: [1].
+These permissions are unsafe, and not necessary for a emoji picker. Read more: [1], [2], [3]
 
 ## Developing
 
@@ -65,6 +65,10 @@ Dead simple version: Just return everything that contains the search query anywh
 * Emoji data source [emojilib](https://github.com/muan/emojilib).
 
 [1]: https://www.extrahop.com/company/blog/2018/fake-chrome-extension-threat-hunt/
+
+[2]: https://www.wired.com/story/chrome-extension-malware/
+
+[3]: https://krebsonsecurity.com/2018/09/browser-extensions-are-they-worth-the-risk/
 
 ## Disclaimer
 
