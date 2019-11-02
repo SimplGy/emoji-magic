@@ -36,6 +36,13 @@ Serve the local repo for live editing and a fast dev experience:
     # You can now access the app at:
     # http://0.0.0.0:8080/src/browser_action/
 
+Compile SASS into css:
+
+    // Use VSCode's SASS live watch plugin, or...
+    sass src/browser_action/all.sass
+
+## Deploying
+
 Create an extension-deployable zip file:
 
     node scripts/zip
