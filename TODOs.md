@@ -19,15 +19,14 @@
 ### Deployment
 
 - [x] create zip file (script)
-- [ ] Write short store description
-- [ ] 280x800 or 640x400 screenshots
-- [ ] Youtube video demo
-- [ ] promo tile images
-  - Small tile - 440x280:
-  - Large tile - 920x680: (optional)
-  - Marquee - 1400x560: (optional)
-- [ ] Collect screenshots, icons
-- [ ] Make Chrome extension available
+- [x] Write short store description
+- [x] 280x800 or 640x400 screenshots
+- [x] Make Chrome extension available
+- [x] promo tile images
+- [x] Youtube video demo (from gif)
+- [ ] Youtube video demo (better/show extension icon context)
+- [ ] Collect more/better screenshots
+- [ ] get that "runs offline" checkmark -- https://developer.chrome.com/apps/manifest/offline_enabled
 
 ### Advanced Functionality
 
