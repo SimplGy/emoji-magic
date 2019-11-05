@@ -56,7 +56,7 @@ input:focus {
 .results {
   padding: 0.5rem 1rem;
   padding-bottom: 2px;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 .results button {
