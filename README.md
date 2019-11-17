@@ -31,10 +31,15 @@ These permissions are unsafe, and not necessary for a emoji picker. Read more: [
 
 Serve the local repo for live editing and a fast dev experience:
 
-    python3 -m http.server 8080 # run in repo root
-    
-    # You can now access the app at:
-    # http://0.0.0.0:8080/src/browser_action/
+```
+# run in repo root:
+serve -l 8080
+# or:
+python3 -m http.server 8080 
+
+# You can now access the app at:
+# http://0.0.0.0:8080/src/browser_action/
+```
 
 Compile SASS into css:
 
