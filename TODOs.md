@@ -39,5 +39,10 @@
 
 ### Searching, suggesting
 
+- [ ] Keep the last used emoji as the default (right now it's always the crystal ball)
 - [ ] support multi-token matching (eg: "red car" and "green heart")
 - [ ] store the last k emoji the user copied (to fill in recently used)
+
+### Tech Debt
+
+- [ ] Basic unit tests (when search for A, expect set B)
