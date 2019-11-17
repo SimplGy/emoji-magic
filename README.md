@@ -52,6 +52,10 @@ Create an extension-deployable zip file:
 
     node scripts/zip
 
+Create an extension-deployable zip file and unpack it for local testing with Chrome:
+
+    node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+
 ## Contributing
 
 Contributions welcome. See `CONTRIBUTING.md`.
