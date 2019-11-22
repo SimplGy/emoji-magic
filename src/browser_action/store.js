@@ -20,7 +20,9 @@ limitations under the License.
  * You can keep stuff here and it'll last between usages of the tool on the user's device.
  * Data is not sent to any server.
  */
-window.store = (() => {
+
+global = global || window; // work for node or browser
+global.store = (() => {
 
   const isRunningAsExtension = false; //chrome.storage && chrome.storage.local;
 
@@ -35,15 +37,15 @@ window.store = (() => {
   }
 
   // Get and set for chrome.storage
-  const chromeGet = (key, fn)  => chrome.storage.local.get([key], fn);
-  const chromeSet = (key, val) => chrome.storage.local.set({[key]: val});
+  // const chromeGet = (key, fn)  => chrome.storage.local.get([key], fn);
+  // const chromeSet = (key, val) => chrome.storage.local.set({[key]: val});
 
   // Guard: Are we running in a chrome context with access to chrome.storage?
-  if (!isRunningAsExtension) {
-    console.info("chrome.storage.local not available");
-  }
-  const get = isRunningAsExtension ? chromeGet : localStoreGet;
-  const set = isRunningAsExtension ? chromeSet : localStoreSet;
+  // if (!isRunningAsExtension) {
+  //   console.info("chrome.storage.local not available");
+  // }
+  const get = localStoreGet;
+  const set = localStoreSet;
 
   return {
     get,
