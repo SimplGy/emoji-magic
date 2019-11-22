@@ -46,6 +46,10 @@ Compile SASS into css:
     // Use VSCode's SASS live watch plugin, or...
     sass src/browser_action/all.sass
 
+Run Tests:
+
+    TODO
+
 ## Deploying
 
 Create an extension-deployable zip file:

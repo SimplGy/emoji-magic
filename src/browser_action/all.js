@@ -14,9 +14,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// Depends on:
+// window.store
+
 window.emoji = (function() {
 
+  const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 96; // for render perf, don't draw everything
+  const RECENT_SELECTION_LIMIT = 8 * 2; // at the default font size, there are 8 per row
+  const DEFAULT_RESULTS = ['🔮'];
+  let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
+  store.get(RECENT_KEY, val => recentSelections = val || []);
 
   // given blob of data, return array of emoji chars
   const charsFromEmojilibData = (data = []) => data.map(({char}) => char);
@@ -50,18 +58,32 @@ window.emoji = (function() {
       if (callNow) func.apply(context, args);
     };
   };
-
+  
+  
+  // add recent selection, but only track the most recent k
+  // deduplicate: if it's already present, remove matches first before putting the most recent at the front
+  function trackRecent(char) {
+    recentSelections = recentSelections.filter(c => c !== char);
+    recentSelections.unshift(char);
+    if (recentSelections.length > RECENT_SELECTION_LIMIT) {
+      recentSelections.pop();
+    }
+    store.set(RECENT_KEY, recentSelections);
+  }
 
   const filter = (data = []) => (str = '') => {
     str = str.trim();
     let results;
+    let chars;
+    
     if (str !== '') {
-      results = data.filter(emojiMatches(str));       // 1. filter to matches
+      results = data.filter(emojiMatches(str)); // 1. filter to matches
+      chars = charsFromEmojilibData(results);   // 2. get plain chars
     } else {
-      results = [];
+      chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
     }
-    const chars = charsFromEmojilibData(results);   // 2. get plain chars
-    render(chars);                                    // 3. render
+
+    render(chars);                              // 3. render
   };
 
   function htmlForAllEmoji(charArray = []) {
@@ -90,6 +112,10 @@ window.emoji = (function() {
   // Dom aware
   function onPressEmoji(char) {
     $.clipboard().value += char;
+
+    // Which emoji?
+    trackRecent(char);
+
     copyToClipboard();
   }
 

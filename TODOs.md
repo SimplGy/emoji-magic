@@ -31,6 +31,7 @@
 ### Advanced Functionality
 
 - [ ] skin tone setting
+- [ ] mini game: "what do most people call this emoji?" (data source for search keywords)
 
 ### Platform Render Quirks
 
@@ -39,9 +40,9 @@
 
 ### Searching, suggesting
 
-- [ ] Keep the last used emoji as the default (right now it's always the crystal ball)
+- [x] Show recently used emoji when the user hasn't searched yet
+- [ ] Use thesaurus to extend hand-written keywords
 - [ ] support multi-token matching (eg: "red car" and "green heart")
-- [ ] store the last k emoji the user copied (to fill in recently used)
 
 ### Tech Debt
 

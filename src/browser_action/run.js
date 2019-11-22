@@ -65,4 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         break;
     }
   });
+
+  // Start things off with a blank search
+  filterWith('');
 });
