@@ -18,7 +18,7 @@ const store = require('./store');
 module.exports = (() => {
   const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 96; // for render perf, don't draw everything
-  const RECENT_SELECTION_LIMIT = 8 * 2; // at the default font size, there are 8 per row
+  const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
   const DEFAULT_RESULTS = ['🔮'];
   let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
   store.get(RECENT_KEY, val => recentSelections = val || []);
@@ -63,7 +63,7 @@ module.exports = (() => {
     recentSelections = recentSelections.filter(c => c !== char);
     recentSelections.unshift(char);
     if (recentSelections.length > RECENT_SELECTION_LIMIT) {
-      recentSelections.pop();
+      recentSelections = recentSelections.slice(0, RECENT_SELECTION_LIMIT);
     }
     store.set(RECENT_KEY, recentSelections);
   }
