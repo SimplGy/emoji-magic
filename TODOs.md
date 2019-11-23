@@ -24,7 +24,7 @@
 
 ### Bugs
 
-- [ ] Only show one emoji per serach (eg: "fire" returns two firemen for some reason)
+- "none"
 
 ### Gloss & Packaging
 
