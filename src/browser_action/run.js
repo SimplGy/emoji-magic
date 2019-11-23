@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // transform emojilib into simple array of emoji data objects
   // put key name into 'name' property
-  const data = Object.entries(window.emojilib).map(([name, obj]) => ({name, ...obj}));
-  const filterWith = emoji.filter(data); // 2nd order fn
+  // const data = Object.entries(window.emojilib).map(([name, obj]) => ({name, ...obj}));
+  const filterWith = emoji.filter(emoji_data.array); // 2nd order fn
   
   // Filter as you type
   $search.addEventListener('input', ({target: {value}}) => filterWith(value));

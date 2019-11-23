@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+const emoji_data = require('./emoji_data');
 const store = require('./store');
 const emoji = require('./emoji');
 const emojilib = require('../../third_party/emojilib/emojilib');
@@ -31,31 +32,26 @@ const unitTest = (function emojiTest() {
   // -------------------------------------------- Setup
   // const {store, emoji, emojilib} = window;
   
+  console.assert(emoji_data != null, "emojiData is defined");
   console.assert(store != null, "store is defined");
   console.assert(emoji != null, "emoji is defined");
   console.assert(emojilib != null, "emojilib is defined");
   
-  // Stubs
-  // window.document = window.document || {
-  //   getElementById: () => {},
-  // };
   
   
-  
-  // -------------------------------------------- Data
-  // todo: put data transforms in the app layer, not the run layer
-  const data = Object.entries(emojilib).map(([name, obj]) => ({name, ...obj})); // copied from run.js
-  console.assert(data.length > 1500, "there are more than 1500 emojis", data.length);
+  // -------------------------------------------- Validate Data
+  console.assert(emoji_data.array.length > 1500, "there are more than 1500 emojis", emoji_data.array.length);
   const filterWith = emoji.filter(
-    data,
+    emoji_data.array,
     true, // skipRender
   );
-  let result;
+  
     
 
 
   // -------------------------------------------- Describe `filter`
-  
+  let result;
+
   result = filterWith('crystal');
   // WARNING: if you check length on the string result, you'll probably see 4, not 2, because many emoji are double-byte chars.
   console.assert(result.length === 2, "searching for 'crystal' returns 2 results", result);
@@ -63,14 +59,13 @@ const unitTest = (function emojiTest() {
   console.assert(result.includes('💠'), "filter 'crystal' returns quartet of diamonds", result);
   
   result = filterWith('pepper');
-  // WARNING: if you check length on the string result, you'll probably see 4, not 2, because many emoji are double-byte chars.
   console.assert(result.length === 1, "searching for 'pepper' returns 1 emoji", result);
   console.assert(result[0] === '🌶', "searching for 'pepper' returns the pepper emoji", result);
 
   // tests I'd like to pass:
   assertFilterIncludes('green', '💚');
   
-  
+
 
   // -------------------------------------------- Goals for broader search results
   // Doesn't work, but maybe should:
@@ -83,14 +78,21 @@ const unitTest = (function emojiTest() {
   // assertFilterIncludes('puke', '🤮');
   // assertFilterIncludes('ice', '💎');
 
-
+  // Specific searches
+  // assertFilterIs('red car', '🚗');
 
 
 
 
   function assertFilterIncludes(needle, has) {
     let result = filterWith(needle);
-    console.assert(result.includes(has), `Searching for '${needle}' includes ${has}`, result); 
+    console.assert(result.includes(has), `Searching for '${needle}' includes '${has}'`, result); 
+  }
+
+  function assertFilterIs(needle, target) {
+    let result = filterWith(needle);
+    console.assert(result.length === 1, `Searching for '${needle}' has only 1 result`, result); 
+    console.assert(result[0] === target, `Searching for '${needle}' returns '${target}'`, result); 
   }
 
 });

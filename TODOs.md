@@ -11,6 +11,10 @@
 - [x] "copied" notification / animation
 - [x] clicking emojis copies them to clipboard
 
+### Nice Touches
+
+- [ ] Add better tooltips for emoji (canonical name, unicode char, other fun facts?)
+
 ### Power User Features
 
 - [x] Hitting enter right after a query works

@@ -13,6 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+const {toChars} = require('./emoji_data');
 const store = require('./store');
 
 module.exports = (() => {
@@ -23,8 +24,6 @@ module.exports = (() => {
   let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
   store.get(RECENT_KEY, val => recentSelections = val || []);
 
-  // given blob of data, return array of emoji chars
-  const charsFromEmojilibData = (data = []) => data.map(({char}) => char);
   // does anything in this array start with str?
   const someStartWith = (arr, str) => arr.some(a => a.startsWith(str));
   const someInclude = (arr, str) => arr.some(a => a.includes(str));
@@ -58,7 +57,7 @@ module.exports = (() => {
   
   
   // add recent selection, but only track the most recent k
-  // deduplicate: if it's already present, remove matches first before putting the most recent at the front
+  // also deduplicates: if it's already present, remove matches first before putting the most recent at the front
   function trackRecent(char) {
     recentSelections = recentSelections.filter(c => c !== char);
     recentSelections.unshift(char);
@@ -75,7 +74,7 @@ module.exports = (() => {
     
     if (str !== '') {
       results = data.filter(emojiMatches(str)); // 1. filter to matches
-      chars = charsFromEmojilibData(results);   // 2. get plain chars
+      chars = toChars(results);   // 2. get plain chars
     } else {
       chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
     }
