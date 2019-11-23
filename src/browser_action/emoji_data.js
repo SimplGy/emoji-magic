@@ -19,7 +19,12 @@ const emojilib = require('../../third_party/emojilib/emojilib');
 
 module.exports = ((global) => {
 
-  const array = Object.entries(emojilib).map(([name, obj]) => ({name, ...obj}));
+  // Skip emojis with these names
+  const SKIP = ['__id__'];
+
+  const array = Object.entries(emojilib)
+    .map(([name, obj]) => ({name, ...obj}))
+    .filter(({name}) => !SKIP.includes(name));
   
   // Utility functions
   // Convert from an array of emoji objects to a plain char
