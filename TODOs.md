@@ -13,7 +13,8 @@
 
 ### Nice Touches
 
-- [ ] Add better tooltips for emoji (canonical name, unicode char, other fun facts?)
+- [ ] Add better tooltips for emoji (canonical name, unicode char, how it matched your search query, other fun facts?)
+- [ ] Periodically clear the "multi emoji copy" buffer (otherwise it hangs around forever)
 
 ### Power User Features
 
@@ -55,6 +56,6 @@
 ### Searching, suggesting
 
 - [x] Show recently used emoji when the user hasn't searched yet
+- [x] support multi-token matching (eg: "red car" and "green heart")
 - [ ] Use thesaurus to extend hand-written keywords
-- [ ] support multi-token matching (eg: "red car" and "green heart")
 - [ ] full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)

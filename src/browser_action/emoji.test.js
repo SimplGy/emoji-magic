@@ -67,6 +67,14 @@ const unitTest = (function emojiTest() {
   
 
 
+  // -------------------------------------------- Multi-word searches
+  assertFilterIs('blue heart', '💙');
+  assertFilterIs('  heart    blue ', '💙'); // funny spacing
+  // assertFilterIs('red      car', '🚗'); // many other matches
+  assertFilterIs('green ball', '🎾');
+  assertFilterIs('sad cat', '😿');
+
+
   // -------------------------------------------- Goals for broader search results
   // Doesn't work, but maybe should:
   // assertFilterIncludes('mad', '🤬');
@@ -77,9 +85,6 @@ const unitTest = (function emojiTest() {
   // assertFilterIncludes('barf', '🤮');
   // assertFilterIncludes('puke', '🤮');
   // assertFilterIncludes('ice', '💎');
-
-  // Specific searches
-  // assertFilterIs('red car', '🚗');
 
 
 

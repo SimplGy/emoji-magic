@@ -21,6 +21,7 @@ module.exports = (() => {
   const RESULT_LIMIT = 96; // for render perf, don't draw everything
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
   const DEFAULT_RESULTS = ['🔮'];
+  const WORD_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
   let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
   store.get(RECENT_KEY, val => recentSelections = val || []);
 
@@ -54,6 +55,15 @@ module.exports = (() => {
       if (callNow) func.apply(context, args);
     };
   };
+
+  // Given any number of arrays, return the smallest intersection
+  // No order is guaranteed
+  // Does not mutate input arrays
+  function intersection(...arrays) {
+    return arrays.reduce((acc, cur) =>
+      acc.filter(p => cur.includes(p))
+    );
+  }
   
   
   // add recent selection, but only track the most recent k
@@ -72,15 +82,25 @@ module.exports = (() => {
     let results;
     let chars;
     
-    if (str !== '') {
-      results = data.filter(emojiMatches(str)); // 1. filter to matches
-      chars = toChars(results);   // 2. get plain chars
-    } else {
+    // Blank search? Exit early.
+    if (str === '') {
       chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
+      if (!skipRender) render(chars);
+      return chars;
     }
 
+    // Get matching chars for each of the search tokens
+    const tokens = str.split(WORD_SEPARATORS);
+    const resultsPerToken = tokens.map(token => {
+      results = data.filter(emojiMatches(token));
+      return toChars(results);
+    });
+
+    // Must match all search tokens
+    chars = intersection(...resultsPerToken);
+
     if (!skipRender) {
-      render(chars);                            // 3. render
+      render(chars);
     }
 
     return chars;
