@@ -24,7 +24,7 @@
 
 ### Bugs
 
-- "none"
+- [ ] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird.
 
 ### Gloss & Packaging
 

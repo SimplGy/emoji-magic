@@ -67,6 +67,32 @@ const unitTest = (function emojiTest() {
   console.assert(result.length === 1, "searching for 'pepper' returns 1 emoji", result);
   console.assert(result[0] === '🌶', "searching for 'pepper' returns the pepper emoji", result);
 
+  // tests I'd like to pass:
+  assertFilterIncludes('green', '💚');
+  
+  
+
+  // -------------------------------------------- Goals for broader search results
+  // Doesn't work, but maybe should:
+  // assertFilterIncludes('mad', '🤬');
+  // assertFilterIncludes('ice', '🥶'); // via cold
+  
+  // Synonyms
+  assertFilterIncludes('sick', '🤮');
+  // assertFilterIncludes('barf', '🤮');
+  // assertFilterIncludes('puke', '🤮');
+  // assertFilterIncludes('ice', '💎');
+
+
+
+
+
+
+  function assertFilterIncludes(needle, has) {
+    let result = filterWith(needle);
+    console.assert(result.includes(has), `Searching for '${needle}' includes ${has}`, result); 
+  }
+
 });
 
 
