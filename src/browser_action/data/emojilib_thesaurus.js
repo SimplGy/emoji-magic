@@ -16,7 +16,7 @@ limitations under the License.
 */
 
 module.exports = {
-  __id__: 'emojilib_decorated',
+  __id__: 'emojilib_thesaurus',
   array: [
     {
   "name": "100",
@@ -34,7 +34,7 @@ module.exports = {
   "char": "💯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mark",
       "grade",
@@ -429,7 +429,7 @@ module.exports = {
   "char": "🔢",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Numbers",
       "Book of Numbers",
@@ -484,7 +484,7 @@ module.exports = {
   "char": "😀",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -622,7 +622,7 @@ module.exports = {
   "char": "😬",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -722,7 +722,7 @@ module.exports = {
   "char": "😁",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -857,7 +857,7 @@ module.exports = {
   "char": "😂",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1047,7 +1047,7 @@ module.exports = {
   "char": "🤣",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1185,7 +1185,7 @@ module.exports = {
   "char": "🥳",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1278,7 +1278,7 @@ module.exports = {
   "char": "😃",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1448,7 +1448,7 @@ module.exports = {
   "char": "😄",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1648,7 +1648,7 @@ module.exports = {
   "char": "😅",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -1948,7 +1948,7 @@ module.exports = {
   "char": "😆",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "happy",
       "blessed",
@@ -2111,7 +2111,7 @@ module.exports = {
   "char": "😇",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2232,7 +2232,7 @@ module.exports = {
   "char": "😉",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2426,7 +2426,7 @@ module.exports = {
   "char": "😊",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2642,7 +2642,7 @@ module.exports = {
   "char": "🙂",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2729,7 +2729,7 @@ module.exports = {
   "char": "🙃",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2854,7 +2854,7 @@ module.exports = {
   "char": "☺️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -2967,7 +2967,7 @@ module.exports = {
   "char": "😋",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "happy",
       "blessed",
@@ -3194,7 +3194,7 @@ module.exports = {
   "char": "😌",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -3299,7 +3299,7 @@ module.exports = {
   "char": "😍",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -3573,7 +3573,7 @@ module.exports = {
   "char": "🥰",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -3853,7 +3853,7 @@ module.exports = {
   "char": "😘",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -4033,7 +4033,7 @@ module.exports = {
   "char": "😗",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -4226,7 +4226,7 @@ module.exports = {
   "char": "😙",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -4332,7 +4332,7 @@ module.exports = {
   "char": "😚",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -4513,7 +4513,7 @@ module.exports = {
   "char": "😜",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -4752,7 +4752,7 @@ module.exports = {
   "char": "🤪",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -4877,7 +4877,7 @@ module.exports = {
   "char": "🤨",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5020,7 +5020,7 @@ module.exports = {
   "char": "🧐",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5111,7 +5111,7 @@ module.exports = {
   "char": "😝",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5304,7 +5304,7 @@ module.exports = {
   "char": "😛",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5498,7 +5498,7 @@ module.exports = {
   "char": "🤑",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5644,7 +5644,7 @@ module.exports = {
   "char": "🤓",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5735,7 +5735,7 @@ module.exports = {
   "char": "😎",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5875,7 +5875,7 @@ module.exports = {
   "char": "🤩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -5999,7 +5999,7 @@ module.exports = {
   "char": "🤡",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6072,7 +6072,7 @@ module.exports = {
   "char": "🤠",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6174,7 +6174,7 @@ module.exports = {
   "char": "🤗",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6275,7 +6275,7 @@ module.exports = {
   "char": "😏",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6459,7 +6459,7 @@ module.exports = {
   "char": "😶",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6534,7 +6534,7 @@ module.exports = {
   "char": "😐",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "unconcern",
       "emotionlessness",
@@ -6592,7 +6592,7 @@ module.exports = {
   "char": "😑",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6705,7 +6705,7 @@ module.exports = {
   "char": "😒",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "unconcern",
       "emotionlessness",
@@ -6803,7 +6803,7 @@ module.exports = {
   "char": "🙄",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -6886,7 +6886,7 @@ module.exports = {
   "char": "🤔",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7046,7 +7046,7 @@ module.exports = {
   "char": "🤥",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7146,7 +7146,7 @@ module.exports = {
   "char": "🤭",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7304,7 +7304,7 @@ module.exports = {
   "char": "🤫",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7442,7 +7442,7 @@ module.exports = {
   "char": "🤬",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7550,7 +7550,7 @@ module.exports = {
   "char": "🤯",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7695,7 +7695,7 @@ module.exports = {
   "char": "😳",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7803,7 +7803,7 @@ module.exports = {
   "char": "😞",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -7986,7 +7986,7 @@ module.exports = {
   "char": "😟",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -8101,7 +8101,7 @@ module.exports = {
   "char": "😠",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "huffy",
       "sore",
@@ -8222,7 +8222,7 @@ module.exports = {
   "char": "😡",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "angry",
       "aggravated",
@@ -8304,7 +8304,7 @@ module.exports = {
   "char": "😔",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -8488,7 +8488,7 @@ module.exports = {
   "char": "😕",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -8592,7 +8592,7 @@ module.exports = {
   "char": "🙁",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -8771,7 +8771,7 @@ module.exports = {
   "char": "☹",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -8951,7 +8951,7 @@ module.exports = {
   "char": "😣",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -9207,7 +9207,7 @@ module.exports = {
   "char": "😖",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -9444,7 +9444,7 @@ module.exports = {
   "char": "😫",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ill",
       "afflicted",
@@ -9658,7 +9658,7 @@ module.exports = {
   "char": "😩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -9892,7 +9892,7 @@ module.exports = {
   "char": "🥺",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -9987,7 +9987,7 @@ module.exports = {
   "char": "😤",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10180,7 +10180,7 @@ module.exports = {
   "char": "😮",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10291,7 +10291,7 @@ module.exports = {
   "char": "😱",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10384,7 +10384,7 @@ module.exports = {
   "char": "😨",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10485,7 +10485,7 @@ module.exports = {
   "char": "😰",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10598,7 +10598,7 @@ module.exports = {
   "char": "😯",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10679,7 +10679,7 @@ module.exports = {
   "char": "😦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10754,7 +10754,7 @@ module.exports = {
   "char": "😧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -10860,7 +10860,7 @@ module.exports = {
   "char": "😢",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11067,7 +11067,7 @@ module.exports = {
   "char": "😥",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11179,7 +11179,7 @@ module.exports = {
   "char": "🤤",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11253,7 +11253,7 @@ module.exports = {
   "char": "😪",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11463,7 +11463,7 @@ module.exports = {
   "char": "😓",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11732,7 +11732,7 @@ module.exports = {
   "char": "🥵",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -11916,7 +11916,7 @@ module.exports = {
   "char": "🥶",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -12115,7 +12115,7 @@ module.exports = {
   "char": "😭",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -12372,7 +12372,7 @@ module.exports = {
   "char": "😵",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "exhausted",
       "dog-tired",
@@ -12445,7 +12445,7 @@ module.exports = {
   "char": "😲",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -12540,7 +12540,7 @@ module.exports = {
   "char": "🤐",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -12682,7 +12682,7 @@ module.exports = {
   "char": "🤢",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -13117,7 +13117,7 @@ module.exports = {
   "char": "🤧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -13306,7 +13306,7 @@ module.exports = {
   "char": "🤮",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -13479,7 +13479,7 @@ module.exports = {
   "char": "😷",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -13732,7 +13732,7 @@ module.exports = {
   "char": "🤒",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ill",
       "afflicted",
@@ -13929,7 +13929,7 @@ module.exports = {
   "char": "🤕",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "injured",
       "abraded",
@@ -14062,7 +14062,7 @@ module.exports = {
   "char": "🥴",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -14241,7 +14241,7 @@ module.exports = {
   "char": "😴",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -14395,7 +14395,7 @@ module.exports = {
   "char": "💤",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sleepy-eyed",
       "sleepyheaded",
@@ -14499,7 +14499,7 @@ module.exports = {
   "char": "💩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "handkerchief",
       "hankie",
@@ -14637,7 +14637,7 @@ module.exports = {
   "char": "😈",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Satan",
       "Old Nick",
@@ -14701,7 +14701,7 @@ module.exports = {
   "char": "👿",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Satan",
       "Old Nick",
@@ -14806,7 +14806,7 @@ module.exports = {
   "char": "👹",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "imaginary being",
       "imaginary creature",
@@ -15009,7 +15009,7 @@ module.exports = {
   "char": "👺",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reddish",
       "ruddy",
@@ -15185,7 +15185,7 @@ module.exports = {
   "char": "💀",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dead",
       "asleep",
@@ -15312,7 +15312,7 @@ module.exports = {
   "char": "👻",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Halloween",
       "Hallowe'en",
@@ -15347,7 +15347,7 @@ module.exports = {
   "char": "👽",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Paul",
@@ -15392,7 +15392,7 @@ module.exports = {
   "char": "🤖",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "computing machine",
       "computing device",
@@ -15452,7 +15452,7 @@ module.exports = {
   "char": "😺",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15531,7 +15531,7 @@ module.exports = {
   "char": "😸",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15580,7 +15580,7 @@ module.exports = {
   "char": "😹",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15675,7 +15675,7 @@ module.exports = {
   "char": "😻",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15844,7 +15844,7 @@ module.exports = {
   "char": "😼",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15885,7 +15885,7 @@ module.exports = {
   "char": "😽",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -15932,7 +15932,7 @@ module.exports = {
   "char": "🙀",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -16021,7 +16021,7 @@ module.exports = {
   "char": "😿",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -16228,7 +16228,7 @@ module.exports = {
   "char": "😾",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -16263,7 +16263,7 @@ module.exports = {
   "char": "🤲",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custody",
       "guardianship",
@@ -16358,7 +16358,7 @@ module.exports = {
   "char": "🙌",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "motion",
       "movement",
@@ -16457,7 +16457,7 @@ module.exports = {
   "char": "👏",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custody",
       "guardianship",
@@ -16549,7 +16549,7 @@ module.exports = {
   "char": "👋",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custody",
       "guardianship",
@@ -16694,7 +16694,7 @@ module.exports = {
   "char": "🤙",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custody",
       "guardianship",
@@ -16775,7 +16775,7 @@ module.exports = {
   "char": "👍",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "affirmative"
@@ -17079,7 +17079,7 @@ module.exports = {
   "char": "👎",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "no",
@@ -17171,7 +17171,7 @@ module.exports = {
   "char": "👊",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "angry",
       "aggravated",
@@ -17426,7 +17426,7 @@ module.exports = {
   "char": "✊",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "manus",
@@ -17523,7 +17523,7 @@ module.exports = {
   "char": "🤛",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -17589,7 +17589,7 @@ module.exports = {
   "char": "🤜",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -17659,7 +17659,7 @@ module.exports = {
   "char": "✌",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -17768,7 +17768,7 @@ module.exports = {
   "char": "👌",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -17883,7 +17883,7 @@ module.exports = {
   "char": "✋",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "halt",
@@ -18045,7 +18045,7 @@ module.exports = {
   "char": "🤚",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "raised",
@@ -18084,7 +18084,7 @@ module.exports = {
   "char": "👐",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "lepidopterous insect",
@@ -18277,7 +18277,7 @@ module.exports = {
   "char": "💪",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "limb",
       "weapon",
@@ -18452,7 +18452,7 @@ module.exports = {
   "char": "🙏",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "delight",
       "satisfy",
@@ -18532,7 +18532,7 @@ module.exports = {
   "char": "🦶",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "boot",
       "kicking",
@@ -18605,7 +18605,7 @@ module.exports = {
   "char": "🦵",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "boot",
       "kicking",
@@ -18686,7 +18686,7 @@ module.exports = {
   "char": "🤝",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "understanding",
       "statement",
@@ -18778,7 +18778,7 @@ module.exports = {
   "char": "☝",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -18913,7 +18913,7 @@ module.exports = {
   "char": "👆",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "manus",
@@ -19048,7 +19048,7 @@ module.exports = {
   "char": "👇",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "manus",
@@ -19238,7 +19238,7 @@ module.exports = {
   "char": "👈",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "way",
       "path",
@@ -19386,7 +19386,7 @@ module.exports = {
   "char": "👉",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "manus",
@@ -19577,7 +19577,7 @@ module.exports = {
   "char": "🖕",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -19695,7 +19695,7 @@ module.exports = {
   "char": "🖐",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -19782,7 +19782,7 @@ module.exports = {
   "char": "🤟",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -19863,7 +19863,7 @@ module.exports = {
   "char": "🤘",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -19932,7 +19932,7 @@ module.exports = {
   "char": "🤞",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "good",
       "bang-up",
@@ -20071,7 +20071,7 @@ module.exports = {
   "char": "🖖",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manus",
       "mitt",
@@ -20148,7 +20148,7 @@ module.exports = {
   "char": "✍",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "letter paper",
@@ -20213,7 +20213,7 @@ module.exports = {
   "char": "🤳",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photographic camera",
       "photographic equipment",
@@ -20253,7 +20253,7 @@ module.exports = {
   "char": "💅",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "appearance",
       "visual aspect",
@@ -20369,7 +20369,7 @@ module.exports = {
   "char": "👄",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "oral cavity",
       "oral fissure",
@@ -20440,7 +20440,7 @@ module.exports = {
   "char": "🦷",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dentition",
       "set",
@@ -20474,7 +20474,7 @@ module.exports = {
   "char": "👅",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "oral cavity",
       "oral fissure",
@@ -20561,7 +20561,7 @@ module.exports = {
   "char": "👂",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -20745,7 +20745,7 @@ module.exports = {
   "char": "👃",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "odor",
       "odour",
@@ -20802,7 +20802,7 @@ module.exports = {
   "char": "👁",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -21093,7 +21093,7 @@ module.exports = {
   "char": "👀",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "expression",
       "aspect",
@@ -21346,7 +21346,7 @@ module.exports = {
   "char": "🧠",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "smart",
       "astute",
@@ -21436,7 +21436,7 @@ module.exports = {
   "char": "👤",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "person",
       "individual",
@@ -21525,7 +21525,7 @@ module.exports = {
   "char": "👥",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "person",
       "individual",
@@ -21645,7 +21645,7 @@ module.exports = {
   "char": "🗣",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "person",
       "individual",
@@ -21850,7 +21850,7 @@ module.exports = {
   "char": "👶",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "kid",
       "youngster",
@@ -21936,7 +21936,7 @@ module.exports = {
   "char": "🧒",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "young",
@@ -22017,7 +22017,7 @@ module.exports = {
   "char": "👦",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -22141,7 +22141,7 @@ module.exports = {
   "char": "👧",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -22195,7 +22195,7 @@ module.exports = {
   "char": "🧑",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "individual",
@@ -22242,7 +22242,7 @@ module.exports = {
   "char": "👨",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "moustache",
       "hair"
@@ -22358,7 +22358,7 @@ module.exports = {
   "char": "👩",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -22408,7 +22408,7 @@ module.exports = {
   "char": "👱‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -22527,7 +22527,7 @@ module.exports = {
   "char": "👱",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -22704,7 +22704,7 @@ module.exports = {
   "char": "🧔",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "individual",
       "someone",
@@ -22755,7 +22755,7 @@ module.exports = {
   "char": "🧓",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -22836,7 +22836,7 @@ module.exports = {
   "char": "👴",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -23080,7 +23080,7 @@ module.exports = {
   "char": "👵",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -23274,7 +23274,7 @@ module.exports = {
   "char": "👲",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -23338,7 +23338,7 @@ module.exports = {
   "char": "🧕",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -23388,7 +23388,7 @@ module.exports = {
   "char": "👳‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -23465,7 +23465,7 @@ module.exports = {
   "char": "👳",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -23539,7 +23539,7 @@ module.exports = {
   "char": "👮‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -23692,7 +23692,7 @@ module.exports = {
   "char": "👮",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -23858,7 +23858,7 @@ module.exports = {
   "char": "👷‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -24083,7 +24083,7 @@ module.exports = {
   "char": "👷",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -24327,7 +24327,7 @@ module.exports = {
   "char": "💂‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "United Kingdom",
       "UK",
@@ -24436,7 +24436,7 @@ module.exports = {
   "char": "💂",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "United Kingdom",
       "UK",
@@ -24565,7 +24565,7 @@ module.exports = {
   "char": "🕵️‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -24679,7 +24679,7 @@ module.exports = {
   "char": "🕵",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -24760,7 +24760,7 @@ module.exports = {
   "char": "👩‍⚕️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "doc",
       "physician",
@@ -24904,7 +24904,7 @@ module.exports = {
   "char": "👨‍⚕️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "doc",
       "physician",
@@ -25080,7 +25080,7 @@ module.exports = {
   "char": "👩‍🌾",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "farmer",
       "husbandman",
@@ -25152,7 +25152,7 @@ module.exports = {
   "char": "👨‍🌾",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "farmer",
       "husbandman",
@@ -25257,7 +25257,7 @@ module.exports = {
   "char": "👩‍🍳",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cook"
     ],
@@ -25319,7 +25319,7 @@ module.exports = {
   "char": "👨‍🍳",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cook"
     ],
@@ -25415,7 +25415,7 @@ module.exports = {
   "char": "👩‍🎓",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "postgraduate",
       "high",
@@ -25497,7 +25497,7 @@ module.exports = {
   "char": "👨‍🎓",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "postgraduate",
       "high",
@@ -25614,7 +25614,7 @@ module.exports = {
   "char": "👩‍🎤",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "person",
@@ -25684,7 +25684,7 @@ module.exports = {
   "char": "👨‍🎤",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "person",
@@ -25788,7 +25788,7 @@ module.exports = {
   "char": "👩‍🏫",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "teacher",
       "educator",
@@ -25859,7 +25859,7 @@ module.exports = {
   "char": "👨‍🏫",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "teacher",
       "educator",
@@ -25964,7 +25964,7 @@ module.exports = {
   "char": "👩‍🏭",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "machine",
       "fabrication",
@@ -26051,7 +26051,7 @@ module.exports = {
   "char": "👨‍🏭",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "machine",
       "fabrication",
@@ -26177,7 +26177,7 @@ module.exports = {
   "char": "👩‍💻",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "programmer",
       "computer programmer",
@@ -26311,7 +26311,7 @@ module.exports = {
   "char": "👨‍💻",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "programmer",
       "computer programmer",
@@ -26474,7 +26474,7 @@ module.exports = {
   "char": "👩‍💼",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concern",
       "business concern",
@@ -26580,7 +26580,7 @@ module.exports = {
   "char": "👨‍💼",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concern",
       "business concern",
@@ -26720,7 +26720,7 @@ module.exports = {
   "char": "👩‍🔧",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pipe fitter",
       "craftsman",
@@ -26813,7 +26813,7 @@ module.exports = {
   "char": "👨‍🔧",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pipe fitter",
       "craftsman",
@@ -26942,7 +26942,7 @@ module.exports = {
   "char": "👩‍🔬",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "life scientist",
       "scientist",
@@ -27048,7 +27048,7 @@ module.exports = {
   "char": "👨‍🔬",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "life scientist",
       "scientist",
@@ -27185,7 +27185,7 @@ module.exports = {
   "char": "👩‍🎨",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "artist",
       "creative person",
@@ -27258,7 +27258,7 @@ module.exports = {
   "char": "👨‍🎨",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "artist",
       "creative person",
@@ -27365,7 +27365,7 @@ module.exports = {
   "char": "👩‍🚒",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "play",
       "child's play",
@@ -27445,7 +27445,7 @@ module.exports = {
   "char": "👨‍🚒",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "play",
       "child's play",
@@ -27560,7 +27560,7 @@ module.exports = {
   "char": "👩‍✈️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "aeronaut",
       "airman",
@@ -27655,7 +27655,7 @@ module.exports = {
   "char": "👨‍✈️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "aeronaut",
       "airman",
@@ -27784,7 +27784,7 @@ module.exports = {
   "char": "👩‍🚀",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "abstraction",
       "amorphous shape",
@@ -27895,7 +27895,7 @@ module.exports = {
   "char": "👨‍🚀",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "abstraction",
       "amorphous shape",
@@ -28040,7 +28040,7 @@ module.exports = {
   "char": "👩‍⚖️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "justness",
       "righteousness",
@@ -28159,7 +28159,7 @@ module.exports = {
   "char": "👨‍⚖️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "justness",
       "righteousness",
@@ -28313,7 +28313,7 @@ module.exports = {
   "char": "🦸‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -28486,7 +28486,7 @@ module.exports = {
   "char": "🦸‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -28731,7 +28731,7 @@ module.exports = {
   "char": "🦹‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -28944,7 +28944,7 @@ module.exports = {
   "char": "🦹‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -29224,7 +29224,7 @@ module.exports = {
   "char": "🤶",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -29288,7 +29288,7 @@ module.exports = {
   "char": "🎅",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "time period",
       "period of time",
@@ -29407,7 +29407,7 @@ module.exports = {
   "char": "🧙‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -29476,7 +29476,7 @@ module.exports = {
   "char": "🧙‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -29572,7 +29572,7 @@ module.exports = {
   "char": "🧝‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -29620,7 +29620,7 @@ module.exports = {
   "char": "🧝‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -29709,7 +29709,7 @@ module.exports = {
   "char": "🧛‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -29758,7 +29758,7 @@ module.exports = {
   "char": "🧛‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -29858,7 +29858,7 @@ module.exports = {
   "char": "🧟‍♀️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -29911,7 +29911,7 @@ module.exports = {
   "char": "🧟‍♂️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -30011,7 +30011,7 @@ module.exports = {
   "char": "🧞‍♀️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -30059,7 +30059,7 @@ module.exports = {
   "char": "🧞‍♂️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -30150,7 +30150,7 @@ module.exports = {
   "char": "🧜‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -30201,7 +30201,7 @@ module.exports = {
   "char": "🧜‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -30297,7 +30297,7 @@ module.exports = {
   "char": "🧚‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -30345,7 +30345,7 @@ module.exports = {
   "char": "🧚‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -30435,7 +30435,7 @@ module.exports = {
   "char": "👼",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "eden",
       "paradise",
@@ -30505,7 +30505,7 @@ module.exports = {
   "char": "🤰",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "babe",
       "infant",
@@ -30556,7 +30556,7 @@ module.exports = {
   "char": "🤱",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "care",
       "attention",
@@ -30621,7 +30621,7 @@ module.exports = {
   "char": "👸",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "miss",
       "missy",
@@ -30814,7 +30814,7 @@ module.exports = {
   "char": "🤴",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male child",
       "male",
@@ -31034,7 +31034,7 @@ module.exports = {
   "char": "👰",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "small indefinite quantity",
       "small indefinite amount",
@@ -31150,7 +31150,7 @@ module.exports = {
   "char": "🤵",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "small indefinite quantity",
       "small indefinite amount",
@@ -31258,7 +31258,7 @@ module.exports = {
   "char": "🏃‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -31429,7 +31429,7 @@ module.exports = {
   "char": "🏃",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -31612,7 +31612,7 @@ module.exports = {
   "char": "🚶‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -31735,7 +31735,7 @@ module.exports = {
   "char": "🚶",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "organism",
@@ -31823,7 +31823,7 @@ module.exports = {
   "char": "💃",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -31911,7 +31911,7 @@ module.exports = {
   "char": "🕺",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -31998,7 +31998,7 @@ module.exports = {
   "char": "👯",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -32044,7 +32044,7 @@ module.exports = {
   "char": "👯‍♂️",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -32154,7 +32154,7 @@ module.exports = {
   "char": "👫",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -32415,7 +32415,7 @@ module.exports = {
   "char": "👬",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -32648,7 +32648,7 @@ module.exports = {
   "char": "👭",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -32897,7 +32897,7 @@ module.exports = {
   "char": "🙇‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -32964,7 +32964,7 @@ module.exports = {
   "char": "🙇",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -33066,7 +33066,7 @@ module.exports = {
   "char": "🤦‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -33183,7 +33183,7 @@ module.exports = {
   "char": "🤦‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -33268,7 +33268,7 @@ module.exports = {
   "char": "🤷",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -33429,7 +33429,7 @@ module.exports = {
   "char": "🤷‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -33623,7 +33623,7 @@ module.exports = {
   "char": "💁",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -33744,7 +33744,7 @@ module.exports = {
   "char": "💁‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -33898,7 +33898,7 @@ module.exports = {
   "char": "🙅",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -33967,7 +33967,7 @@ module.exports = {
   "char": "🙅‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -34072,7 +34072,7 @@ module.exports = {
   "char": "🙆",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "miss",
@@ -34192,7 +34192,7 @@ module.exports = {
   "char": "🙆‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "work force",
       "workforce",
@@ -34455,7 +34455,7 @@ module.exports = {
   "char": "🙋",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -34522,7 +34522,7 @@ module.exports = {
   "char": "🙋‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -34623,7 +34623,7 @@ module.exports = {
   "char": "🙎",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -34690,7 +34690,7 @@ module.exports = {
   "char": "🙎‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -34795,7 +34795,7 @@ module.exports = {
   "char": "🙍",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -34938,7 +34938,7 @@ module.exports = {
   "char": "🙍‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -35111,7 +35111,7 @@ module.exports = {
   "char": "💇",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -35178,7 +35178,7 @@ module.exports = {
   "char": "💇‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -35280,7 +35280,7 @@ module.exports = {
   "char": "💆",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -35471,7 +35471,7 @@ module.exports = {
   "char": "💆‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -35697,7 +35697,7 @@ module.exports = {
   "char": "🧖‍♀️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -35769,7 +35769,7 @@ module.exports = {
   "char": "🧖‍♂️",
   "fitzpatrick_scale": true,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male",
       "antheral",
@@ -35885,7 +35885,7 @@ module.exports = {
   "char": "💑",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36076,7 +36076,7 @@ module.exports = {
   "char": "👩‍❤️‍👩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36267,7 +36267,7 @@ module.exports = {
   "char": "👨‍❤️‍👨",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36456,7 +36456,7 @@ module.exports = {
   "char": "💏",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36605,7 +36605,7 @@ module.exports = {
   "char": "👩‍❤️‍💋‍👩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36754,7 +36754,7 @@ module.exports = {
   "char": "👨‍❤️‍💋‍👨",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "brace",
       "set",
@@ -36906,7 +36906,7 @@ module.exports = {
   "char": "👪",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37143,7 +37143,7 @@ module.exports = {
   "char": "👨‍👩‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37291,7 +37291,7 @@ module.exports = {
   "char": "👨‍👩‍👧‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37412,7 +37412,7 @@ module.exports = {
   "char": "👨‍👩‍👦‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37533,7 +37533,7 @@ module.exports = {
   "char": "👨‍👩‍👧‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37654,7 +37654,7 @@ module.exports = {
   "char": "👩‍👩‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37775,7 +37775,7 @@ module.exports = {
   "char": "👩‍👩‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -37896,7 +37896,7 @@ module.exports = {
   "char": "👩‍👩‍👧‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38017,7 +38017,7 @@ module.exports = {
   "char": "👩‍👩‍👦‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38138,7 +38138,7 @@ module.exports = {
   "char": "👩‍👩‍👧‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38259,7 +38259,7 @@ module.exports = {
   "char": "👨‍👨‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38380,7 +38380,7 @@ module.exports = {
   "char": "👨‍👨‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38501,7 +38501,7 @@ module.exports = {
   "char": "👨‍👨‍👧‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38622,7 +38622,7 @@ module.exports = {
   "char": "👨‍👨‍👦‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38743,7 +38743,7 @@ module.exports = {
   "char": "👨‍👨‍👧‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -38864,7 +38864,7 @@ module.exports = {
   "char": "👩‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39018,7 +39018,7 @@ module.exports = {
   "char": "👩‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39172,7 +39172,7 @@ module.exports = {
   "char": "👩‍👧‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39299,7 +39299,7 @@ module.exports = {
   "char": "👩‍👦‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39426,7 +39426,7 @@ module.exports = {
   "char": "👩‍👧‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39553,7 +39553,7 @@ module.exports = {
   "char": "👨‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39707,7 +39707,7 @@ module.exports = {
   "char": "👨‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39861,7 +39861,7 @@ module.exports = {
   "char": "👨‍👧‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -39988,7 +39988,7 @@ module.exports = {
   "char": "👨‍👦‍👦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -40115,7 +40115,7 @@ module.exports = {
   "char": "👨‍👧‍👧",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -40240,7 +40240,7 @@ module.exports = {
   "char": "🧶",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "game equipment",
       "musket ball",
@@ -40342,7 +40342,7 @@ module.exports = {
   "char": "🧵",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "acerate leaf",
       "simple leaf",
@@ -40435,7 +40435,7 @@ module.exports = {
   "char": "🧥",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "coat",
       "wrapping",
@@ -40473,7 +40473,7 @@ module.exports = {
   "char": "🥼",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "doc",
       "physician",
@@ -40560,7 +40560,7 @@ module.exports = {
   "char": "👚",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -40611,7 +40611,7 @@ module.exports = {
   "char": "👕",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -40698,7 +40698,7 @@ module.exports = {
   "char": "👖",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -40731,7 +40731,7 @@ module.exports = {
   "char": "👔",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "garment",
       "dress",
@@ -40846,7 +40846,7 @@ module.exports = {
   "char": "👗",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "apparel",
       "wearing apparel",
@@ -40889,7 +40889,7 @@ module.exports = {
   "char": "👙",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "liquid",
       "watery",
@@ -40994,7 +40994,7 @@ module.exports = {
   "char": "👘",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "full-dress",
       "formal",
@@ -41140,7 +41140,7 @@ module.exports = {
   "char": "💄",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "female",
       "egg-producing",
@@ -41223,7 +41223,7 @@ module.exports = {
   "char": "💋",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -41381,7 +41381,7 @@ module.exports = {
   "char": "👣",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "trailing",
@@ -41414,7 +41414,7 @@ module.exports = {
   "char": "🥿",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concert dance",
       "stage dancing",
@@ -41455,7 +41455,7 @@ module.exports = {
   "char": "👠",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -41533,7 +41533,7 @@ module.exports = {
   "char": "👡",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "place",
       "situation",
@@ -41576,7 +41576,7 @@ module.exports = {
   "char": "👢",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "place",
       "situation",
@@ -41618,7 +41618,7 @@ module.exports = {
   "char": "👞",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -41673,7 +41673,7 @@ module.exports = {
   "char": "👟",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "place",
       "situation",
@@ -41705,7 +41705,7 @@ module.exports = {
   "char": "🥾",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "packing",
       "carry"
@@ -41730,7 +41730,7 @@ module.exports = {
   "char": "🧦",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "apparel",
@@ -41753,7 +41753,7 @@ module.exports = {
   "char": "🧤",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custody",
       "guardianship",
@@ -41832,7 +41832,7 @@ module.exports = {
   "char": "🧣",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cervix",
       "external body part",
@@ -41878,7 +41878,7 @@ module.exports = {
   "char": "👒",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -41996,7 +41996,7 @@ module.exports = {
   "char": "🎩",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "charming",
       "magical",
@@ -42056,7 +42056,7 @@ module.exports = {
   "char": "🧢",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "headdress",
       "headgear",
@@ -42101,7 +42101,7 @@ module.exports = {
   "char": "⛑",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "building",
       "creating from raw materials",
@@ -42191,7 +42191,7 @@ module.exports = {
   "char": "🎓",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "educational institution",
       "schoolhouse",
@@ -42395,7 +42395,7 @@ module.exports = {
   "char": "👑",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "male monarch",
       "sovereign",
@@ -42504,7 +42504,7 @@ module.exports = {
   "char": "🎒",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pupil",
       "educatee",
@@ -42595,7 +42595,7 @@ module.exports = {
   "char": "🧳",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "packing material",
       "wadding",
@@ -42636,7 +42636,7 @@ module.exports = {
   "char": "👝",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "container",
       "indefinite quantity",
@@ -42696,7 +42696,7 @@ module.exports = {
   "char": "👛",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -42750,7 +42750,7 @@ module.exports = {
   "char": "👜",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -42812,7 +42812,7 @@ module.exports = {
   "char": "💼",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concern",
       "business concern",
@@ -43095,7 +43095,7 @@ module.exports = {
   "char": "👓",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manner",
       "mode",
@@ -43145,7 +43145,7 @@ module.exports = {
   "char": "🕶",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "human face",
       "external body part",
@@ -43257,7 +43257,7 @@ module.exports = {
   "char": "🥽",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "opinion",
       "sentiment",
@@ -43345,7 +43345,7 @@ module.exports = {
   "char": "💍",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wedding ceremony",
       "nuptials",
@@ -43501,7 +43501,7 @@ module.exports = {
   "char": "🌂",
   "fitzpatrick_scale": false,
   "category": "people",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -43568,7 +43568,7 @@ module.exports = {
   "char": "🐶",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -43705,7 +43705,7 @@ module.exports = {
   "char": "🐱",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -43802,7 +43802,7 @@ module.exports = {
   "char": "🐭",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -43857,7 +43857,7 @@ module.exports = {
   "char": "🐹",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -43907,7 +43907,7 @@ module.exports = {
   "char": "🐰",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44066,7 +44066,7 @@ module.exports = {
   "char": "🦊",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44173,7 +44173,7 @@ module.exports = {
   "char": "🐻",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44273,7 +44273,7 @@ module.exports = {
   "char": "🐼",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44331,7 +44331,7 @@ module.exports = {
   "char": "🐨",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44381,7 +44381,7 @@ module.exports = {
   "char": "🐯",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44599,7 +44599,7 @@ module.exports = {
   "char": "🦁",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44649,7 +44649,7 @@ module.exports = {
   "char": "🐮",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "beef cattle",
       "cattle",
@@ -44766,7 +44766,7 @@ module.exports = {
   "char": "🐷",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44819,7 +44819,7 @@ module.exports = {
   "char": "🐽",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44860,7 +44860,7 @@ module.exports = {
   "char": "🐸",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -44953,7 +44953,7 @@ module.exports = {
   "char": "🦑",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45030,7 +45030,7 @@ module.exports = {
   "char": "🐙",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45131,7 +45131,7 @@ module.exports = {
   "char": "🦐",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45188,7 +45188,7 @@ module.exports = {
   "char": "🐵",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45250,7 +45250,7 @@ module.exports = {
   "char": "🦍",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45313,7 +45313,7 @@ module.exports = {
   "char": "🙈",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "primate",
       "imp",
@@ -45393,7 +45393,7 @@ module.exports = {
   "char": "🙉",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45473,7 +45473,7 @@ module.exports = {
   "char": "🙊",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "primate",
       "imp",
@@ -45554,7 +45554,7 @@ module.exports = {
   "char": "🐒",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45623,7 +45623,7 @@ module.exports = {
   "char": "🐔",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45714,7 +45714,7 @@ module.exports = {
   "char": "🐧",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45763,7 +45763,7 @@ module.exports = {
   "char": "🐦",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -45942,7 +45942,7 @@ module.exports = {
   "char": "🐤",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46036,7 +46036,7 @@ module.exports = {
   "char": "🐣",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46203,7 +46203,7 @@ module.exports = {
   "char": "🐥",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46334,7 +46334,7 @@ module.exports = {
   "char": "🦆",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46421,7 +46421,7 @@ module.exports = {
   "char": "🦅",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46505,7 +46505,7 @@ module.exports = {
   "char": "🦉",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46616,7 +46616,7 @@ module.exports = {
   "char": "🦇",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46716,7 +46716,7 @@ module.exports = {
   "char": "🐺",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46815,7 +46815,7 @@ module.exports = {
   "char": "🐗",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46862,7 +46862,7 @@ module.exports = {
   "char": "🐴",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46930,7 +46930,7 @@ module.exports = {
   "char": "🦄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -46996,7 +46996,7 @@ module.exports = {
   "char": "🐝",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47153,7 +47153,7 @@ module.exports = {
   "char": "🐛",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47225,7 +47225,7 @@ module.exports = {
   "char": "🦋",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47286,7 +47286,7 @@ module.exports = {
   "char": "🐌",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "slow",
       "bumper-to-bumper",
@@ -47416,7 +47416,7 @@ module.exports = {
   "char": "🐞",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47479,7 +47479,7 @@ module.exports = {
   "char": "🐜",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47564,7 +47564,7 @@ module.exports = {
   "char": "🦗",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47616,7 +47616,7 @@ module.exports = {
   "char": "🕷",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47652,7 +47652,7 @@ module.exports = {
   "char": "🦂",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47688,7 +47688,7 @@ module.exports = {
   "char": "🦀",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47728,7 +47728,7 @@ module.exports = {
   "char": "🐍",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47870,7 +47870,7 @@ module.exports = {
   "char": "🦎",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47924,7 +47924,7 @@ module.exports = {
   "char": "🦖",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -47995,7 +47995,7 @@ module.exports = {
   "char": "🦕",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48069,7 +48069,7 @@ module.exports = {
   "char": "🐢",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48177,7 +48177,7 @@ module.exports = {
   "char": "🐠",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48234,7 +48234,7 @@ module.exports = {
   "char": "🐟",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48294,7 +48294,7 @@ module.exports = {
   "char": "🐡",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48384,7 +48384,7 @@ module.exports = {
   "char": "🐬",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48536,7 +48536,7 @@ module.exports = {
   "char": "🦈",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48685,7 +48685,7 @@ module.exports = {
   "char": "🐳",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48760,7 +48760,7 @@ module.exports = {
   "char": "🐋",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48836,7 +48836,7 @@ module.exports = {
   "char": "🐊",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48899,7 +48899,7 @@ module.exports = {
   "char": "🐆",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -48947,7 +48947,7 @@ module.exports = {
   "char": "🦓",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49014,7 +49014,7 @@ module.exports = {
   "char": "🐅",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49101,7 +49101,7 @@ module.exports = {
   "char": "🐃",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49173,7 +49173,7 @@ module.exports = {
   "char": "🐂",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49249,7 +49249,7 @@ module.exports = {
   "char": "🐄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "beef cattle",
       "cattle",
@@ -49367,7 +49367,7 @@ module.exports = {
   "char": "🦌",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49419,7 +49419,7 @@ module.exports = {
   "char": "🐪",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49586,7 +49586,7 @@ module.exports = {
   "char": "🐫",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49766,7 +49766,7 @@ module.exports = {
   "char": "🦒",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49876,7 +49876,7 @@ module.exports = {
   "char": "🐘",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -49975,7 +49975,7 @@ module.exports = {
   "char": "🦏",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50049,7 +50049,7 @@ module.exports = {
   "char": "🐐",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50096,7 +50096,7 @@ module.exports = {
   "char": "🐏",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50150,7 +50150,7 @@ module.exports = {
   "char": "🐑",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50211,7 +50211,7 @@ module.exports = {
   "char": "🐎",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50274,7 +50274,7 @@ module.exports = {
   "char": "🐖",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50321,7 +50321,7 @@ module.exports = {
   "char": "🐀",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50375,7 +50375,7 @@ module.exports = {
   "char": "🐁",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50430,7 +50430,7 @@ module.exports = {
   "char": "🐓",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50498,7 +50498,7 @@ module.exports = {
   "char": "🦃",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50566,7 +50566,7 @@ module.exports = {
   "char": "🕊",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50638,7 +50638,7 @@ module.exports = {
   "char": "🐕",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50766,7 +50766,7 @@ module.exports = {
   "char": "🐩",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "domestic dog",
       "Canis familiaris",
@@ -50902,7 +50902,7 @@ module.exports = {
   "char": "🐈",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -50978,7 +50978,7 @@ module.exports = {
   "char": "🐇",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51130,7 +51130,7 @@ module.exports = {
   "char": "🐿",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51192,7 +51192,7 @@ module.exports = {
   "char": "🦔",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51253,7 +51253,7 @@ module.exports = {
   "char": "🦝",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51300,7 +51300,7 @@ module.exports = {
   "char": "🦙",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51355,7 +51355,7 @@ module.exports = {
   "char": "🦛",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51405,7 +51405,7 @@ module.exports = {
   "char": "🦘",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51494,7 +51494,7 @@ module.exports = {
   "char": "🦡",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51556,7 +51556,7 @@ module.exports = {
   "char": "🦢",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51640,7 +51640,7 @@ module.exports = {
   "char": "🦚",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51729,7 +51729,7 @@ module.exports = {
   "char": "🦜",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51887,7 +51887,7 @@ module.exports = {
   "char": "🦞",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -51942,7 +51942,7 @@ module.exports = {
   "char": "🦟",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -52004,7 +52004,7 @@ module.exports = {
   "char": "🐾",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -52196,7 +52196,7 @@ module.exports = {
   "char": "🐉",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -52320,7 +52320,7 @@ module.exports = {
   "char": "🐲",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -52442,7 +52442,7 @@ module.exports = {
   "char": "🌵",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -52531,7 +52531,7 @@ module.exports = {
   "char": "🎄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "time period",
       "period of time",
@@ -52592,7 +52592,7 @@ module.exports = {
   "char": "🌲",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -52661,7 +52661,7 @@ module.exports = {
   "char": "🌳",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -52735,7 +52735,7 @@ module.exports = {
   "char": "🌴",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -52849,7 +52849,7 @@ module.exports = {
   "char": "🌱",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -53033,7 +53033,7 @@ module.exports = {
   "char": "🌿",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -53204,7 +53204,7 @@ module.exports = {
   "char": "☘",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -53316,7 +53316,7 @@ module.exports = {
   "char": "🍀",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -53436,7 +53436,7 @@ module.exports = {
   "char": "🎍",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -53537,7 +53537,7 @@ module.exports = {
   "char": "🎋",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -53649,7 +53649,7 @@ module.exports = {
   "char": "🍃",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -53867,7 +53867,7 @@ module.exports = {
   "char": "🍂",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -53957,7 +53957,7 @@ module.exports = {
   "char": "🍁",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -54194,7 +54194,7 @@ module.exports = {
   "char": "🌾",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -54265,7 +54265,7 @@ module.exports = {
   "char": "🌺",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -54345,7 +54345,7 @@ module.exports = {
   "char": "🌻",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -54555,7 +54555,7 @@ module.exports = {
   "char": "🌹",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -54678,7 +54678,7 @@ module.exports = {
   "char": "🥀",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -54766,7 +54766,7 @@ module.exports = {
   "char": "🌷",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "works",
@@ -54900,7 +54900,7 @@ module.exports = {
   "char": "🌼",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -54960,7 +54960,7 @@ module.exports = {
   "char": "🌸",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -55102,7 +55102,7 @@ module.exports = {
   "char": "💐",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "quality",
@@ -55185,7 +55185,7 @@ module.exports = {
   "char": "🍄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "works",
       "industrial plant",
@@ -55257,7 +55257,7 @@ module.exports = {
   "char": "🌰",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -55290,7 +55290,7 @@ module.exports = {
   "char": "🎃",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Halloween",
       "Hallowe'en",
@@ -55633,7 +55633,7 @@ module.exports = {
   "char": "🐚",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -55687,7 +55687,7 @@ module.exports = {
   "char": "🕸",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -55741,7 +55741,7 @@ module.exports = {
   "char": "🌎",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Earth",
       "world",
@@ -55822,7 +55822,7 @@ module.exports = {
   "char": "🌍",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Earth",
       "world",
@@ -55903,7 +55903,7 @@ module.exports = {
   "char": "🌏",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Earth",
       "world",
@@ -56009,7 +56009,7 @@ module.exports = {
   "char": "🌕",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56176,7 +56176,7 @@ module.exports = {
   "char": "🌖",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56312,7 +56312,7 @@ module.exports = {
   "char": "🌗",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56447,7 +56447,7 @@ module.exports = {
   "char": "🌘",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56582,7 +56582,7 @@ module.exports = {
   "char": "🌑",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56717,7 +56717,7 @@ module.exports = {
   "char": "🌒",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56852,7 +56852,7 @@ module.exports = {
   "char": "🌓",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -56989,7 +56989,7 @@ module.exports = {
   "char": "🌔",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57183,7 +57183,7 @@ module.exports = {
   "char": "🌚",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57318,7 +57318,7 @@ module.exports = {
   "char": "🌝",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57453,7 +57453,7 @@ module.exports = {
   "char": "🌛",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57588,7 +57588,7 @@ module.exports = {
   "char": "🌜",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57719,7 +57719,7 @@ module.exports = {
   "char": "🌞",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -57783,7 +57783,7 @@ module.exports = {
   "char": "🌙",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nighttime",
       "dark",
@@ -57874,7 +57874,7 @@ module.exports = {
   "char": "⭐",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nighttime",
       "dark",
@@ -57941,7 +57941,7 @@ module.exports = {
   "char": "🌟",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nighttime",
       "dark",
@@ -58144,7 +58144,7 @@ module.exports = {
   "char": "💫",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "leading",
       "prima",
@@ -58345,7 +58345,7 @@ module.exports = {
   "char": "✨",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "radiance",
@@ -58593,7 +58593,7 @@ module.exports = {
   "char": "☄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "abstraction",
       "amorphous shape",
@@ -58634,7 +58634,7 @@ module.exports = {
   "char": "☀️",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -58763,7 +58763,7 @@ module.exports = {
   "char": "🌤",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -58802,7 +58802,7 @@ module.exports = {
   "char": "⛅",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59106,7 +59106,7 @@ module.exports = {
   "char": "🌥",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59140,7 +59140,7 @@ module.exports = {
   "char": "🌦",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59175,7 +59175,7 @@ module.exports = {
   "char": "☁️",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59216,7 +59216,7 @@ module.exports = {
   "char": "🌧",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59251,7 +59251,7 @@ module.exports = {
   "char": "⛈",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59290,7 +59290,7 @@ module.exports = {
   "char": "🌩",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59342,7 +59342,7 @@ module.exports = {
   "char": "⚡",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "boom",
       "roar",
@@ -59465,7 +59465,7 @@ module.exports = {
   "char": "🔥",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hot",
       "baking",
@@ -59594,7 +59594,7 @@ module.exports = {
   "char": "💥",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "explosive device",
       "weaponry",
@@ -59701,7 +59701,7 @@ module.exports = {
   "char": "❄️",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wintertime",
       "season",
@@ -59848,7 +59848,7 @@ module.exports = {
   "char": "🌨",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -59889,7 +59889,7 @@ module.exports = {
   "char": "⛄",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wintertime",
       "season",
@@ -60070,7 +60070,7 @@ module.exports = {
   "char": "☃",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wintertime",
       "season",
@@ -60245,7 +60245,7 @@ module.exports = {
   "char": "🌬",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "blast",
       "blow",
@@ -60318,7 +60318,7 @@ module.exports = {
   "char": "💨",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "air current",
       "current of air",
@@ -60668,7 +60668,7 @@ module.exports = {
   "char": "🌪",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -60713,7 +60713,7 @@ module.exports = {
   "char": "🌫",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -60748,7 +60748,7 @@ module.exports = {
   "char": "☂",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -60840,7 +60840,7 @@ module.exports = {
   "char": "☔",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "showery",
       "wet",
@@ -60940,7 +60940,7 @@ module.exports = {
   "char": "💧",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "H2O",
       "binary compound",
@@ -61063,7 +61063,7 @@ module.exports = {
   "char": "💦",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "H2O",
       "binary compound",
@@ -61131,7 +61131,7 @@ module.exports = {
   "char": "🌊",
   "fitzpatrick_scale": false,
   "category": "animals_and_nature",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sea",
       "deep-sea",
@@ -61269,7 +61269,7 @@ module.exports = {
   "char": "🍏",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61306,7 +61306,7 @@ module.exports = {
   "char": "🍎",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61362,7 +61362,7 @@ module.exports = {
   "char": "🍐",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61411,7 +61411,7 @@ module.exports = {
   "char": "🍊",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -61476,7 +61476,7 @@ module.exports = {
   "char": "🍋",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61513,7 +61513,7 @@ module.exports = {
   "char": "🍌",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61580,7 +61580,7 @@ module.exports = {
   "char": "🍉",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61642,7 +61642,7 @@ module.exports = {
   "char": "🍇",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61690,7 +61690,7 @@ module.exports = {
   "char": "🍓",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61738,7 +61738,7 @@ module.exports = {
   "char": "🍈",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61785,7 +61785,7 @@ module.exports = {
   "char": "🍒",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -61819,7 +61819,7 @@ module.exports = {
   "char": "🍑",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61867,7 +61867,7 @@ module.exports = {
   "char": "🍍",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61916,7 +61916,7 @@ module.exports = {
   "char": "🥥",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -61983,7 +61983,7 @@ module.exports = {
   "char": "🥝",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62017,7 +62017,7 @@ module.exports = {
   "char": "🥭",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62061,7 +62061,7 @@ module.exports = {
   "char": "🥑",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62095,7 +62095,7 @@ module.exports = {
   "char": "🥦",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62147,7 +62147,7 @@ module.exports = {
   "char": "🍅",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62213,7 +62213,7 @@ module.exports = {
   "char": "🍆",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -62279,7 +62279,7 @@ module.exports = {
   "char": "🥒",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reproductive structure",
       "consequence",
@@ -62325,7 +62325,7 @@ module.exports = {
   "char": "🥕",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vegetable",
       "rootlike",
@@ -62385,7 +62385,7 @@ module.exports = {
   "char": "🌶",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62445,7 +62445,7 @@ module.exports = {
   "char": "🥔",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62483,7 +62483,7 @@ module.exports = {
   "char": "🌽",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62571,7 +62571,7 @@ module.exports = {
   "char": "🥬",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62757,7 +62757,7 @@ module.exports = {
   "char": "🍠",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62794,7 +62794,7 @@ module.exports = {
   "char": "🥜",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -62858,7 +62858,7 @@ module.exports = {
   "char": "🍯",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "sweet",
@@ -62935,7 +62935,7 @@ module.exports = {
   "char": "🥐",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63004,7 +63004,7 @@ module.exports = {
   "char": "🍞",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63062,7 +63062,7 @@ module.exports = {
   "char": "🥖",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63131,7 +63131,7 @@ module.exports = {
   "char": "🥯",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63194,7 +63194,7 @@ module.exports = {
   "char": "🥨",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63253,7 +63253,7 @@ module.exports = {
   "char": "🧀",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63278,7 +63278,7 @@ module.exports = {
   "char": "🥚",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63333,7 +63333,7 @@ module.exports = {
   "char": "🥓",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63430,7 +63430,7 @@ module.exports = {
   "char": "🥩",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63733,7 +63733,7 @@ module.exports = {
   "char": "🥞",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63769,7 +63769,7 @@ module.exports = {
   "char": "🍗",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -63901,7 +63901,7 @@ module.exports = {
   "char": "🍖",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "good",
       "bang-up",
@@ -64041,7 +64041,7 @@ module.exports = {
   "char": "🦴",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "minimum",
       "lower limit",
@@ -64070,7 +64070,7 @@ module.exports = {
   "char": "🍤",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64127,7 +64127,7 @@ module.exports = {
   "char": "🍳",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64185,7 +64185,7 @@ module.exports = {
   "char": "🍔",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "food",
       "kernel",
@@ -64259,7 +64259,7 @@ module.exports = {
   "char": "🍟",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "bite",
@@ -64291,7 +64291,7 @@ module.exports = {
   "char": "🥙",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64327,7 +64327,7 @@ module.exports = {
   "char": "🌭",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64360,7 +64360,7 @@ module.exports = {
   "char": "🍕",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64410,7 +64410,7 @@ module.exports = {
   "char": "🥪",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64468,7 +64468,7 @@ module.exports = {
   "char": "🥫",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64500,7 +64500,7 @@ module.exports = {
   "char": "🍝",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64542,7 +64542,7 @@ module.exports = {
   "char": "🌮",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64571,7 +64571,7 @@ module.exports = {
   "char": "🌯",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64601,7 +64601,7 @@ module.exports = {
   "char": "🥗",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64690,7 +64690,7 @@ module.exports = {
   "char": "🥘",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64726,7 +64726,7 @@ module.exports = {
   "char": "🍜",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64774,7 +64774,7 @@ module.exports = {
   "char": "🍲",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64835,7 +64835,7 @@ module.exports = {
   "char": "🍥",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64935,7 +64935,7 @@ module.exports = {
   "char": "🥠",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -64970,7 +64970,7 @@ module.exports = {
   "char": "🍣",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65049,7 +65049,7 @@ module.exports = {
   "char": "🍱",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65110,7 +65110,7 @@ module.exports = {
   "char": "🍛",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65240,7 +65240,7 @@ module.exports = {
   "char": "🍙",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65274,7 +65274,7 @@ module.exports = {
   "char": "🍚",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65328,7 +65328,7 @@ module.exports = {
   "char": "🍘",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65361,7 +65361,7 @@ module.exports = {
   "char": "🍢",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65398,7 +65398,7 @@ module.exports = {
   "char": "🍡",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65527,7 +65527,7 @@ module.exports = {
   "char": "🍧",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hot",
       "baking",
@@ -65621,7 +65621,7 @@ module.exports = {
   "char": "🍨",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65720,7 +65720,7 @@ module.exports = {
   "char": "🍦",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65825,7 +65825,7 @@ module.exports = {
   "char": "🥧",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65858,7 +65858,7 @@ module.exports = {
   "char": "🍰",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65888,7 +65888,7 @@ module.exports = {
   "char": "🧁",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -65984,7 +65984,7 @@ module.exports = {
   "char": "🥮",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66013,7 +66013,7 @@ module.exports = {
   "char": "🎂",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66051,7 +66051,7 @@ module.exports = {
   "char": "🍮",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sweet",
       "afters",
@@ -66081,7 +66081,7 @@ module.exports = {
   "char": "🍬",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bite",
       "collation",
@@ -66193,7 +66193,7 @@ module.exports = {
   "char": "🍭",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66297,7 +66297,7 @@ module.exports = {
   "char": "🍫",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66395,7 +66395,7 @@ module.exports = {
   "char": "🍿",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66438,7 +66438,7 @@ module.exports = {
   "char": "🥟",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66467,7 +66467,7 @@ module.exports = {
   "char": "🍩",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66572,7 +66572,7 @@ module.exports = {
   "char": "🍪",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -66691,7 +66691,7 @@ module.exports = {
   "char": "🥛",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drink",
       "drinkable",
@@ -66787,7 +66787,7 @@ module.exports = {
   "char": "🍺",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "loosen up",
       "unbend",
@@ -67025,7 +67025,7 @@ module.exports = {
   "char": "🍻",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "loosen up",
       "unbend",
@@ -67263,7 +67263,7 @@ module.exports = {
   "char": "🥂",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drink",
       "drinkable",
@@ -67431,7 +67431,7 @@ module.exports = {
   "char": "🍷",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -67601,7 +67601,7 @@ module.exports = {
   "char": "🥃",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -67958,7 +67958,7 @@ module.exports = {
   "char": "🍸",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -68125,7 +68125,7 @@ module.exports = {
   "char": "🍹",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drink",
       "drinkable",
@@ -68198,7 +68198,7 @@ module.exports = {
   "char": "🍾",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -68308,7 +68308,7 @@ module.exports = {
   "char": "🍶",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vino",
       "alcohol",
@@ -68496,7 +68496,7 @@ module.exports = {
   "char": "🍵",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -68663,7 +68663,7 @@ module.exports = {
   "char": "🥤",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -68742,7 +68742,7 @@ module.exports = {
   "char": "☕",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drink",
       "drinkable",
@@ -68775,7 +68775,7 @@ module.exports = {
   "char": "🍼",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -68831,7 +68831,7 @@ module.exports = {
   "char": "🧂",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "flavorer",
       "flavourer",
@@ -68865,7 +68865,7 @@ module.exports = {
   "char": "🥄",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cutter",
       "cutting tool",
@@ -68890,7 +68890,7 @@ module.exports = {
   "char": "🍴",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cutter",
       "cutting tool",
@@ -68916,7 +68916,7 @@ module.exports = {
   "char": "🍽",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -69002,7 +69002,7 @@ module.exports = {
   "char": "🥣",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -69051,7 +69051,7 @@ module.exports = {
   "char": "🥡",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -69084,7 +69084,7 @@ module.exports = {
   "char": "🥢",
   "fitzpatrick_scale": false,
   "category": "food_and_drink",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -69107,7 +69107,7 @@ module.exports = {
   "char": "⚽",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "football game",
@@ -69127,7 +69127,7 @@ module.exports = {
   "char": "🏀",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     []
@@ -69143,7 +69143,7 @@ module.exports = {
   "char": "🏈",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     []
@@ -69158,7 +69158,7 @@ module.exports = {
   "char": "⚾",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -69172,7 +69172,7 @@ module.exports = {
   "char": "🥎",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -69187,7 +69187,7 @@ module.exports = {
   "char": "🎾",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -69263,7 +69263,7 @@ module.exports = {
   "char": "🏐",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -69277,7 +69277,7 @@ module.exports = {
   "char": "🏉",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "squad",
@@ -69300,7 +69300,7 @@ module.exports = {
   "char": "🥏",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Frisbee",
@@ -69337,7 +69337,7 @@ module.exports = {
   "char": "🎱",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "excavation",
       "hole in the ground",
@@ -69478,7 +69478,7 @@ module.exports = {
   "char": "⛳",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "concern",
@@ -69614,7 +69614,7 @@ module.exports = {
   "char": "🏌️‍♀️",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "concern",
@@ -69700,7 +69700,7 @@ module.exports = {
   "char": "🏌",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "concern",
@@ -69750,7 +69750,7 @@ module.exports = {
   "char": "🏓",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -69763,7 +69763,7 @@ module.exports = {
   "char": "🏸",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -69775,7 +69775,7 @@ module.exports = {
   "char": "🥅",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -69787,7 +69787,7 @@ module.exports = {
   "char": "🏒",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -69799,7 +69799,7 @@ module.exports = {
   "char": "🏑",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -69813,7 +69813,7 @@ module.exports = {
   "char": "🥍",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "game equipment",
@@ -69967,7 +69967,7 @@ module.exports = {
   "char": "🏏",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -69982,7 +69982,7 @@ module.exports = {
   "char": "🎿",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "wintertime",
@@ -70093,7 +70093,7 @@ module.exports = {
   "char": "⛷",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "wintertime",
@@ -70142,7 +70142,7 @@ module.exports = {
   "char": "🏂",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "wintertime",
@@ -70163,7 +70163,7 @@ module.exports = {
   "char": "🤺",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "fence",
@@ -70196,7 +70196,7 @@ module.exports = {
   "char": "🤼‍♀️",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -70210,7 +70210,7 @@ module.exports = {
   "char": "🤼‍♂️",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     []
   ]
@@ -70223,7 +70223,7 @@ module.exports = {
   "char": "🤸‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gymanstic exercise",
       "sport",
@@ -70239,7 +70239,7 @@ module.exports = {
   "char": "🤸‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gymanstic exercise",
       "sport",
@@ -70255,7 +70255,7 @@ module.exports = {
   "char": "🤾‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -70267,7 +70267,7 @@ module.exports = {
   "char": "🤾‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -70279,7 +70279,7 @@ module.exports = {
   "char": "⛸",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -70291,7 +70291,7 @@ module.exports = {
   "char": "🥌",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -70303,7 +70303,7 @@ module.exports = {
   "char": "🛹",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "committee",
       "commission",
@@ -70366,7 +70366,7 @@ module.exports = {
   "char": "🛷",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sled",
       "sledge",
@@ -70395,7 +70395,7 @@ module.exports = {
   "char": "🏹",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -70409,7 +70409,7 @@ module.exports = {
   "char": "🎣",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nutrient",
       "substance",
@@ -70454,7 +70454,7 @@ module.exports = {
   "char": "🥊",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "active",
@@ -70486,7 +70486,7 @@ module.exports = {
   "char": "🥋",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "martial art",
       "sport",
@@ -70511,7 +70511,7 @@ module.exports = {
   "char": "🚣‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "avocation",
@@ -70633,7 +70633,7 @@ module.exports = {
   "char": "🚣",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "avocation",
@@ -70720,7 +70720,7 @@ module.exports = {
   "char": "🧗‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "avocation",
@@ -70818,7 +70818,7 @@ module.exports = {
   "char": "🧗‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "avocation",
@@ -70960,7 +70960,7 @@ module.exports = {
   "char": "🏊‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "exercising",
@@ -71134,7 +71134,7 @@ module.exports = {
   "char": "🏊",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "exercising",
@@ -71268,7 +71268,7 @@ module.exports = {
   "char": "🤽‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "excavation",
@@ -71310,7 +71310,7 @@ module.exports = {
   "char": "🤽‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "excavation",
@@ -71357,7 +71357,7 @@ module.exports = {
   "char": "🧘‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult female",
       "female",
@@ -71468,7 +71468,7 @@ module.exports = {
   "char": "🧘‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "adult male",
       "male",
@@ -71620,7 +71620,7 @@ module.exports = {
   "char": "🏄‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "body of water",
@@ -71712,7 +71712,7 @@ module.exports = {
   "char": "🏄",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "body of water",
@@ -71766,7 +71766,7 @@ module.exports = {
   "char": "🛀",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clean",
       "cleanable",
@@ -71904,7 +71904,7 @@ module.exports = {
   "char": "⛹️‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "quality",
@@ -71985,7 +71985,7 @@ module.exports = {
   "char": "⛹",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "quality",
@@ -72033,7 +72033,7 @@ module.exports = {
   "char": "🏋️‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "preparation",
@@ -72135,7 +72135,7 @@ module.exports = {
   "char": "🏋",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "preparation",
@@ -72204,7 +72204,7 @@ module.exports = {
   "char": "🚴‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "motorcycle",
@@ -72319,7 +72319,7 @@ module.exports = {
   "char": "🚴",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "motorcycle",
@@ -72401,7 +72401,7 @@ module.exports = {
   "char": "🚵‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -72559,7 +72559,7 @@ module.exports = {
   "char": "🚵",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -72681,7 +72681,7 @@ module.exports = {
   "char": "🏇",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carnal",
       "fleshly",
@@ -72760,7 +72760,7 @@ module.exports = {
   "char": "🕴",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lawsuit",
       "case",
@@ -72944,7 +72944,7 @@ module.exports = {
   "char": "🏆",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "victory",
       "triumph",
@@ -73117,7 +73117,7 @@ module.exports = {
   "char": "🎽",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drama",
       "dramatic play",
@@ -73259,7 +73259,7 @@ module.exports = {
   "char": "🏅",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awarding",
       "grant",
@@ -73297,7 +73297,7 @@ module.exports = {
   "char": "🎖",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awarding",
       "grant",
@@ -73343,7 +73343,7 @@ module.exports = {
   "char": "🥇",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awarding",
       "grant",
@@ -73444,7 +73444,7 @@ module.exports = {
   "char": "🥈",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awarding",
       "grant",
@@ -73519,7 +73519,7 @@ module.exports = {
   "char": "🥉",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awarding",
       "grant",
@@ -73571,7 +73571,7 @@ module.exports = {
   "char": "🎗",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "origin",
@@ -73717,7 +73717,7 @@ module.exports = {
   "char": "🏵",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "angiosperm",
       "flowering plant",
@@ -73790,7 +73790,7 @@ module.exports = {
   "char": "🎫",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "case",
       "circumstance",
@@ -73980,7 +73980,7 @@ module.exports = {
   "char": "🎟",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "performance",
@@ -74039,7 +74039,7 @@ module.exports = {
   "char": "🎭",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "impermanent",
       "temporary",
@@ -74091,7 +74091,7 @@ module.exports = {
   "char": "🎨",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "designing",
       "creating by mental acts",
@@ -74350,7 +74350,7 @@ module.exports = {
   "char": "🎪",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "time period",
       "period of time",
@@ -74407,7 +74407,7 @@ module.exports = {
   "char": "🤹‍♀️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "juggling",
       "rearrangement",
@@ -74517,7 +74517,7 @@ module.exports = {
   "char": "🤹‍♂️",
   "fitzpatrick_scale": true,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "juggling",
       "rearrangement",
@@ -74628,7 +74628,7 @@ module.exports = {
   "char": "🎤",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -74761,7 +74761,7 @@ module.exports = {
   "char": "🎧",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -74850,7 +74850,7 @@ module.exports = {
   "char": "🎼",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "soprano",
       "high",
@@ -74910,7 +74910,7 @@ module.exports = {
   "char": "🎹",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "piano",
       "soft",
@@ -74995,7 +74995,7 @@ module.exports = {
   "char": "🥁",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -75077,7 +75077,7 @@ module.exports = {
   "char": "🎷",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -75213,7 +75213,7 @@ module.exports = {
   "char": "🎺",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -75263,7 +75263,7 @@ module.exports = {
   "char": "🎸",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -75321,7 +75321,7 @@ module.exports = {
   "char": "🎻",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -75393,7 +75393,7 @@ module.exports = {
   "char": "🎬",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "film",
       "picture",
@@ -75489,7 +75489,7 @@ module.exports = {
   "char": "🎮",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drama",
       "dramatic play",
@@ -75652,7 +75652,7 @@ module.exports = {
   "char": "👾",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "crippled",
       "halt",
@@ -75847,7 +75847,7 @@ module.exports = {
   "char": "🎯",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "crippled",
       "halt",
@@ -76128,7 +76128,7 @@ module.exports = {
   "char": "🎲",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "die",
       "cube",
@@ -76291,7 +76291,7 @@ module.exports = {
   "char": "♟",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "expendable",
       "consumable",
@@ -76315,7 +76315,7 @@ module.exports = {
   "char": "🎰",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stake",
       "stakes",
@@ -76400,7 +76400,7 @@ module.exports = {
   "char": "🧩",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [
       "interlacing",
       "interlinking",
@@ -76531,7 +76531,7 @@ module.exports = {
   "char": "🎳",
   "fitzpatrick_scale": false,
   "category": "activity",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "amusing",
@@ -76687,7 +76687,7 @@ module.exports = {
   "char": "🚗",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "reddish",
       "ruddy",
@@ -76776,7 +76776,7 @@ module.exports = {
   "char": "🚕",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "conveyance",
@@ -76824,7 +76824,7 @@ module.exports = {
   "char": "🚙",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -76871,7 +76871,7 @@ module.exports = {
   "char": "🚌",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auto",
       "automobile",
@@ -76934,7 +76934,7 @@ module.exports = {
   "char": "🚎",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Baronet",
       "Bart",
@@ -76990,7 +76990,7 @@ module.exports = {
   "char": "🏎",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "contest",
@@ -77133,7 +77133,7 @@ module.exports = {
   "char": "🚓",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77232,7 +77232,7 @@ module.exports = {
   "char": "🚑",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wellness",
       "wellbeing",
@@ -77264,7 +77264,7 @@ module.exports = {
   "char": "🚒",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -77312,7 +77312,7 @@ module.exports = {
   "char": "🚐",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77374,7 +77374,7 @@ module.exports = {
   "char": "🚚",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "transportation system",
@@ -77415,7 +77415,7 @@ module.exports = {
   "char": "🚛",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77498,7 +77498,7 @@ module.exports = {
   "char": "🚜",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77567,7 +77567,7 @@ module.exports = {
   "char": "🛴",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77647,7 +77647,7 @@ module.exports = {
   "char": "🏍",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "contest",
       "competition",
@@ -77770,7 +77770,7 @@ module.exports = {
   "char": "🚲",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "bike",
@@ -77845,7 +77845,7 @@ module.exports = {
   "char": "🛵",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -77878,7 +77878,7 @@ module.exports = {
   "char": "🚨",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "police force",
       "constabulary",
@@ -78029,7 +78029,7 @@ module.exports = {
   "char": "🚔",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -78101,7 +78101,7 @@ module.exports = {
   "char": "🚍",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -78148,7 +78148,7 @@ module.exports = {
   "char": "🚘",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auto",
       "automobile",
@@ -78211,7 +78211,7 @@ module.exports = {
   "char": "🚖",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -78234,7 +78234,7 @@ module.exports = {
   "char": "🚡",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78289,7 +78289,7 @@ module.exports = {
   "char": "🚠",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78343,7 +78343,7 @@ module.exports = {
   "char": "🚟",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -78389,7 +78389,7 @@ module.exports = {
   "char": "🚃",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78438,7 +78438,7 @@ module.exports = {
   "char": "🚋",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78541,7 +78541,7 @@ module.exports = {
   "char": "🚝",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78587,7 +78587,7 @@ module.exports = {
   "char": "🚄",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78637,7 +78637,7 @@ module.exports = {
   "char": "🚅",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78833,7 +78833,7 @@ module.exports = {
   "char": "🚈",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78879,7 +78879,7 @@ module.exports = {
   "char": "🚞",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -78926,7 +78926,7 @@ module.exports = {
   "char": "🚂",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79029,7 +79029,7 @@ module.exports = {
   "char": "🚆",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79078,7 +79078,7 @@ module.exports = {
   "char": "🚇",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79186,7 +79186,7 @@ module.exports = {
   "char": "🚊",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79233,7 +79233,7 @@ module.exports = {
   "char": "🚉",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79298,7 +79298,7 @@ module.exports = {
   "char": "🛸",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79355,7 +79355,7 @@ module.exports = {
   "char": "🚁",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -79467,7 +79467,7 @@ module.exports = {
   "char": "🛩",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "formation",
       "flying",
@@ -79613,7 +79613,7 @@ module.exports = {
   "char": "✈️",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "conveyance",
       "transport",
@@ -79758,7 +79758,7 @@ module.exports = {
   "char": "🛫",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "airdrome",
       "aerodrome",
@@ -79820,7 +79820,7 @@ module.exports = {
   "char": "🛬",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "airdrome",
       "aerodrome",
@@ -79887,7 +79887,7 @@ module.exports = {
   "char": "⛵",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80006,7 +80006,7 @@ module.exports = {
   "char": "🛥",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80042,7 +80042,7 @@ module.exports = {
   "char": "🚤",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80118,7 +80118,7 @@ module.exports = {
   "char": "⛴",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80168,7 +80168,7 @@ module.exports = {
   "char": "🛳",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "racing yacht",
       "vessel",
@@ -80219,7 +80219,7 @@ module.exports = {
   "char": "🚀",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "motorboat",
       "powerboat",
@@ -80356,7 +80356,7 @@ module.exports = {
   "char": "🛰",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "communicating",
       "act",
@@ -80430,7 +80430,7 @@ module.exports = {
   "char": "💺",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sit down",
       "sit out",
@@ -80638,7 +80638,7 @@ module.exports = {
   "char": "🛶",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80742,7 +80742,7 @@ module.exports = {
   "char": "⚓",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "watercraft",
@@ -80822,7 +80822,7 @@ module.exports = {
   "char": "🚧",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "advancement",
@@ -80894,7 +80894,7 @@ module.exports = {
   "char": "⛽",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gasoline station",
       "filling station",
@@ -80920,7 +80920,7 @@ module.exports = {
   "char": "🚏",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -80979,7 +80979,7 @@ module.exports = {
   "char": "🚦",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -81033,7 +81033,7 @@ module.exports = {
   "char": "🚥",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -81093,7 +81093,7 @@ module.exports = {
   "char": "🏁",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "competition",
       "social event",
@@ -81154,7 +81154,7 @@ module.exports = {
   "char": "🚢",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "transportation system",
       "transit",
@@ -81201,7 +81201,7 @@ module.exports = {
   "char": "🎡",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81234,7 +81234,7 @@ module.exports = {
   "char": "🎢",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "festival",
       "fete",
@@ -81293,7 +81293,7 @@ module.exports = {
   "char": "🎠",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81324,7 +81324,7 @@ module.exports = {
   "char": "🏗",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "on the job",
@@ -81380,7 +81380,7 @@ module.exports = {
   "char": "🌁",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81424,7 +81424,7 @@ module.exports = {
   "char": "🗼",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81457,7 +81457,7 @@ module.exports = {
   "char": "🏭",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -81554,7 +81554,7 @@ module.exports = {
   "char": "⛲",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81671,7 +81671,7 @@ module.exports = {
   "char": "🎑",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81714,7 +81714,7 @@ module.exports = {
   "char": "⛰",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81763,7 +81763,7 @@ module.exports = {
   "char": "🏔",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81879,7 +81879,7 @@ module.exports = {
   "char": "🗻",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81948,7 +81948,7 @@ module.exports = {
   "char": "🌋",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -81998,7 +81998,7 @@ module.exports = {
   "char": "🗾",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "state",
       "country",
@@ -82069,7 +82069,7 @@ module.exports = {
   "char": "🏕",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82117,7 +82117,7 @@ module.exports = {
   "char": "⛺",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82156,7 +82156,7 @@ module.exports = {
   "char": "🏞",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82204,7 +82204,7 @@ module.exports = {
   "char": "🛣",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "road",
       "roadworthy",
@@ -82237,7 +82237,7 @@ module.exports = {
   "char": "🛤",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "railroad train",
       "public transport",
@@ -82334,7 +82334,7 @@ module.exports = {
   "char": "🌅",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "antemeridian",
       "morn",
@@ -82454,7 +82454,7 @@ module.exports = {
   "char": "🌄",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "position",
       "perspective",
@@ -82546,7 +82546,7 @@ module.exports = {
   "char": "🏜",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82604,7 +82604,7 @@ module.exports = {
   "char": "🏖",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -82677,7 +82677,7 @@ module.exports = {
   "char": "🏝",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82711,7 +82711,7 @@ module.exports = {
   "char": "🌇",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82769,7 +82769,7 @@ module.exports = {
   "char": "🌆",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82809,7 +82809,7 @@ module.exports = {
   "char": "🏙",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82842,7 +82842,7 @@ module.exports = {
   "char": "🌃",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "eve",
       "eventide",
@@ -82877,7 +82877,7 @@ module.exports = {
   "char": "🌉",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82900,7 +82900,7 @@ module.exports = {
   "char": "🌌",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -82947,7 +82947,7 @@ module.exports = {
   "char": "🌠",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nighttime",
       "dark",
@@ -82990,7 +82990,7 @@ module.exports = {
   "char": "🎇",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "nighttime",
@@ -83068,7 +83068,7 @@ module.exports = {
   "char": "🎆",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -83120,7 +83120,7 @@ module.exports = {
   "char": "🌈",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -83251,7 +83251,7 @@ module.exports = {
   "char": "🏘",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "photograph",
@@ -83274,7 +83274,7 @@ module.exports = {
   "char": "🏰",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -83322,7 +83322,7 @@ module.exports = {
   "char": "🏯",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -83357,7 +83357,7 @@ module.exports = {
   "char": "🏟",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "photograph",
       "exposure",
@@ -83501,7 +83501,7 @@ module.exports = {
   "char": "🗽",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "American",
       "North American country",
@@ -83533,7 +83533,7 @@ module.exports = {
   "char": "🏠",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -83601,7 +83601,7 @@ module.exports = {
   "char": "🏡",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "home",
       "location",
@@ -83716,7 +83716,7 @@ module.exports = {
   "char": "🏚",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wantonness",
       "unconstraint",
@@ -83835,7 +83835,7 @@ module.exports = {
   "char": "🏢",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -83992,7 +83992,7 @@ module.exports = {
   "char": "🏬",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84035,7 +84035,7 @@ module.exports = {
   "char": "🏣",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84083,7 +84083,7 @@ module.exports = {
   "char": "🏤",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84115,7 +84115,7 @@ module.exports = {
   "char": "🏥",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84207,7 +84207,7 @@ module.exports = {
   "char": "🏦",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84316,7 +84316,7 @@ module.exports = {
   "char": "🏨",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84342,7 +84342,7 @@ module.exports = {
   "char": "🏪",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84373,7 +84373,7 @@ module.exports = {
   "char": "🏫",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84468,7 +84468,7 @@ module.exports = {
   "char": "🏩",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "like",
       "similar",
@@ -84520,7 +84520,7 @@ module.exports = {
   "char": "💒",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -84710,7 +84710,7 @@ module.exports = {
   "char": "🏛",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fine art",
       "creation",
@@ -84784,7 +84784,7 @@ module.exports = {
   "char": "⛪",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edifice",
       "structure",
@@ -84841,7 +84841,7 @@ module.exports = {
   "char": "🕌",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Islam",
       "Islamism",
@@ -84884,7 +84884,7 @@ module.exports = {
   "char": "🕍",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Judaism",
       "Hebraism",
@@ -84943,7 +84943,7 @@ module.exports = {
   "char": "🕋",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Mecca",
       "Riyadh",
@@ -84983,7 +84983,7 @@ module.exports = {
   "char": "⛩",
   "fitzpatrick_scale": false,
   "category": "travel_and_places",
-  "thesaurized": [
+  "thesaurus": [
     [
       "place of worship",
       "house of prayer",
@@ -85025,7 +85025,7 @@ module.exports = {
   "char": "⌚",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -85079,7 +85079,7 @@ module.exports = {
   "char": "📱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85131,7 +85131,7 @@ module.exports = {
   "char": "📲",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "incoming",
@@ -85168,7 +85168,7 @@ module.exports = {
   "char": "💻",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85299,7 +85299,7 @@ module.exports = {
   "char": "⌨",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85388,7 +85388,7 @@ module.exports = {
   "char": "🖥",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85477,7 +85477,7 @@ module.exports = {
   "char": "🖨",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "insubstantial",
       "unsubstantial",
@@ -85527,7 +85527,7 @@ module.exports = {
   "char": "🖱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "chink",
       "clink",
@@ -85582,7 +85582,7 @@ module.exports = {
   "char": "🖲",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85612,7 +85612,7 @@ module.exports = {
   "char": "🕹",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "crippled",
       "halt",
@@ -85797,7 +85797,7 @@ module.exports = {
   "char": "🗜",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "implement",
       "instrument",
@@ -85843,7 +85843,7 @@ module.exports = {
   "char": "💽",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -85944,7 +85944,7 @@ module.exports = {
   "char": "💾",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "engineering",
@@ -86016,7 +86016,7 @@ module.exports = {
   "char": "💿",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -86094,7 +86094,7 @@ module.exports = {
   "char": "📀",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "four hundred",
       "400",
@@ -86173,7 +86173,7 @@ module.exports = {
   "char": "📼",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "evidence",
       "number",
@@ -86235,7 +86235,7 @@ module.exports = {
   "char": "📷",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "picture taking",
@@ -86259,7 +86259,7 @@ module.exports = {
   "char": "📸",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "picture taking",
       "pictorial representation",
@@ -86283,7 +86283,7 @@ module.exports = {
   "char": "📹",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "movie",
       "picture",
@@ -86365,7 +86365,7 @@ module.exports = {
   "char": "🎥",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "movie",
       "picture",
@@ -86449,7 +86449,7 @@ module.exports = {
   "char": "📽",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "picture",
       "visual communication",
@@ -86542,7 +86542,7 @@ module.exports = {
   "char": "🎞",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "film",
       "picture",
@@ -86567,7 +86567,7 @@ module.exports = {
   "char": "📞",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -86622,7 +86622,7 @@ module.exports = {
   "char": "☎️",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -86688,7 +86688,7 @@ module.exports = {
   "char": "📟",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     []
@@ -86703,7 +86703,7 @@ module.exports = {
   "char": "📠",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "communicating",
       "act",
@@ -86745,7 +86745,7 @@ module.exports = {
   "char": "📺",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engineering",
       "application",
@@ -86892,7 +86892,7 @@ module.exports = {
   "char": "📻",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "communicating",
       "act",
@@ -86962,7 +86962,7 @@ module.exports = {
   "char": "🎙",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "interpret",
       "render",
@@ -87021,7 +87021,7 @@ module.exports = {
   "char": "🎚",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "scale of measurement",
       "graduated table",
@@ -87089,7 +87089,7 @@ module.exports = {
   "char": "🎛",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "face",
       "control",
@@ -87116,7 +87116,7 @@ module.exports = {
   "char": "🧭",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "attraction",
       "attractive force",
@@ -87153,7 +87153,7 @@ module.exports = {
   "char": "⏱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -87207,7 +87207,7 @@ module.exports = {
   "char": "⏲",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dismay",
       "consternation",
@@ -87244,7 +87244,7 @@ module.exports = {
   "char": "⏰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -87339,7 +87339,7 @@ module.exports = {
   "char": "🕰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -87391,7 +87391,7 @@ module.exports = {
   "char": "⏳",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "clip",
@@ -87456,7 +87456,7 @@ module.exports = {
   "char": "⌛",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -87613,7 +87613,7 @@ module.exports = {
   "char": "📡",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "communicating",
       "act",
@@ -87706,7 +87706,7 @@ module.exports = {
   "char": "🔋",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "powerfulness",
       "quality",
@@ -87820,7 +87820,7 @@ module.exports = {
   "char": "🔌",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "warhorse",
       "battery charger",
@@ -87883,7 +87883,7 @@ module.exports = {
   "char": "💡",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "light",
       "airy",
@@ -88107,7 +88107,7 @@ module.exports = {
   "char": "🔦",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dark",
       "Acheronian",
@@ -88284,7 +88284,7 @@ module.exports = {
   "char": "🕯",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "happening",
       "occurrence",
@@ -88380,7 +88380,7 @@ module.exports = {
   "char": "🧯",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "slake",
       "allay",
@@ -88431,7 +88431,7 @@ module.exports = {
   "char": "🗑",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "container",
       "binful",
@@ -88594,7 +88594,7 @@ module.exports = {
   "char": "🛢",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -88609,7 +88609,7 @@ module.exports = {
   "char": "💸",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "monetary unit",
       "dollar bill",
@@ -88664,7 +88664,7 @@ module.exports = {
   "char": "💵",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -88776,7 +88776,7 @@ module.exports = {
   "char": "💴",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -88853,7 +88853,7 @@ module.exports = {
   "char": "💶",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -88924,7 +88924,7 @@ module.exports = {
   "char": "💷",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "British",
       "island",
@@ -89003,7 +89003,7 @@ module.exports = {
   "char": "💰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "monetary unit",
       "dollar bill",
@@ -89060,7 +89060,7 @@ module.exports = {
   "char": "💳",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -89192,7 +89192,7 @@ module.exports = {
   "char": "💎",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bluish",
       "blueish",
@@ -89333,7 +89333,7 @@ module.exports = {
   "char": "⚖",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "legal document",
       "legal instrument",
@@ -89421,7 +89421,7 @@ module.exports = {
   "char": "🧰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -89551,7 +89551,7 @@ module.exports = {
   "char": "🔧",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [],
@@ -89662,7 +89662,7 @@ module.exports = {
   "char": "🔨",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "physique",
@@ -89729,7 +89729,7 @@ module.exports = {
   "char": "⚒",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "physique",
@@ -89796,7 +89796,7 @@ module.exports = {
   "char": "🛠",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "physique",
@@ -89862,7 +89862,7 @@ module.exports = {
   "char": "⛏",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "excavation",
@@ -89933,7 +89933,7 @@ module.exports = {
   "char": "🔩",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "convenient",
       "ready to hand",
@@ -90040,7 +90040,7 @@ module.exports = {
   "char": "⚙",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sprocket",
       "tooth",
@@ -90059,7 +90059,7 @@ module.exports = {
   "char": "🧱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -90072,7 +90072,7 @@ module.exports = {
   "char": "⛓",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fastener",
       "fastening",
@@ -90174,7 +90174,7 @@ module.exports = {
   "char": "🧲",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "attractive force",
       "force",
@@ -90214,7 +90214,7 @@ module.exports = {
   "char": "🔫",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "force",
       "aggression",
@@ -90270,7 +90270,7 @@ module.exports = {
   "char": "💣",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "roar",
       "roaring",
@@ -90369,7 +90369,7 @@ module.exports = {
   "char": "🧨",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "explosive compound",
       "explode",
@@ -90481,7 +90481,7 @@ module.exports = {
   "char": "🔪",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "edge tool",
       "weapon",
@@ -90549,7 +90549,7 @@ module.exports = {
   "char": "🗡",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "arm",
       "weapon system",
@@ -90568,7 +90568,7 @@ module.exports = {
   "char": "⚔",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "arm",
       "weapon system",
@@ -90588,7 +90588,7 @@ module.exports = {
   "char": "🛡",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "activity",
       "protective covering",
@@ -90649,7 +90649,7 @@ module.exports = {
   "char": "🚬",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "baccy",
@@ -90791,7 +90791,7 @@ module.exports = {
   "char": "☠",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "poisonous substance",
       "substance",
@@ -90970,7 +90970,7 @@ module.exports = {
   "char": "⚰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lamia",
       "evil spirit"
@@ -91228,7 +91228,7 @@ module.exports = {
   "char": "⚱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dead",
       "asleep",
@@ -91420,7 +91420,7 @@ module.exports = {
   "char": "🏺",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "jar"
     ],
@@ -91463,7 +91463,7 @@ module.exports = {
   "char": "🔮",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "discotheque",
       "ballroom",
@@ -91541,7 +91541,7 @@ module.exports = {
   "char": "📿",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "spiritual",
@@ -91569,7 +91569,7 @@ module.exports = {
   "char": "🧿",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "jewelry",
       "jewellery",
@@ -91643,7 +91643,7 @@ module.exports = {
   "char": "💈",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "body covering",
       "hair's-breadth",
@@ -91735,7 +91735,7 @@ module.exports = {
   "char": "⚗",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "scientific discipline",
@@ -91785,7 +91785,7 @@ module.exports = {
   "char": "🔭",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "abstraction",
@@ -91877,7 +91877,7 @@ module.exports = {
   "char": "🔬",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lab",
       "research lab",
@@ -91998,7 +91998,7 @@ module.exports = {
   "char": "🕳",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "awkward",
       "sticky",
@@ -92022,7 +92022,7 @@ module.exports = {
   "char": "💊",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wellness",
       "wellbeing",
@@ -92132,7 +92132,7 @@ module.exports = {
   "char": "💉",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wellness",
       "wellbeing",
@@ -92313,7 +92313,7 @@ module.exports = {
   "char": "🧬",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "life scientist",
       "scientist",
@@ -92381,7 +92381,7 @@ module.exports = {
   "char": "🦠",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ameba",
       "rhizopod",
@@ -92405,7 +92405,7 @@ module.exports = {
   "char": "🧫",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bacterium",
       "microorganism"
@@ -92472,7 +92472,7 @@ module.exports = {
   "char": "🧪",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "chemical science",
       "natural science",
@@ -92529,7 +92529,7 @@ module.exports = {
   "char": "🌡",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -92704,7 +92704,7 @@ module.exports = {
   "char": "🧹",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cleansing",
       "cleanup",
@@ -92750,7 +92750,7 @@ module.exports = {
   "char": "🧺",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "wash",
       "washing",
@@ -92771,7 +92771,7 @@ module.exports = {
   "char": "🧻",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "axial rotation",
       "axial motion",
@@ -92890,7 +92890,7 @@ module.exports = {
   "char": "🏷",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "selling",
       "merchandising",
@@ -92944,7 +92944,7 @@ module.exports = {
   "char": "🔖",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "favourite",
       "popular",
@@ -93048,7 +93048,7 @@ module.exports = {
   "char": "🚽",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "public toilet",
       "comfort station",
@@ -93144,7 +93144,7 @@ module.exports = {
   "char": "🚿",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clean",
       "cleanable",
@@ -93286,7 +93286,7 @@ module.exports = {
   "char": "🛁",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clean",
       "cleanable",
@@ -93424,7 +93424,7 @@ module.exports = {
   "char": "🧼",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "barroom",
       "saloon",
@@ -93548,7 +93548,7 @@ module.exports = {
   "char": "🧽",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "engrossing",
       "fascinating",
@@ -93580,7 +93580,7 @@ module.exports = {
   "char": "🧴",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "sunblock",
@@ -93601,7 +93601,7 @@ module.exports = {
   "char": "🔑",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fastener",
       "fastening",
@@ -93692,7 +93692,7 @@ module.exports = {
   "char": "🗝",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fastener",
       "fastening",
@@ -93782,7 +93782,7 @@ module.exports = {
   "char": "🛋",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "interpret",
@@ -93866,7 +93866,7 @@ module.exports = {
   "char": "🛌",
   "fitzpatrick_scale": true,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "furniture",
       "piece of furniture",
@@ -94006,7 +94006,7 @@ module.exports = {
   "char": "🛏",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "slumber",
       "physiological state",
@@ -94099,7 +94099,7 @@ module.exports = {
   "char": "🚪",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dwelling",
       "home",
@@ -94223,7 +94223,7 @@ module.exports = {
   "char": "🛎",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "work",
       "company",
@@ -94291,7 +94291,7 @@ module.exports = {
   "char": "🧸",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lavish",
       "lucullan",
@@ -94316,7 +94316,7 @@ module.exports = {
   "char": "🖼",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "picture taking",
       "pictorial representation",
@@ -94339,7 +94339,7 @@ module.exports = {
   "char": "🗺",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "entity",
       "placement",
@@ -94403,7 +94403,7 @@ module.exports = {
   "char": "⛱",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -94446,7 +94446,7 @@ module.exports = {
   "char": "🗿",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stone",
       "natural object",
@@ -94492,7 +94492,7 @@ module.exports = {
   "char": "🛍",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "promenade",
       "walk",
@@ -94543,7 +94543,7 @@ module.exports = {
   "char": "🛒",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "streetcar",
       "tram",
@@ -94564,7 +94564,7 @@ module.exports = {
   "char": "🎈",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "political party",
       "organization",
@@ -94641,7 +94641,7 @@ module.exports = {
   "char": "🎏",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "aquatic vertebrate",
       "food",
@@ -94708,7 +94708,7 @@ module.exports = {
   "char": "🎀",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ornament",
       "ornamentation",
@@ -94775,7 +94775,7 @@ module.exports = {
   "char": "🎁",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "present",
       "existing",
@@ -94887,7 +94887,7 @@ module.exports = {
   "char": "🎊",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "time period",
       "period of time",
@@ -94959,7 +94959,7 @@ module.exports = {
   "char": "🎉",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "political party",
       "organization",
@@ -95062,7 +95062,7 @@ module.exports = {
   "char": "🎎",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -95114,7 +95114,7 @@ module.exports = {
   "char": "🎐",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "quality",
       "causal agent",
@@ -95240,7 +95240,7 @@ module.exports = {
   "char": "🎌",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -95341,7 +95341,7 @@ module.exports = {
   "char": "🏮",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "light",
       "airy",
@@ -95564,7 +95564,7 @@ module.exports = {
   "char": "🧧",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "acquisition",
       "endowment",
@@ -95596,7 +95596,7 @@ module.exports = {
   "char": "✉️",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "missive",
       "text",
@@ -95648,7 +95648,7 @@ module.exports = {
   "char": "📩",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95677,7 +95677,7 @@ module.exports = {
   "char": "📨",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95697,7 +95697,7 @@ module.exports = {
   "char": "📧",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "communicating",
       "act",
@@ -95723,7 +95723,7 @@ module.exports = {
   "char": "💌",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95789,7 +95789,7 @@ module.exports = {
   "char": "📮",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95849,7 +95849,7 @@ module.exports = {
   "char": "📪",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95880,7 +95880,7 @@ module.exports = {
   "char": "📫",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95911,7 +95911,7 @@ module.exports = {
   "char": "📬",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95941,7 +95941,7 @@ module.exports = {
   "char": "📭",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -95964,7 +95964,7 @@ module.exports = {
   "char": "📦",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "message",
       "mail service",
@@ -96126,7 +96126,7 @@ module.exports = {
   "char": "📯",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "device",
       "tool",
@@ -96182,7 +96182,7 @@ module.exports = {
   "char": "📥",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electronic mail",
       "e-mail",
@@ -96202,7 +96202,7 @@ module.exports = {
   "char": "📤",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "electronic mail",
@@ -96224,7 +96224,7 @@ module.exports = {
   "char": "📜",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "past",
@@ -96287,7 +96287,7 @@ module.exports = {
   "char": "📃",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "business office",
@@ -96363,7 +96363,7 @@ module.exports = {
   "char": "📑",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "favourite",
       "popular",
@@ -96554,7 +96554,7 @@ module.exports = {
   "char": "🧾",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "explanation",
       "account",
@@ -96586,7 +96586,7 @@ module.exports = {
   "char": "📊",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "graphical record",
       "illustration",
@@ -96633,7 +96633,7 @@ module.exports = {
   "char": "📈",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "graphical record",
       "illustration",
@@ -96887,7 +96887,7 @@ module.exports = {
   "char": "📉",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "graphical record",
       "illustration",
@@ -97117,7 +97117,7 @@ module.exports = {
   "char": "📄",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "business office",
@@ -97211,7 +97211,7 @@ module.exports = {
   "char": "📅",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "arrangement",
       "organization",
@@ -97244,7 +97244,7 @@ module.exports = {
   "char": "📆",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "agenda",
       "docket",
@@ -97320,7 +97320,7 @@ module.exports = {
   "char": "🗓",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "day of the month",
       "day",
@@ -97395,7 +97395,7 @@ module.exports = {
   "char": "📇",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concern",
       "business concern",
@@ -97448,7 +97448,7 @@ module.exports = {
   "char": "🗃",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "concern",
       "business concern",
@@ -97501,7 +97501,7 @@ module.exports = {
   "char": "🗳",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vote",
       "choice",
@@ -97551,7 +97551,7 @@ module.exports = {
   "char": "🗄",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "submission",
       "entry",
@@ -97572,7 +97572,7 @@ module.exports = {
   "char": "📋",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -97589,7 +97589,7 @@ module.exports = {
   "char": "🗒",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "memorandum",
       "memoranda",
@@ -97611,7 +97611,7 @@ module.exports = {
   "char": "📁",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "concern",
@@ -97695,7 +97695,7 @@ module.exports = {
   "char": "📂",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "loading",
@@ -97754,7 +97754,7 @@ module.exports = {
   "char": "🗂",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "concern",
@@ -97808,7 +97808,7 @@ module.exports = {
   "char": "🗞",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fourth estate",
       "estate",
@@ -97906,7 +97906,7 @@ module.exports = {
   "char": "📰",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fourth estate",
       "estate",
@@ -98007,7 +98007,7 @@ module.exports = {
   "char": "📓",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -98162,7 +98162,7 @@ module.exports = {
   "char": "📕",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "interpret",
@@ -98265,7 +98265,7 @@ module.exports = {
   "char": "📗",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "interpret",
@@ -98405,7 +98405,7 @@ module.exports = {
   "char": "📘",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "interpret",
@@ -98571,7 +98571,7 @@ module.exports = {
   "char": "📙",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "interpret",
@@ -98720,7 +98720,7 @@ module.exports = {
   "char": "📔",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "schoolroom",
       "room"
@@ -98872,7 +98872,7 @@ module.exports = {
   "char": "📒",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "insubstantial",
@@ -98913,7 +98913,7 @@ module.exports = {
   "char": "📚",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "writing",
       "written material",
@@ -99024,7 +99024,7 @@ module.exports = {
   "char": "📖",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "publication",
       "volume",
@@ -99244,7 +99244,7 @@ module.exports = {
   "char": "🧷",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nappy",
       "napkin",
@@ -99265,7 +99265,7 @@ module.exports = {
   "char": "🔗",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gymnastic apparatus",
       "exerciser",
@@ -99312,7 +99312,7 @@ module.exports = {
   "char": "📎",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "letter paper",
@@ -99329,7 +99329,7 @@ module.exports = {
   "char": "🖇",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "letter paper",
@@ -99346,7 +99346,7 @@ module.exports = {
   "char": "✂️",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -99578,7 +99578,7 @@ module.exports = {
   "char": "📐",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -99631,7 +99631,7 @@ module.exports = {
   "char": "📏",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -99771,7 +99771,7 @@ module.exports = {
   "char": "🧮",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "computation",
       "computing",
@@ -99797,7 +99797,7 @@ module.exports = {
   "char": "📌",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -99949,7 +99949,7 @@ module.exports = {
   "char": "📍",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -100012,7 +100012,7 @@ module.exports = {
   "char": "🚩",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "grade",
       "score",
@@ -100266,7 +100266,7 @@ module.exports = {
   "char": "🏳",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "also-ran",
@@ -100423,7 +100423,7 @@ module.exports = {
   "char": "🏴",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "plagiarist",
       "plagiarizer",
@@ -100469,7 +100469,7 @@ module.exports = {
   "char": "🏳️‍🌈",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -100671,7 +100671,7 @@ module.exports = {
   "char": "🔐",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "safety",
       "certificate",
@@ -100720,7 +100720,7 @@ module.exports = {
   "char": "🔒",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "safety",
       "certificate",
@@ -100772,7 +100772,7 @@ module.exports = {
   "char": "🔓",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "privateness",
       "seclusion",
@@ -100820,7 +100820,7 @@ module.exports = {
   "char": "🔏",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "safety",
       "certificate",
@@ -100897,7 +100897,7 @@ module.exports = {
   "char": "🖊",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -100951,7 +100951,7 @@ module.exports = {
   "char": "🖋",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -101006,7 +101006,7 @@ module.exports = {
   "char": "✒️",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "writing implement",
       "enclosure",
@@ -101081,7 +101081,7 @@ module.exports = {
   "char": "📝",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "compose",
       "pen",
@@ -101350,7 +101350,7 @@ module.exports = {
   "char": "✏️",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter paper",
       "writing paper"
@@ -101527,7 +101527,7 @@ module.exports = {
   "char": "🖍",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "artwork",
       "art",
@@ -101566,7 +101566,7 @@ module.exports = {
   "char": "🖌",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "artwork",
       "art",
@@ -101620,7 +101620,7 @@ module.exports = {
   "char": "🔍",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hunt",
       "hunting",
@@ -101764,7 +101764,7 @@ module.exports = {
   "char": "🔎",
   "fitzpatrick_scale": false,
   "category": "objects",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hunt",
       "hunting",
@@ -101907,7 +101907,7 @@ module.exports = {
   "char": "❤️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -101996,7 +101996,7 @@ module.exports = {
   "char": "🧡",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -102093,7 +102093,7 @@ module.exports = {
   "char": "💛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -102190,7 +102190,7 @@ module.exports = {
   "char": "💚",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -102287,7 +102287,7 @@ module.exports = {
   "char": "💙",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -102384,7 +102384,7 @@ module.exports = {
   "char": "💜",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -102478,7 +102478,7 @@ module.exports = {
   "char": "🖤",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "evil",
       "wicked",
@@ -102544,7 +102544,7 @@ module.exports = {
   "char": "💔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sad",
       "bittersweet",
@@ -102909,7 +102909,7 @@ module.exports = {
   "char": "❣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ornament",
       "ornamentation",
@@ -102993,7 +102993,7 @@ module.exports = {
   "char": "💕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103142,7 +103142,7 @@ module.exports = {
   "char": "💞",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103241,7 +103241,7 @@ module.exports = {
   "char": "💓",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103408,7 +103408,7 @@ module.exports = {
   "char": "💗",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "like",
       "similar",
@@ -103522,7 +103522,7 @@ module.exports = {
   "char": "💖",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103620,7 +103620,7 @@ module.exports = {
   "char": "💘",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103767,7 +103767,7 @@ module.exports = {
   "char": "💝",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emotion",
       "passion",
@@ -103833,7 +103833,7 @@ module.exports = {
   "char": "💟",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emotion",
@@ -103919,7 +103919,7 @@ module.exports = {
   "char": "☮",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hippy",
       "hipster",
@@ -103939,7 +103939,7 @@ module.exports = {
   "char": "✝",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Christianity",
       "Christian religion",
@@ -103959,7 +103959,7 @@ module.exports = {
   "char": "☪",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Islam",
       "Islamism",
@@ -103984,7 +103984,7 @@ module.exports = {
   "char": "🕉",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Hinduism",
       "Hindooism",
@@ -104026,7 +104026,7 @@ module.exports = {
   "char": "☸",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Hinduism",
       "Hindooism",
@@ -104065,7 +104065,7 @@ module.exports = {
   "char": "✡",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Judaism",
       "Hebraism",
@@ -104087,7 +104087,7 @@ module.exports = {
   "char": "🔯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "faith",
@@ -104124,7 +104124,7 @@ module.exports = {
   "char": "🕎",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Hanukkah",
       "Hanukah",
@@ -104161,7 +104161,7 @@ module.exports = {
   "char": "☯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "equilibrium",
       "scale",
@@ -104237,7 +104237,7 @@ module.exports = {
   "char": "☦",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "faith",
@@ -104261,7 +104261,7 @@ module.exports = {
   "char": "🛐",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "faith",
       "religious belief",
@@ -104329,7 +104329,7 @@ module.exports = {
   "char": "⛎",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104420,7 +104420,7 @@ module.exports = {
   "char": "♈",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104510,7 +104510,7 @@ module.exports = {
   "char": "♉",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "gestural",
@@ -104600,7 +104600,7 @@ module.exports = {
   "char": "♊",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104690,7 +104690,7 @@ module.exports = {
   "char": "♋",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104780,7 +104780,7 @@ module.exports = {
   "char": "♌",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104870,7 +104870,7 @@ module.exports = {
   "char": "♍",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -104960,7 +104960,7 @@ module.exports = {
   "char": "♎",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -105051,7 +105051,7 @@ module.exports = {
   "char": "♏",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -105161,7 +105161,7 @@ module.exports = {
   "char": "♐",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -105251,7 +105251,7 @@ module.exports = {
   "char": "♑",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -105341,7 +105341,7 @@ module.exports = {
   "char": "♒",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gestural",
       "signed",
@@ -105431,7 +105431,7 @@ module.exports = {
   "char": "♓",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "gestural",
@@ -105519,7 +105519,7 @@ module.exports = {
   "char": "🆔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "speech",
@@ -105595,7 +105595,7 @@ module.exports = {
   "char": "⚛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "scientific discipline",
       "discipline",
@@ -105646,7 +105646,7 @@ module.exports = {
   "char": "🈳",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Japanese",
@@ -105747,7 +105747,7 @@ module.exports = {
   "char": "🈹",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cut",
       "chopped",
@@ -106012,7 +106012,7 @@ module.exports = {
   "char": "☢",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nuclear",
       "atomic",
@@ -106046,7 +106046,7 @@ module.exports = {
   "char": "☣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "condition",
       "status",
@@ -106072,7 +106072,7 @@ module.exports = {
   "char": "📴",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "tongueless",
       "unspoken",
@@ -106188,7 +106188,7 @@ module.exports = {
   "char": "📳",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "telephone",
@@ -106220,7 +106220,7 @@ module.exports = {
   "char": "🈶",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Chinese",
@@ -106320,7 +106320,7 @@ module.exports = {
   "char": "🈚",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nil",
       "nix",
@@ -106373,7 +106373,7 @@ module.exports = {
   "char": "🈸",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Chinese",
       "island",
@@ -106408,7 +106408,7 @@ module.exports = {
   "char": "🈺",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -106436,7 +106436,7 @@ module.exports = {
   "char": "🈷️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Chinese",
       "island",
@@ -106506,7 +106506,7 @@ module.exports = {
   "char": "✴️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "form",
@@ -106578,7 +106578,7 @@ module.exports = {
   "char": "🆚",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "speech",
       "speech communication",
@@ -106658,7 +106658,7 @@ module.exports = {
   "char": "🉑",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "all right",
       "fine",
@@ -106843,7 +106843,7 @@ module.exports = {
   "char": "💮",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -106924,7 +106924,7 @@ module.exports = {
   "char": "🉐",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Chinese",
       "island",
@@ -107152,7 +107152,7 @@ module.exports = {
   "char": "㊙️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "privateness",
       "seclusion",
@@ -107187,7 +107187,7 @@ module.exports = {
   "char": "㊗️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Chinese",
       "island",
@@ -107224,7 +107224,7 @@ module.exports = {
   "char": "🈴",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -107281,7 +107281,7 @@ module.exports = {
   "char": "🈵",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "full",
       "afloat",
@@ -107392,7 +107392,7 @@ module.exports = {
   "char": "🈲",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Japanese",
@@ -107491,7 +107491,7 @@ module.exports = {
   "char": "🅰️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -107545,7 +107545,7 @@ module.exports = {
   "char": "🅱️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -107598,7 +107598,7 @@ module.exports = {
   "char": "🆎",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -107627,7 +107627,7 @@ module.exports = {
   "char": "🆑",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "character set",
       "script",
@@ -107718,7 +107718,7 @@ module.exports = {
   "char": "🅾️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "character set",
       "script",
@@ -107774,7 +107774,7 @@ module.exports = {
   "char": "🆘",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "aid",
       "assist",
@@ -107902,7 +107902,7 @@ module.exports = {
   "char": "⛔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bounds",
       "boundary",
@@ -108208,7 +108208,7 @@ module.exports = {
   "char": "📛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "happening",
       "occurrence",
@@ -108312,7 +108312,7 @@ module.exports = {
   "char": "🚫",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "prohibit",
       "interdict",
@@ -108527,7 +108527,7 @@ module.exports = {
   "char": "❌",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "no",
       "nary",
@@ -108650,7 +108650,7 @@ module.exports = {
   "char": "⭕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ellipse",
       "oval",
@@ -108825,7 +108825,7 @@ module.exports = {
   "char": "🛑",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "halt",
       "ending",
@@ -108925,7 +108925,7 @@ module.exports = {
   "char": "💢",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "angry",
       "aggravated",
@@ -108993,7 +108993,7 @@ module.exports = {
   "char": "♨️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "vessel",
       "ablution",
@@ -109084,7 +109084,7 @@ module.exports = {
   "char": "🚷",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "travel",
@@ -109182,7 +109182,7 @@ module.exports = {
   "char": "🚯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "rubbish",
       "scrap",
@@ -109329,7 +109329,7 @@ module.exports = {
   "char": "🚳",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bicyclist",
       "bicycler",
@@ -109407,7 +109407,7 @@ module.exports = {
   "char": "🚱",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "helping",
       "portion",
@@ -109585,7 +109585,7 @@ module.exports = {
   "char": "🔞",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "eighteen",
       "xviii",
@@ -109764,7 +109764,7 @@ module.exports = {
   "char": "📵",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "tongueless",
@@ -109848,7 +109848,7 @@ module.exports = {
   "char": "❗",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "condition",
@@ -109928,7 +109928,7 @@ module.exports = {
   "char": "❕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "astonishment",
       "amazement",
@@ -110044,7 +110044,7 @@ module.exports = {
   "char": "❓",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "uncertainty",
       "incertitude",
@@ -110125,7 +110125,7 @@ module.exports = {
   "char": "❔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "grey",
@@ -110242,7 +110242,7 @@ module.exports = {
   "char": "‼️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "exclaiming",
       "utterance",
@@ -110281,7 +110281,7 @@ module.exports = {
   "char": "⁉️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "interruption",
@@ -110321,7 +110321,7 @@ module.exports = {
   "char": "🔅",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "star",
       "sunlight",
@@ -110406,7 +110406,7 @@ module.exports = {
   "char": "🔆",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "star",
       "sunlight",
@@ -110612,7 +110612,7 @@ module.exports = {
   "char": "🔱",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "arm",
       "weapon system",
@@ -110653,7 +110653,7 @@ module.exports = {
   "char": "⚜",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cosmetic",
       "ornamental",
@@ -110694,7 +110694,7 @@ module.exports = {
   "char": "〽️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "graphical record",
       "illustration",
@@ -110861,7 +110861,7 @@ module.exports = {
   "char": "⚠️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "exclaiming",
       "utterance",
@@ -111018,7 +111018,7 @@ module.exports = {
   "char": "🚸",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "educational institution",
       "schoolhouse",
@@ -111164,7 +111164,7 @@ module.exports = {
   "char": "🔰",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "allegory",
@@ -111201,7 +111201,7 @@ module.exports = {
   "char": "♻️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pointer",
       "mark",
@@ -111303,7 +111303,7 @@ module.exports = {
   "char": "🈯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Chinese",
       "island",
@@ -111446,7 +111446,7 @@ module.exports = {
   "char": "💹",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "graphical record",
@@ -111489,7 +111489,7 @@ module.exports = {
   "char": "❇️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -111624,7 +111624,7 @@ module.exports = {
   "char": "✳️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "leading",
       "prima",
@@ -111719,7 +111719,7 @@ module.exports = {
   "char": "❎",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "ten",
       "10",
@@ -111793,7 +111793,7 @@ module.exports = {
   "char": "✅",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "all right",
@@ -111959,7 +111959,7 @@ module.exports = {
   "char": "💠",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gem",
       "precious stone",
@@ -112187,7 +112187,7 @@ module.exports = {
   "char": "🌀",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "upwind",
       "windward",
@@ -112472,7 +112472,7 @@ module.exports = {
   "char": "➿",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "strip",
       "slip",
@@ -112514,7 +112514,7 @@ module.exports = {
   "char": "🌐",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Earth",
       "world",
@@ -112619,7 +112619,7 @@ module.exports = {
   "char": "Ⓜ️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "character set",
       "script",
@@ -112676,7 +112676,7 @@ module.exports = {
   "char": "🏧",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -112779,7 +112779,7 @@ module.exports = {
   "char": "🈂️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -112803,7 +112803,7 @@ module.exports = {
   "char": "🛂",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "custom-made",
       "customized",
@@ -112841,7 +112841,7 @@ module.exports = {
   "char": "🛃",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pass",
       "permission",
@@ -112902,7 +112902,7 @@ module.exports = {
   "char": "🛄",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "airdrome",
@@ -112960,7 +112960,7 @@ module.exports = {
   "char": "🛅",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "traveling",
@@ -112990,7 +112990,7 @@ module.exports = {
   "char": "♿",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "handicapped",
@@ -113023,7 +113023,7 @@ module.exports = {
   "char": "🚭",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cigaret",
       "coffin nail",
@@ -113125,7 +113125,7 @@ module.exports = {
   "char": "🚾",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lavatory",
       "lav",
@@ -113182,7 +113182,7 @@ module.exports = {
   "char": "🅿️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -113239,7 +113239,7 @@ module.exports = {
   "char": "🚰",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "liquid",
@@ -113315,7 +113315,7 @@ module.exports = {
   "char": "🚹",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lavatory",
       "lav",
@@ -113413,7 +113413,7 @@ module.exports = {
   "char": "🚺",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "adult female",
@@ -113524,7 +113524,7 @@ module.exports = {
   "char": "🚼",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "kid",
@@ -113568,7 +113568,7 @@ module.exports = {
   "char": "🚻",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "lavatory",
@@ -113636,7 +113636,7 @@ module.exports = {
   "char": "🚮",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "gestural",
@@ -113759,7 +113759,7 @@ module.exports = {
   "char": "🎦",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "evidence",
@@ -113923,7 +113923,7 @@ module.exports = {
   "char": "📶",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "response",
@@ -114054,7 +114054,7 @@ module.exports = {
   "char": "🈁",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "present",
@@ -114098,7 +114098,7 @@ module.exports = {
   "char": "🆖",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "speech",
@@ -114237,7 +114237,7 @@ module.exports = {
   "char": "🆗",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "good",
       "bang-up",
@@ -114389,7 +114389,7 @@ module.exports = {
   "char": "🆙",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "preceding",
@@ -114504,7 +114504,7 @@ module.exports = {
   "char": "🆒",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "speech",
       "speech communication",
@@ -114580,7 +114580,7 @@ module.exports = {
   "char": "🆕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "speech",
@@ -114717,7 +114717,7 @@ module.exports = {
   "char": "🆓",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "speech",
@@ -114794,7 +114794,7 @@ module.exports = {
   "char": "0️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "zero",
       "cardinal",
@@ -114872,7 +114872,7 @@ module.exports = {
   "char": "1️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Numbers",
@@ -114937,7 +114937,7 @@ module.exports = {
   "char": "2️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Numbers",
       "Book of Numbers",
@@ -115037,7 +115037,7 @@ module.exports = {
   "char": "3️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "three",
       "iii",
@@ -115150,7 +115150,7 @@ module.exports = {
   "char": "4️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "four",
       "iv",
@@ -115220,7 +115220,7 @@ module.exports = {
   "char": "5️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "five",
       "v",
@@ -115327,7 +115327,7 @@ module.exports = {
   "char": "6️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "six",
       "vi",
@@ -115397,7 +115397,7 @@ module.exports = {
   "char": "7️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "seven",
       "vii",
@@ -115498,7 +115498,7 @@ module.exports = {
   "char": "8️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "eight",
       "viii",
@@ -115564,7 +115564,7 @@ module.exports = {
   "char": "9️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Numbers",
@@ -115627,7 +115627,7 @@ module.exports = {
   "char": "🔟",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Numbers",
       "Book of Numbers",
@@ -115687,7 +115687,7 @@ module.exports = {
   "char": "*⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "leading",
       "prima",
@@ -115748,7 +115748,7 @@ module.exports = {
   "char": "⏏️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -115763,7 +115763,7 @@ module.exports = {
   "char": "▶️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "correct",
@@ -116020,7 +116020,7 @@ module.exports = {
   "char": "⏸",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "intermission",
       "break",
@@ -116050,7 +116050,7 @@ module.exports = {
   "char": "⏭",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "forward",
       "guardant",
@@ -116122,7 +116122,7 @@ module.exports = {
   "char": "⏹",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -116134,7 +116134,7 @@ module.exports = {
   "char": "⏺",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     []
   ]
 },
@@ -116148,7 +116148,7 @@ module.exports = {
   "char": "⏯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "drama",
@@ -116298,7 +116298,7 @@ module.exports = {
   "char": "⏮",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "backward",
       "backswept",
@@ -116346,7 +116346,7 @@ module.exports = {
   "char": "⏩",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "drama",
@@ -116558,7 +116558,7 @@ module.exports = {
   "char": "⏪",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "drama",
       "dramatic play",
@@ -116695,7 +116695,7 @@ module.exports = {
   "char": "🔀",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "shuffling",
@@ -116743,7 +116743,7 @@ module.exports = {
   "char": "🔁",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cringle",
       "eyelet",
@@ -116842,7 +116842,7 @@ module.exports = {
   "char": "🔂",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "cringle",
@@ -116906,7 +116906,7 @@ module.exports = {
   "char": "◀️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "left",
@@ -117003,7 +117003,7 @@ module.exports = {
   "char": "🔼",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "trigon",
@@ -117329,7 +117329,7 @@ module.exports = {
   "char": "🔽",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -117456,7 +117456,7 @@ module.exports = {
   "char": "⏫",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -117603,7 +117603,7 @@ module.exports = {
   "char": "⏬",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -117729,7 +117729,7 @@ module.exports = {
   "char": "➡️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "adjacent",
@@ -117752,7 +117752,7 @@ module.exports = {
   "char": "⬅️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "former",
@@ -117852,7 +117852,7 @@ module.exports = {
   "char": "⬆️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "go on",
@@ -118030,7 +118030,7 @@ module.exports = {
   "char": "⬇️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -118159,7 +118159,7 @@ module.exports = {
   "char": "↗️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "component",
@@ -118366,7 +118366,7 @@ module.exports = {
   "char": "↘️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -118456,7 +118456,7 @@ module.exports = {
   "char": "↙️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -118548,7 +118548,7 @@ module.exports = {
   "char": "↖️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "component",
@@ -118755,7 +118755,7 @@ module.exports = {
   "char": "↕️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -118872,7 +118872,7 @@ module.exports = {
   "char": "↔️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -118994,7 +118994,7 @@ module.exports = {
   "char": "🔄",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "synchronize",
@@ -119046,7 +119046,7 @@ module.exports = {
   "char": "↪️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "tax return",
@@ -119213,7 +119213,7 @@ module.exports = {
   "char": "↩️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "back",
       "backmost",
@@ -119458,7 +119458,7 @@ module.exports = {
   "char": "⤴️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -119605,7 +119605,7 @@ module.exports = {
   "char": "⤵️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "way",
@@ -119732,7 +119732,7 @@ module.exports = {
   "char": "#️⃣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "signal",
       "signaling",
@@ -119764,7 +119764,7 @@ module.exports = {
   "char": "ℹ️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -119817,7 +119817,7 @@ module.exports = {
   "char": "🔤",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -119845,7 +119845,7 @@ module.exports = {
   "char": "🔡",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "character set",
@@ -119874,7 +119874,7 @@ module.exports = {
   "char": "🔠",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "character set",
       "script",
@@ -119969,7 +119969,7 @@ module.exports = {
   "char": "🔣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "auditory communication",
@@ -120060,7 +120060,7 @@ module.exports = {
   "char": "🎵",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mark",
       "grade",
@@ -120274,7 +120274,7 @@ module.exports = {
   "char": "🎶",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "auditory communication",
       "euphony",
@@ -120365,7 +120365,7 @@ module.exports = {
   "char": "〰️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gully",
       "drawing card",
@@ -120683,7 +120683,7 @@ module.exports = {
   "char": "➰",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "scratch",
       "scrawl",
@@ -120916,7 +120916,7 @@ module.exports = {
   "char": "✔️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "all right",
       "fine",
@@ -121026,7 +121026,7 @@ module.exports = {
   "char": "🔃",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "synchronize",
       "synchronise",
@@ -121235,7 +121235,7 @@ module.exports = {
   "char": "➕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mathematics",
       "maths",
@@ -121323,7 +121323,7 @@ module.exports = {
   "char": "➖",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mathematics",
       "maths",
@@ -121374,7 +121374,7 @@ module.exports = {
   "char": "➗",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "disagreement",
       "dissension",
@@ -121432,7 +121432,7 @@ module.exports = {
   "char": "✖️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mathematics",
       "maths",
@@ -121462,7 +121462,7 @@ module.exports = {
   "char": "♾",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "everlastingly",
       "eternally",
@@ -121484,7 +121484,7 @@ module.exports = {
   "char": "💲",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -121599,7 +121599,7 @@ module.exports = {
   "char": "💱",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "medium of exchange",
       "monetary system",
@@ -121671,7 +121671,7 @@ module.exports = {
   "char": "©️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "information science",
       "informatics",
@@ -121803,7 +121803,7 @@ module.exports = {
   "char": "®️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "character set",
       "script",
@@ -121878,7 +121878,7 @@ module.exports = {
   "char": "™️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hallmark",
       "earmark",
@@ -121978,7 +121978,7 @@ module.exports = {
   "char": "🔚",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "speech",
       "speech communication",
@@ -122059,7 +122059,7 @@ module.exports = {
   "char": "🔙",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pointer",
       "mark",
@@ -122240,7 +122240,7 @@ module.exports = {
   "char": "🔛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pointer",
       "mark",
@@ -122320,7 +122320,7 @@ module.exports = {
   "char": "🔝",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "speech",
       "speech communication",
@@ -122395,7 +122395,7 @@ module.exports = {
   "char": "🔜",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pointer",
       "mark",
@@ -122481,7 +122481,7 @@ module.exports = {
   "char": "☑️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "all right",
       "fine",
@@ -122622,7 +122622,7 @@ module.exports = {
   "char": "🔘",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "input signal",
       "signal",
@@ -122788,7 +122788,7 @@ module.exports = {
   "char": "⚪",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -122973,7 +122973,7 @@ module.exports = {
   "char": "⚫",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123178,7 +123178,7 @@ module.exports = {
   "char": "🔴",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123278,7 +123278,7 @@ module.exports = {
   "char": "🔵",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123373,7 +123373,7 @@ module.exports = {
   "char": "🔸",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123481,7 +123481,7 @@ module.exports = {
   "char": "🔹",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123589,7 +123589,7 @@ module.exports = {
   "char": "🔶",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123697,7 +123697,7 @@ module.exports = {
   "char": "🔷",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -123806,7 +123806,7 @@ module.exports = {
   "char": "🔺",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124034,7 +124034,7 @@ module.exports = {
   "char": "▪️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124108,7 +124108,7 @@ module.exports = {
   "char": "▫️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124183,7 +124183,7 @@ module.exports = {
   "char": "⬛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124279,7 +124279,7 @@ module.exports = {
   "char": "⬜",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124420,7 +124420,7 @@ module.exports = {
   "char": "🔻",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124600,7 +124600,7 @@ module.exports = {
   "char": "◼️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124695,7 +124695,7 @@ module.exports = {
   "char": "◻️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -124816,7 +124816,7 @@ module.exports = {
   "char": "◾",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "symbol",
       "picture",
@@ -124912,7 +124912,7 @@ module.exports = {
   "char": "◽",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -125053,7 +125053,7 @@ module.exports = {
   "char": "🔲",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -125197,7 +125197,7 @@ module.exports = {
   "char": "🔳",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "form",
       "configuration",
@@ -125279,7 +125279,7 @@ module.exports = {
   "char": "🔈",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -125426,7 +125426,7 @@ module.exports = {
   "char": "🔉",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "measure",
       "quantity",
@@ -125496,7 +125496,7 @@ module.exports = {
   "char": "🔊",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "measure",
       "quantity",
@@ -125632,7 +125632,7 @@ module.exports = {
   "char": "🔇",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -125814,7 +125814,7 @@ module.exports = {
   "char": "📣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -125927,7 +125927,7 @@ module.exports = {
   "char": "📢",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "measure",
       "quantity",
@@ -126029,7 +126029,7 @@ module.exports = {
   "char": "🔔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -126169,7 +126169,7 @@ module.exports = {
   "char": "🔕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sound",
       "dependable",
@@ -126373,7 +126373,7 @@ module.exports = {
   "char": "🃏",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stove poker",
       "fire hook",
@@ -126629,7 +126629,7 @@ module.exports = {
   "char": "🀄",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "crippled",
       "halt",
@@ -126828,7 +126828,7 @@ module.exports = {
   "char": "♠️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stove poker",
       "fire hook",
@@ -126911,7 +126911,7 @@ module.exports = {
   "char": "♣️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stove poker",
       "fire hook",
@@ -126994,7 +126994,7 @@ module.exports = {
   "char": "♥️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stove poker",
       "fire hook",
@@ -127077,7 +127077,7 @@ module.exports = {
   "char": "♦️",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "stove poker",
       "fire hook",
@@ -127159,7 +127159,7 @@ module.exports = {
   "char": "🎴",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "crippled",
       "halt",
@@ -127277,7 +127277,7 @@ module.exports = {
   "char": "💭",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "globule",
       "house of cards",
@@ -127432,7 +127432,7 @@ module.exports = {
   "char": "🗯",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "exception",
       "subtitle",
@@ -127524,7 +127524,7 @@ module.exports = {
   "char": "💬",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "globule",
       "house of cards",
@@ -127684,7 +127684,7 @@ module.exports = {
   "char": "🗨",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "speech",
       "speech communication",
@@ -127819,7 +127819,7 @@ module.exports = {
   "char": "🕐",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -127954,7 +127954,7 @@ module.exports = {
   "char": "🕑",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128089,7 +128089,7 @@ module.exports = {
   "char": "🕒",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128224,7 +128224,7 @@ module.exports = {
   "char": "🕓",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128359,7 +128359,7 @@ module.exports = {
   "char": "🕔",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128496,7 +128496,7 @@ module.exports = {
   "char": "🕕",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128670,7 +128670,7 @@ module.exports = {
   "char": "🕖",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128805,7 +128805,7 @@ module.exports = {
   "char": "🕗",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -128940,7 +128940,7 @@ module.exports = {
   "char": "🕘",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129075,7 +129075,7 @@ module.exports = {
   "char": "🕙",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129210,7 +129210,7 @@ module.exports = {
   "char": "🕚",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129348,7 +129348,7 @@ module.exports = {
   "char": "🕛",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129505,7 +129505,7 @@ module.exports = {
   "char": "🕜",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129640,7 +129640,7 @@ module.exports = {
   "char": "🕝",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129775,7 +129775,7 @@ module.exports = {
   "char": "🕞",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -129910,7 +129910,7 @@ module.exports = {
   "char": "🕟",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130045,7 +130045,7 @@ module.exports = {
   "char": "🕠",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130180,7 +130180,7 @@ module.exports = {
   "char": "🕡",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130315,7 +130315,7 @@ module.exports = {
   "char": "🕢",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130450,7 +130450,7 @@ module.exports = {
   "char": "🕣",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130585,7 +130585,7 @@ module.exports = {
   "char": "🕤",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130720,7 +130720,7 @@ module.exports = {
   "char": "🕥",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130855,7 +130855,7 @@ module.exports = {
   "char": "🕦",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -130990,7 +130990,7 @@ module.exports = {
   "char": "🕧",
   "fitzpatrick_scale": false,
   "category": "symbols",
-  "thesaurized": [
+  "thesaurus": [
     [
       "clip",
       "case",
@@ -131126,7 +131126,7 @@ module.exports = {
   "char": "🇦🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -131232,7 +131232,7 @@ module.exports = {
   "char": "🇦🇽",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -131338,7 +131338,7 @@ module.exports = {
   "char": "🇦🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "aluminum",
       "aluminium",
@@ -131455,7 +131455,7 @@ module.exports = {
   "char": "🇩🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -131561,7 +131561,7 @@ module.exports = {
   "char": "🇦🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "American",
       "North American country",
@@ -131685,7 +131685,7 @@ module.exports = {
   "char": "🇦🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "advertisement",
       "advertizement",
@@ -131803,7 +131803,7 @@ module.exports = {
   "char": "🇦🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -131908,7 +131908,7 @@ module.exports = {
   "char": "🇦🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Army Intelligence",
       "AI",
@@ -132031,7 +132031,7 @@ module.exports = {
   "char": "🇦🇶",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -132137,7 +132137,7 @@ module.exports = {
   "char": "🇦🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Antigua",
       "island"
@@ -132249,7 +132249,7 @@ module.exports = {
   "char": "🇦🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "argon",
       "Ar",
@@ -132370,7 +132370,7 @@ module.exports = {
   "char": "🇦🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "americium",
       "Am",
@@ -132488,7 +132488,7 @@ module.exports = {
   "char": "🇦🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -132593,7 +132593,7 @@ module.exports = {
   "char": "🇦🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gold",
       "Au",
@@ -132706,7 +132706,7 @@ module.exports = {
   "char": "🇦🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "astatine",
       "At",
@@ -132819,7 +132819,7 @@ module.exports = {
   "char": "🇦🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "azimuth",
       "AZ",
@@ -132931,7 +132931,7 @@ module.exports = {
   "char": "🇧🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Bachelor of Science",
       "BS",
@@ -133042,7 +133042,7 @@ module.exports = {
   "char": "🇧🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -133147,7 +133147,7 @@ module.exports = {
   "char": "🇧🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Bachelor of Divinity",
       "BD",
@@ -133257,7 +133257,7 @@ module.exports = {
   "char": "🇧🇧",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "BB",
       "BB shot",
@@ -133367,7 +133367,7 @@ module.exports = {
   "char": "🇧🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "past",
       "aside",
@@ -133476,7 +133476,7 @@ module.exports = {
   "char": "🇧🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "beryllium",
       "Be",
@@ -133609,7 +133609,7 @@ module.exports = {
   "char": "🇧🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -133714,7 +133714,7 @@ module.exports = {
   "char": "🇧🇯",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -133819,7 +133819,7 @@ module.exports = {
   "char": "🇧🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fecal matter",
       "faecal matter",
@@ -133943,7 +133943,7 @@ module.exports = {
   "char": "🇧🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -134048,7 +134048,7 @@ module.exports = {
   "char": "🇧🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -134153,7 +134153,7 @@ module.exports = {
   "char": "🇧🇶",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Bonaire",
       "island"
@@ -134262,7 +134262,7 @@ module.exports = {
   "char": "🇧🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Bosnia and Herzegovina",
       "Republic of Bosnia and Herzegovina",
@@ -134376,7 +134376,7 @@ module.exports = {
   "char": "🇧🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "biological warfare",
       "BW",
@@ -134489,7 +134489,7 @@ module.exports = {
   "char": "🇧🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bromine",
       "Br",
@@ -134611,7 +134611,7 @@ module.exports = {
   "char": "🇮🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "British",
       "island",
@@ -134767,7 +134767,7 @@ module.exports = {
   "char": "🇻🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "British",
       "island",
@@ -134911,7 +134911,7 @@ module.exports = {
   "char": "🇧🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -135017,7 +135017,7 @@ module.exports = {
   "char": "🇧🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -135123,7 +135123,7 @@ module.exports = {
   "char": "🇧🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -135229,7 +135229,7 @@ module.exports = {
   "char": "🇧🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bismuth",
       "Bi",
@@ -135341,7 +135341,7 @@ module.exports = {
   "char": "🇨🇻",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -135447,7 +135447,7 @@ module.exports = {
   "char": "🇰🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -135552,7 +135552,7 @@ module.exports = {
   "char": "🇨🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "centimeter",
       "centimetre",
@@ -135666,7 +135666,7 @@ module.exports = {
   "char": "🇨🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "calcium",
       "Ca",
@@ -135783,7 +135783,7 @@ module.exports = {
   "char": "🇮🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "canary-yellow",
       "chromatic",
@@ -135914,7 +135914,7 @@ module.exports = {
   "char": "🇰🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "caiman",
       "crocodilian reptile",
@@ -136026,7 +136026,7 @@ module.exports = {
   "char": "🇨🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "cardinal",
       "fundamental",
@@ -136178,7 +136178,7 @@ module.exports = {
   "char": "🇹🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -136282,7 +136282,7 @@ module.exports = {
   "char": "🇨🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -136388,7 +136388,7 @@ module.exports = {
   "char": "🇨🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "China",
       "People's Republic of China",
@@ -136531,7 +136531,7 @@ module.exports = {
   "char": "🇨🇽",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Christmas",
       "Christmastide",
@@ -136666,7 +136666,7 @@ module.exports = {
   "char": "🇨🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Cocos",
       "genus Cocos",
@@ -136787,7 +136787,7 @@ module.exports = {
   "char": "🇨🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "carbon monoxide",
       "carbon monoxide gas",
@@ -136911,7 +136911,7 @@ module.exports = {
   "char": "🇰🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "kilometer",
       "kilometre",
@@ -137021,7 +137021,7 @@ module.exports = {
   "char": "🇨🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Congo",
       "Democratic Republic of the Congo",
@@ -137143,7 +137143,7 @@ module.exports = {
   "char": "🇨🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Congo",
       "Democratic Republic of the Congo",
@@ -137289,7 +137289,7 @@ module.exports = {
   "char": "🇨🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "skilled worker",
       "trained worker",
@@ -137423,7 +137423,7 @@ module.exports = {
   "char": "🇨🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "structure",
       "anatomical structure",
@@ -137538,7 +137538,7 @@ module.exports = {
   "char": "🇭🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hour",
       "60 minutes",
@@ -137648,7 +137648,7 @@ module.exports = {
   "char": "🇨🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "copper",
       "Cu",
@@ -137760,7 +137760,7 @@ module.exports = {
   "char": "🇨🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -137865,7 +137865,7 @@ module.exports = {
   "char": "🇨🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -137970,7 +137970,7 @@ module.exports = {
   "char": "🇨🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -138075,7 +138075,7 @@ module.exports = {
   "char": "🇩🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -138180,7 +138180,7 @@ module.exports = {
   "char": "🇩🇯",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "disk jockey",
       "disc jockey",
@@ -138293,7 +138293,7 @@ module.exports = {
   "char": "🇩🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "diabetes mellitus",
       "DM",
@@ -138406,7 +138406,7 @@ module.exports = {
   "char": "🇩🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Dominican",
       "country",
@@ -138527,7 +138527,7 @@ module.exports = {
   "char": "🇪🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "European Union",
       "EU",
@@ -138646,7 +138646,7 @@ module.exports = {
   "char": "🇪🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -138752,7 +138752,7 @@ module.exports = {
   "char": "🇸🇻",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "elevation",
       "EL",
@@ -138879,7 +138879,7 @@ module.exports = {
   "char": "🇬🇶",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "circle",
       "great circle",
@@ -138993,7 +138993,7 @@ module.exports = {
   "char": "🇪🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "erbium",
       "Er",
@@ -139107,7 +139107,7 @@ module.exports = {
   "char": "🇪🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "electrical engineering",
       "EE",
@@ -139219,7 +139219,7 @@ module.exports = {
   "char": "🇪🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -139323,7 +139323,7 @@ module.exports = {
   "char": "🇪🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "European",
       "continent",
@@ -139453,7 +139453,7 @@ module.exports = {
   "char": "🇫🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [],
@@ -139561,7 +139561,7 @@ module.exports = {
   "char": "🇫🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -139667,7 +139667,7 @@ module.exports = {
   "char": "🇫🇯",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -139772,7 +139772,7 @@ module.exports = {
   "char": "🇫🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -139878,7 +139878,7 @@ module.exports = {
   "char": "🇫🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "superior",
       "streamer",
@@ -140012,7 +140012,7 @@ module.exports = {
   "char": "🇬🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "French",
       "Gallic",
@@ -140143,7 +140143,7 @@ module.exports = {
   "char": "🇵🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "French",
       "Gallic",
@@ -140272,7 +140272,7 @@ module.exports = {
   "char": "🇹🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "French",
       "Gallic",
@@ -140408,7 +140408,7 @@ module.exports = {
   "char": "🇬🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "tabun",
       "GA",
@@ -140526,7 +140526,7 @@ module.exports = {
   "char": "🇬🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gram",
       "gramme",
@@ -140637,7 +140637,7 @@ module.exports = {
   "char": "🇬🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "germanium",
       "Ge",
@@ -140753,7 +140753,7 @@ module.exports = {
   "char": "🇩🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "German",
       "European country",
@@ -140869,7 +140869,7 @@ module.exports = {
   "char": "🇬🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -140974,7 +140974,7 @@ module.exports = {
   "char": "🇬🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "gastrointestinal",
       "gilbert",
@@ -141085,7 +141085,7 @@ module.exports = {
   "char": "🇬🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -141190,7 +141190,7 @@ module.exports = {
   "char": "🇬🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -141295,7 +141295,7 @@ module.exports = {
   "char": "🇬🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "soman",
       "GD",
@@ -141409,7 +141409,7 @@ module.exports = {
   "char": "🇬🇵",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "general practitioner",
       "GP",
@@ -141523,7 +141523,7 @@ module.exports = {
   "char": "🇬🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "genitourinary",
       "Guam",
@@ -141633,7 +141633,7 @@ module.exports = {
   "char": "🇬🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -141738,7 +141738,7 @@ module.exports = {
   "char": "🇬🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -141843,7 +141843,7 @@ module.exports = {
   "char": "🇬🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -141949,7 +141949,7 @@ module.exports = {
   "char": "🇬🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Bissau",
@@ -142059,7 +142059,7 @@ module.exports = {
   "char": "🇬🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -142164,7 +142164,7 @@ module.exports = {
   "char": "🇭🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -142269,7 +142269,7 @@ module.exports = {
   "char": "🇭🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "hydrazoic acid",
       "azoimide",
@@ -142382,7 +142382,7 @@ module.exports = {
   "char": "🇭🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -142488,7 +142488,7 @@ module.exports = {
   "char": "🇭🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -142593,7 +142593,7 @@ module.exports = {
   "char": "🇮🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -142698,7 +142698,7 @@ module.exports = {
   "char": "🇮🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "successful",
       "incoming",
@@ -142820,7 +142820,7 @@ module.exports = {
   "char": "🇮🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -142926,7 +142926,7 @@ module.exports = {
   "char": "🇮🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Muslim",
@@ -143043,7 +143043,7 @@ module.exports = {
   "char": "🇮🇶",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "intelligence quotient",
       "IQ",
@@ -143153,7 +143153,7 @@ module.exports = {
   "char": "🇮🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "i.e.",
       "id est",
@@ -143263,7 +143263,7 @@ module.exports = {
   "char": "🇮🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "islet",
       "island"
@@ -143419,7 +143419,7 @@ module.exports = {
   "char": "🇮🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "forty-nine",
       "49",
@@ -143533,7 +143533,7 @@ module.exports = {
   "char": "🇮🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Italy",
       "Italian Republic",
@@ -143645,7 +143645,7 @@ module.exports = {
   "char": "🇨🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "tusk",
       "dentine",
@@ -143779,7 +143779,7 @@ module.exports = {
   "char": "🇯🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -143884,7 +143884,7 @@ module.exports = {
   "char": "🇯🇵",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Japanese",
       "Nipponese",
@@ -143998,7 +143998,7 @@ module.exports = {
   "char": "🇯🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -144103,7 +144103,7 @@ module.exports = {
   "char": "🇯🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -144208,7 +144208,7 @@ module.exports = {
   "char": "🇰🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -144313,7 +144313,7 @@ module.exports = {
   "char": "🇰🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -144418,7 +144418,7 @@ module.exports = {
   "char": "🇰🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "qi",
       "chi",
@@ -144532,7 +144532,7 @@ module.exports = {
   "char": "🇽🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -144637,7 +144637,7 @@ module.exports = {
   "char": "🇰🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "kilowatt",
       "kW",
@@ -144746,7 +144746,7 @@ module.exports = {
   "char": "🇰🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "kilogram",
       "kilo",
@@ -144858,7 +144858,7 @@ module.exports = {
   "char": "🇱🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Lao",
       "Asian",
@@ -144994,7 +144994,7 @@ module.exports = {
   "char": "🇱🇻",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fifty-five",
       "55",
@@ -145103,7 +145103,7 @@ module.exports = {
   "char": "🇱🇧",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pound",
       "avoirdupois unit"
@@ -145211,7 +145211,7 @@ module.exports = {
   "char": "🇱🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -145316,7 +145316,7 @@ module.exports = {
   "char": "🇱🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -145421,7 +145421,7 @@ module.exports = {
   "char": "🇱🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -145526,7 +145526,7 @@ module.exports = {
   "char": "🇱🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "fifty-one",
       "51",
@@ -145641,7 +145641,7 @@ module.exports = {
   "char": "🇱🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -145746,7 +145746,7 @@ module.exports = {
   "char": "🇱🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "lutetium",
       "lutecium",
@@ -145858,7 +145858,7 @@ module.exports = {
   "char": "🇲🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Macao",
       "Macau",
@@ -145967,7 +145967,7 @@ module.exports = {
   "char": "🇲🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -146072,7 +146072,7 @@ module.exports = {
   "char": "🇲🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "milligram",
       "metric weight unit",
@@ -146186,7 +146186,7 @@ module.exports = {
   "char": "🇲🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -146291,7 +146291,7 @@ module.exports = {
   "char": "🇲🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -146396,7 +146396,7 @@ module.exports = {
   "char": "🇲🇻",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "millivolt",
       "mV",
@@ -146511,7 +146511,7 @@ module.exports = {
   "char": "🇲🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "milliliter",
       "millilitre",
@@ -146624,7 +146624,7 @@ module.exports = {
   "char": "🇲🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "metric ton",
       "MT",
@@ -146744,7 +146744,7 @@ module.exports = {
   "char": "🇲🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Marshall",
       "E. G. Marshall",
@@ -146874,7 +146874,7 @@ module.exports = {
   "char": "🇲🇶",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -146979,7 +146979,7 @@ module.exports = {
   "char": "🇲🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mister",
       "Mr",
@@ -147089,7 +147089,7 @@ module.exports = {
   "char": "🇲🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter",
       "letter of the alphabet",
@@ -147198,7 +147198,7 @@ module.exports = {
   "char": "🇾🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -147303,7 +147303,7 @@ module.exports = {
   "char": "🇲🇽",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "maxwell",
       "Mx",
@@ -147415,7 +147415,7 @@ module.exports = {
   "char": "🇫🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "federate",
@@ -147526,7 +147526,7 @@ module.exports = {
   "char": "🇲🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "democracy",
@@ -147637,7 +147637,7 @@ module.exports = {
   "char": "🇲🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "megahertz",
       "MHz",
@@ -147749,7 +147749,7 @@ module.exports = {
   "char": "🇲🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "manganese",
       "Mn",
@@ -147865,7 +147865,7 @@ module.exports = {
   "char": "🇲🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Maine",
       "Pine Tree State",
@@ -147975,7 +147975,7 @@ module.exports = {
   "char": "🇲🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "multiple sclerosis",
       "MS",
@@ -148099,7 +148099,7 @@ module.exports = {
   "char": "🇲🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "mama",
       "mamma",
@@ -148228,7 +148228,7 @@ module.exports = {
   "char": "🇲🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -148333,7 +148333,7 @@ module.exports = {
   "char": "🇲🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "millimeter",
       "millimetre",
@@ -148442,7 +148442,7 @@ module.exports = {
   "char": "🇳🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "sodium",
       "Na",
@@ -148553,7 +148553,7 @@ module.exports = {
   "char": "🇳🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -148658,7 +148658,7 @@ module.exports = {
   "char": "🇳🇵",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "neptunium",
       "Np",
@@ -148774,7 +148774,7 @@ module.exports = {
   "char": "🇳🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -148880,7 +148880,7 @@ module.exports = {
   "char": "🇳🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "new",
       "brand-new",
@@ -149041,7 +149041,7 @@ module.exports = {
   "char": "🇳🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "new",
       "brand-new",
@@ -149200,7 +149200,7 @@ module.exports = {
   "char": "🇳🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "nickel",
       "Ni",
@@ -149311,7 +149311,7 @@ module.exports = {
   "char": "🇳🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "neon",
       "Ne",
@@ -149432,7 +149432,7 @@ module.exports = {
   "char": "🇳🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -149536,7 +149536,7 @@ module.exports = {
   "char": "🇳🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter",
       "letter of the alphabet",
@@ -149646,7 +149646,7 @@ module.exports = {
   "char": "🇳🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Norfolk",
       "city",
@@ -149768,7 +149768,7 @@ module.exports = {
   "char": "🇲🇵",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "northern",
       "blue",
@@ -149890,7 +149890,7 @@ module.exports = {
   "char": "🇰🇵",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "north",
       "northbound",
@@ -150048,7 +150048,7 @@ module.exports = {
   "char": "🇳🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "no",
       "nary",
@@ -150165,7 +150165,7 @@ module.exports = {
   "char": "🇴🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -150270,7 +150270,7 @@ module.exports = {
   "char": "🇵🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -150375,7 +150375,7 @@ module.exports = {
   "char": "🇵🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -150482,7 +150482,7 @@ module.exports = {
   "char": "🇵🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Palestine",
       "mandate",
@@ -150609,7 +150609,7 @@ module.exports = {
   "char": "🇵🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "dad",
       "dada",
@@ -150744,7 +150744,7 @@ module.exports = {
   "char": "🇵🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "New Guinea",
       "Papua",
@@ -150919,7 +150919,7 @@ module.exports = {
   "char": "🇵🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -151024,7 +151024,7 @@ module.exports = {
   "char": "🇵🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "letter",
       "letter of the alphabet",
@@ -151133,7 +151133,7 @@ module.exports = {
   "char": "🇵🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "pH",
       "pH scale",
@@ -151242,7 +151242,7 @@ module.exports = {
   "char": "🇵🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -151347,7 +151347,7 @@ module.exports = {
   "char": "🇵🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -151452,7 +151452,7 @@ module.exports = {
   "char": "🇵🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "platinum",
       "Pt",
@@ -151563,7 +151563,7 @@ module.exports = {
   "char": "🇵🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "anti-racketeering law",
@@ -151675,7 +151675,7 @@ module.exports = {
   "char": "🇶🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -151780,7 +151780,7 @@ module.exports = {
   "char": "🇷🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -151885,7 +151885,7 @@ module.exports = {
   "char": "🇷🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Ro",
       "artificial language"
@@ -151994,7 +151994,7 @@ module.exports = {
   "char": "🇷🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Russian",
       "country",
@@ -152121,7 +152121,7 @@ module.exports = {
   "char": "🇷🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -152227,7 +152227,7 @@ module.exports = {
   "char": "🇧🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -152364,7 +152364,7 @@ module.exports = {
   "char": "🇸🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -152528,7 +152528,7 @@ module.exports = {
   "char": "🇰🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -152666,7 +152666,7 @@ module.exports = {
   "char": "🇱🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -152801,7 +152801,7 @@ module.exports = {
   "char": "🇵🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -152941,7 +152941,7 @@ module.exports = {
   "char": "🇻🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "deity",
       "divinity",
@@ -153075,7 +153075,7 @@ module.exports = {
   "char": "🇼🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -153181,7 +153181,7 @@ module.exports = {
   "char": "🇸🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "Marini",
@@ -153295,7 +153295,7 @@ module.exports = {
   "char": "🇸🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "book"
@@ -153406,7 +153406,7 @@ module.exports = {
   "char": "🇸🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -153510,7 +153510,7 @@ module.exports = {
   "char": "🇸🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "tin",
       "Sn",
@@ -153621,7 +153621,7 @@ module.exports = {
   "char": "🇷🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -153726,7 +153726,7 @@ module.exports = {
   "char": "🇸🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "scandium",
       "Sc",
@@ -153844,7 +153844,7 @@ module.exports = {
   "char": "🇸🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "range",
       "mountain range",
@@ -153961,7 +153961,7 @@ module.exports = {
   "char": "🇸🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -154068,7 +154068,7 @@ module.exports = {
   "char": "🇸🇽",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -154186,7 +154186,7 @@ module.exports = {
   "char": "🇸🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -154291,7 +154291,7 @@ module.exports = {
   "char": "🇸🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Systeme International d'Unites",
       "Systeme International",
@@ -154415,7 +154415,7 @@ module.exports = {
   "char": "🇸🇧",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Solomon",
       "king",
@@ -154525,7 +154525,7 @@ module.exports = {
   "char": "🇸🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "truthful",
       "true",
@@ -154645,7 +154645,7 @@ module.exports = {
   "char": "🇿🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "south",
       "southbound",
@@ -154791,7 +154791,7 @@ module.exports = {
   "char": "🇬🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "south",
       "southbound",
@@ -154956,7 +154956,7 @@ module.exports = {
   "char": "🇰🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "south",
       "southbound",
@@ -155102,7 +155102,7 @@ module.exports = {
   "char": "🇸🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "south",
       "southbound",
@@ -155248,7 +155248,7 @@ module.exports = {
   "char": "🇪🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Spain",
       "Kingdom of Spain",
@@ -155360,7 +155360,7 @@ module.exports = {
   "char": "🇱🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -155466,7 +155466,7 @@ module.exports = {
   "char": "🇸🇩",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "South Dakota",
       "Coyote State",
@@ -155577,7 +155577,7 @@ module.exports = {
   "char": "🇸🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "strontium",
       "Sr",
@@ -155690,7 +155690,7 @@ module.exports = {
   "char": "🇸🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -155795,7 +155795,7 @@ module.exports = {
   "char": "🇸🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "selenium",
       "Se",
@@ -155912,7 +155912,7 @@ module.exports = {
   "char": "🇨🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -156019,7 +156019,7 @@ module.exports = {
   "char": "🇸🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Syrian",
       "Asian country",
@@ -156144,7 +156144,7 @@ module.exports = {
   "char": "🇹🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -156249,7 +156249,7 @@ module.exports = {
   "char": "🇹🇯",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -156356,7 +156356,7 @@ module.exports = {
   "char": "🇹🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "united",
@@ -156509,7 +156509,7 @@ module.exports = {
   "char": "🇹🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Thursday",
       "Th",
@@ -156623,7 +156623,7 @@ module.exports = {
   "char": "🇹🇱",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Timor",
       "island"
@@ -156732,7 +156732,7 @@ module.exports = {
   "char": "🇹🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -156837,7 +156837,7 @@ module.exports = {
   "char": "🇹🇰",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -156942,7 +156942,7 @@ module.exports = {
   "char": "🇹🇴",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -157048,7 +157048,7 @@ module.exports = {
   "char": "🇹🇹",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Trinidad",
       "island"
@@ -157160,7 +157160,7 @@ module.exports = {
   "char": "🇹🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Tennessee",
       "Volunteer State",
@@ -157270,7 +157270,7 @@ module.exports = {
   "char": "🇹🇷",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Meleagris gallopavo",
       "domestic fowl",
@@ -157395,7 +157395,7 @@ module.exports = {
   "char": "🇹🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -157501,7 +157501,7 @@ module.exports = {
   "char": "🇹🇨",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [],
@@ -157607,7 +157607,7 @@ module.exports = {
   "char": "🇹🇻",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -157711,7 +157711,7 @@ module.exports = {
   "char": "🇺🇬",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -157816,7 +157816,7 @@ module.exports = {
   "char": "🇺🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -157923,7 +157923,7 @@ module.exports = {
   "char": "🇦🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "united",
       "agreed",
@@ -158088,7 +158088,7 @@ module.exports = {
   "char": "🇬🇧",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "united",
       "agreed",
@@ -158366,7 +158366,7 @@ module.exports = {
   "char": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -158440,7 +158440,7 @@ module.exports = {
   "char": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -158504,7 +158504,7 @@ module.exports = {
   "char": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "emblem",
       "iris",
@@ -158582,7 +158582,7 @@ module.exports = {
   "char": "🇺🇸",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "united",
       "agreed",
@@ -158749,7 +158749,7 @@ module.exports = {
   "char": "🇻🇮",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "new",
       "pure",
@@ -158891,7 +158891,7 @@ module.exports = {
   "char": "🇺🇾",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -158996,7 +158996,7 @@ module.exports = {
   "char": "🇺🇿",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -159101,7 +159101,7 @@ module.exports = {
   "char": "🇻🇺",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -159207,7 +159207,7 @@ module.exports = {
   "char": "🇻🇦",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "Vatican",
       "Vatican Palace",
@@ -159326,7 +159326,7 @@ module.exports = {
   "char": "🇻🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -159439,7 +159439,7 @@ module.exports = {
   "char": "🇻🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -159546,7 +159546,7 @@ module.exports = {
   "char": "🇼🇫",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [],
     [
@@ -159653,7 +159653,7 @@ module.exports = {
   "char": "🇪🇭",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "western",
       "occidental",
@@ -159779,7 +159779,7 @@ module.exports = {
   "char": "🇾🇪",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -159884,7 +159884,7 @@ module.exports = {
   "char": "🇿🇲",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -159989,7 +159989,7 @@ module.exports = {
   "char": "🇿🇼",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [],
     [
       "emblem",
@@ -160092,7 +160092,7 @@ module.exports = {
   "char": "🇺🇳",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "United Nations",
       "UN",
@@ -160164,7 +160164,7 @@ module.exports = {
   "char": "🏴‍☠️",
   "fitzpatrick_scale": false,
   "category": "flags",
-  "thesaurized": [
+  "thesaurus": [
     [
       "bone",
       "os"

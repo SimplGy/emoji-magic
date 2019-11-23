@@ -29,11 +29,9 @@ child_process.execSync(`mkdir -p ${DIR}`, {cwd: '.'})
 
 // Calculate contents and write the files
 const thesaurized = emoji_data.array.map(withThesaurus)
+// moby creates a 19 MB file, let's not do this one yet/this way.
+// const thesaurized = emoji_data.array.map(withMoby)
 fs.writeFileSync(`${DIR}/emojilib_thesaurus.js`, buildFile(thesaurized))
-
-// This creates a 19 MB file, let's not do this one yet/this way.
-// const mobyized = emoji_data.array.map(withMoby)
-// fs.writeFileSync(`${DIR}/emojilib_moby.js`, buildFile(mobyized))
 
 
 
@@ -52,20 +50,20 @@ Input object example:
 function withThesaurus(emojiObj) {
   const { keywords = [] } = emojiObj;
   if (keywords.length === 0) console.warn(`no keywords for emoji:`, emojiObj);
-  const thesaurized = keywords.map(word => thesaurus.find(word))
+  const related = keywords.map(word => thesaurus.find(word))
   return {
     ...emojiObj,
-    thesaurized,
+    thesaurus: related,
   }
 }
 
 function withMoby(emojiObj) {
   const { keywords = [] } = emojiObj;
   if (keywords.length === 0) console.warn(`no keywords for emoji:`, emojiObj);
-  const thesaurized = keywords.map(word => moby.search(word))
+  const related = keywords.map(word => moby.search(word))
   return {
     ...emojiObj,
-    thesaurized,
+    thesaurus: related,
   }
 }
 
@@ -88,7 +86,7 @@ limitations under the License.
 */
 
 module.exports = {
-  __id__: 'emojilib_decorated',
+  __id__: 'emojilib_thesaurus',
   array: [
     ${arr.map(toPrintable).join(',\n')}
   ],
