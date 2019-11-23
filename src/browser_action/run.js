@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Filter as you type
   $search.addEventListener('input', ({target: {value}}) => {
-    const chars = filterWith(value);
+    const chars = filterWith(value, {useThesaurus: true});
 
     // TODO: If no results, use thesaurus
     // if (results.length === 0) {

@@ -30,7 +30,8 @@
 
 ### Bugs
 
-- [ ] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird.
+- [ ] arrow keys do unexpected things when working with text selections in search
+- [x] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird. (root cause: matching `__id__`)
 
 ### Gloss & Packaging
 

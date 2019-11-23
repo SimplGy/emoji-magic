@@ -19,7 +19,7 @@ Born of a desire to improve emoji searching even further.
 ## Features
 
 1. 🔧 Actual unicode chars -- no images, native emoji rendering
-2. 📘 Find Similar Words -- Uses a thesaurus to support rich, broad keyword matching.
+2. 📘 Rich Text Matching -- Uses a thesaurus to support broad keyword matching.
 3. 🔗 Multi-word queries -- try "sad cat", or "blue heart"
 4. 🧠 Remembers locally -- Saves the last emoji you picked so you can pick them again easily
 5. 🔒 Strong security -- Doesn't ask for dangerous Chrome permissions, just clipboard access
@@ -53,7 +53,7 @@ Compile SASS into css:
 
 ```sh
 # Use VSCode's SASS live watch plugin, or...
-sass src/browser_action/all.sass
+sass --update src/browser_action/all.sass
 ```
 
 Run Tests:

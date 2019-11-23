@@ -18,7 +18,7 @@ const store = require('./store');
 
 module.exports = (() => {
   const RECENT_KEY = 'recent-selections';
-  const RESULT_LIMIT = 96; // for render perf, don't draw everything
+  const RESULT_LIMIT = 8 * 20; // for render perf, don't draw everything
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
   const DEFAULT_RESULTS = ['🔮'];
   const WORD_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
