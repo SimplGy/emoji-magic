@@ -21,11 +21,9 @@ limitations under the License.
  * Data is not sent to any server.
  */
 
-global = global || window; // work for node or browser
-global.store = (() => {
-
-  const isRunningAsExtension = false; //chrome.storage && chrome.storage.local;
-
+module.exports = ((global) => {
+  const noop = () => {};
+  
   // Get and set for LocalStorage
   const localStoreGet = (key, fn) => {
     const val = localStorage.getItem(key);
@@ -37,18 +35,26 @@ global.store = (() => {
   }
 
   // Get and set for chrome.storage
+  // const isRunningAsExtension = chrome.storage && chrome.storage.local;
   // const chromeGet = (key, fn)  => chrome.storage.local.get([key], fn);
   // const chromeSet = (key, val) => chrome.storage.local.set({[key]: val});
-
   // Guard: Are we running in a chrome context with access to chrome.storage?
   // if (!isRunningAsExtension) {
-  //   console.info("chrome.storage.local not available");
+    //   console.info("chrome.storage.local not available");
   // }
-  const get = localStoreGet;
-  const set = localStoreSet;
-
-  return {
-    get,
-    set,
+    
+  // Guard: Are we running in a node context with no localStorage?
+  if (global == null || global.localStorage == null) {
+    console.info("localStorage not available");
+    return {
+      get: noop,
+      set: noop,
+    };
+  } else {
+    return {
+      get: localStoreGet,
+      set: localStoreSet,
+      __id__: 'store', // emulated node modules
+    };
   }
-})();
+})(this);

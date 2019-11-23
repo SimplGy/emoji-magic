@@ -43,22 +43,30 @@ python3 -m http.server 8080
 
 Compile SASS into css:
 
-    // Use VSCode's SASS live watch plugin, or...
-    sass src/browser_action/all.sass
+```sh
+# Use VSCode's SASS live watch plugin, or...
+sass src/browser_action/all.sass
+```
 
 Run Tests:
 
-    TODO
+```sh
+node src/browser_action/emoji.test.js
+```
 
 ## Deploying
 
 Create an extension-deployable zip file:
 
-    node scripts/zip
+```sh
+node scripts/zip
+```
 
 Create an extension-deployable zip file and unpack it for local testing with Chrome:
 
-    node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+```sh
+node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+```
 
 ## Contributing
 

@@ -16,7 +16,17 @@
 - [x] Hitting enter right after a query works
 - [x] Arrow keys work (up, down, left, right)
 
-### Deployment
+### Tech Debt
+
+- [x] Basic unit tests (when search for A, expect set B)
+- [ ] Support multiple `.test.js` files (right now the "runner" command is in the only test file)
+- [ ] Don't ship the tests with the app bundle
+
+### Bugs
+
+- [ ] Only show one emoji per serach (eg: "fire" returns two firemen for some reason)
+
+### Gloss & Packaging
 
 - [x] create zip file (script)
 - [x] Write short store description
@@ -43,7 +53,4 @@
 - [x] Show recently used emoji when the user hasn't searched yet
 - [ ] Use thesaurus to extend hand-written keywords
 - [ ] support multi-token matching (eg: "red car" and "green heart")
-
-### Tech Debt
-
-- [ ] Basic unit tests (when search for A, expect set B)
+- [ ] full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)

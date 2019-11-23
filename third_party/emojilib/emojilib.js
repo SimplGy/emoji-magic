@@ -1,4 +1,5 @@
-window.emojilib = {
+module.exports = {
+  __id__: 'emojilib',
   "grinning": {
     "keywords": ["face", "smile", "happy", "joy", ":D", "grin"],
     "char": "😀",

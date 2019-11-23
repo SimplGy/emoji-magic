@@ -13,12 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+const store = require('./store');
 
-// Depends on:
-// window.store
-
-window.emoji = (function() {
-
+module.exports = (() => {
   const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 96; // for render perf, don't draw everything
   const RECENT_SELECTION_LIMIT = 8 * 2; // at the default font size, there are 8 per row
@@ -71,7 +68,7 @@ window.emoji = (function() {
     store.set(RECENT_KEY, recentSelections);
   }
 
-  const filter = (data = []) => (str = '') => {
+  const filter = (data = [], skipRender = false) => (str = '') => {
     str = str.trim();
     let results;
     let chars;
@@ -83,7 +80,11 @@ window.emoji = (function() {
       chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
     }
 
-    render(chars);                              // 3. render
+    if (!skipRender) {
+      render(chars);                            // 3. render
+    }
+
+    return chars;
   };
 
   function htmlForAllEmoji(charArray = []) {
@@ -165,7 +166,10 @@ window.emoji = (function() {
   }
 
   function closePopup() {
-    window.close();
+    // don't bother for unit tests/node
+    if (typeof window.close === 'function') {
+      window.close();
+    }
   }
 
   function copyFirstEmoji() {
@@ -188,8 +192,6 @@ window.emoji = (function() {
 
   // +1 is down, -1 is up
   function moveFocusY(direction = 0) {
-    console.log('moveFocusY', direction);
-
     const wasFromSearch = document.activeElement === $.search();
     let el = document.activeElement.parentElement;
     const left = el.offsetLeft;
@@ -203,7 +205,6 @@ window.emoji = (function() {
         prevEl = el;
         el = el.nextElementSibling;
       }
-      console.log('first el of next row', el);
 
       // 2. look forward until we find something >= the current offsetLeft (same col, or close)
       while (el && el.offsetLeft < left) {
@@ -273,5 +274,6 @@ window.emoji = (function() {
     copyFirstEmoji,
     moveFocusX,
     moveFocusY,
+    __id__: 'emoji',
   }
 })();
