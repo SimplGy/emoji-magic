@@ -19,9 +19,10 @@ Born of a desire to improve emoji searching even further.
 ## Features
 
 1. 🔧 Actual unicode chars -- no images, native emoji rendering
-1. 🔗 Multi-word queries -- try "sad cat", or "blue heart"
-1. 🧠 Remembers locally -- Saves the last emoji you picked so you can pick them again easily
-1. 🔒 Strong security -- Doesn't ask for dangerous Chrome permissions, just clipboard access
+2. 📘 Find Similar Words -- Uses a thesaurus to support rich, broad keyword matching.
+3. 🔗 Multi-word queries -- try "sad cat", or "blue heart"
+4. 🧠 Remembers locally -- Saves the last emoji you picked so you can pick them again easily
+5. 🔒 Strong security -- Doesn't ask for dangerous Chrome permissions, just clipboard access
 
 ## Extension Security
 

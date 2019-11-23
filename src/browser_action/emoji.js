@@ -33,6 +33,14 @@ module.exports = (() => {
   const emojiMatches = (str) => ({name, keywords = []} = {}) =>
     name.includes(str) || someInclude(keywords, str);
 
+  // 2nd order. given data and str, return true if data has it
+  // also search thesaurus words if they're in the data set
+  const emojiMatchesThesaurus = (str, useThesaurus = false) =>
+    ({name, keywords = [], thesaurus = []} = {}) => {
+      thesaurus = flatten(thesaurus);
+      return name.includes(str) || someInclude(keywords, str) || someInclude(thesaurus, str);
+    }
+
   const $ = {
     results: () => document.getElementById('results'),
     clipboard: () => document.getElementById('clipboard'),
@@ -64,6 +72,11 @@ module.exports = (() => {
       acc.filter(p => cur.includes(p))
     );
   }
+
+  // Given an array of arrays, return a flat array. Depth 1
+  function flatten(arr) {
+    return arr.reduce((acc, val) => acc.concat(val), []);
+  }
   
   
   // add recent selection, but only track the most recent k
@@ -77,7 +90,7 @@ module.exports = (() => {
     store.set(RECENT_KEY, recentSelections);
   }
 
-  const filter = (data = [], skipRender = false) => (str = '') => {
+  const filter = (data = []) => (str = '', { useThesaurus } = {}) => {
     str = str.trim();
     let results;
     let chars;
@@ -85,23 +98,22 @@ module.exports = (() => {
     // Blank search? Exit early.
     if (str === '') {
       chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
-      if (!skipRender) render(chars);
       return chars;
     }
 
     // Get matching chars for each of the search tokens
     const tokens = str.split(WORD_SEPARATORS);
     const resultsPerToken = tokens.map(token => {
-      results = data.filter(emojiMatches(token));
+      if (useThesaurus) {
+        results = data.filter(emojiMatchesThesaurus(token));
+      } else {
+        results = data.filter(emojiMatches(token));
+      }
       return toChars(results);
     });
 
     // Must match all search tokens
     chars = intersection(...resultsPerToken);
-
-    if (!skipRender) {
-      render(chars);
-    }
 
     return chars;
   };
@@ -287,6 +299,7 @@ module.exports = (() => {
 
   return {
     filter,
+    render,
     htmlForAllEmoji,
     onPressEmoji,
     copyToClipboard,

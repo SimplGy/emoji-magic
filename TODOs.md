@@ -58,5 +58,7 @@
 
 - [x] Show recently used emoji when the user hasn't searched yet
 - [x] support multi-token matching (eg: "red car" and "green heart")
-- [ ] Use thesaurus to extend hand-written keywords
+- [x] Use thesaurus to extend hand-written keywords
+- [ ] Add urban dictionary style data (use case: "ice" -> "💎")
+- [ ] Add a way to contribute more seed/human keywords (use case: "mad"/"angry" -> "🤬")
 - [ ] full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)

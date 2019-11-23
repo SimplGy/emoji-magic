@@ -13,36 +13,27 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-const emojilib = require('../../third_party/emojilib/emojilib');
+const emojilib_thesaurus = require('./data/emojilib_thesaurus');
 
 
 
 module.exports = ((global) => {
-
-  // Skip emojis with these names
-  const SKIP = ['__id__'];
-
-  const array = Object.entries(emojilib)
-    .map(([name, obj]) => ({name, ...obj}))
-    .filter(({name}) => !SKIP.includes(name));
   
   // Utility functions
+
+  // emoji object to char. O(1)
+  const toChar = o => o.char;
+
+  // char to emoji object. O(n)
+  const toObj = char => emojilib_thesaurus.array.find(el => el.char === char);
+
   // Convert from an array of emoji objects to a plain char
-  const toChars = (arr = []) => arr.map(o => o.char);
-
-  // TODO: mix in thesaurus data
-  // TODO: mix in wordmap relationship data
-
-
-
-
-
-
-
+  const toChars = (arr = []) => arr.map(toChar);
 
   return {
+    toObj,
     toChars,
-    array,
+    array: emojilib_thesaurus.array,
     __id__: 'emoji_data', // emulated node modules
   };
 })(this);

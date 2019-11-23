@@ -30,8 +30,6 @@ const unitTest = (function emojiTest() {
 
 
   // -------------------------------------------- Setup
-  // const {store, emoji, emojilib} = window;
-  
   console.assert(emoji_data != null, "emojiData is defined");
   console.assert(store != null, "store is defined");
   console.assert(emoji != null, "emoji is defined");
@@ -40,11 +38,8 @@ const unitTest = (function emojiTest() {
   
   
   // -------------------------------------------- Validate Data
-  console.assert(emoji_data.array.length > 1500, "there are more than 1500 emojis", emoji_data.array.length);
-  const filterWith = emoji.filter(
-    emoji_data.array,
-    true, // skipRender
-  );
+  console.assert(emoji_data.array.length > 1500, "there are more than 1500 emojilib_thesaurus emojis", emoji_data.array.length);
+  const filterWith = emoji.filter(emoji_data.array);
   
     
 
@@ -70,34 +65,48 @@ const unitTest = (function emojiTest() {
   // -------------------------------------------- Multi-word searches
   assertFilterIs('blue heart', '💙');
   assertFilterIs('  heart    blue ', '💙'); // funny spacing
-  // assertFilterIs('red      car', '🚗'); // many other matches
   assertFilterIs('green ball', '🎾');
   assertFilterIs('sad cat', '😿');
 
 
-  // -------------------------------------------- Goals for broader search results
-  // Doesn't work, but maybe should:
-  // assertFilterIncludes('mad', '🤬');
-  // assertFilterIncludes('ice', '🥶'); // via cold
+
+  // -------------------------------------------- Thesaurized searches
+  assertFilterIncludes('visage', '😀', {useThesaurus: true});
+  assertFilterIncludes('ice', '🥶', {useThesaurus: true});
   
-  // Synonyms
-  assertFilterIncludes('sick', '🤮');
-  // assertFilterIncludes('barf', '🤮');
-  // assertFilterIncludes('puke', '🤮');
-  // assertFilterIncludes('ice', '💎');
+  // Doesn't work, but maybe should:
+  // assertFilterIncludes('angry', '🤬',  {useThesaurus: true});
+  
+  // Test obvious synonyms
+  assertFilterIncludes('sick', '🤮'); // this is the human entered, "canonical" keyword
+  assertFilterIncludes('barf', '🤮', {useThesaurus: true});
+  assertFilterIncludes('puke', '🤮', {useThesaurus: true});
 
 
 
+  // -------------------------------------------- Reverse search. Do we see expected keywords and synonyms for a symbol?
+  const sickEmoji = emoji_data.toObj('🤮');
+  console.assert(sickEmoji.keywords.length >= 2, `'🤮' has some keywords`, sickEmoji);
+  const sickThesaurus = flatten(sickEmoji.thesaurus)
+  console.assert(sickThesaurus.length >= 100, `'🤮' has >= 100 thesaurus entries`, sickThesaurus.length);
+  const hasAll = ['afflicted','seasick','dizzy','unwell'].every(s => sickThesaurus.includes(s))
+  console.assert(hasAll, `'🤮' has all synonyms you'd expect`, sickThesaurus);
+  
 
-  function assertFilterIncludes(needle, has) {
-    let result = filterWith(needle);
+
+  function assertFilterIncludes(needle, has, opts) {
+    let result = filterWith(needle, opts);
     console.assert(result.includes(has), `Searching for '${needle}' includes '${has}'`, result); 
   }
 
-  function assertFilterIs(needle, target) {
-    let result = filterWith(needle);
+  function assertFilterIs(needle, target, opts) {
+    let result = filterWith(needle, opts);
     console.assert(result.length === 1, `Searching for '${needle}' has only 1 result`, result); 
     console.assert(result[0] === target, `Searching for '${needle}' returns '${target}'`, result); 
+  }
+
+  function flatten(arr) {
+    return arr.reduce((acc, val) => acc.concat(val), []);
   }
 
 });

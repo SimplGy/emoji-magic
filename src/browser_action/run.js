@@ -25,7 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const filterWith = emoji.filter(emoji_data.array); // 2nd order fn
   
   // Filter as you type
-  $search.addEventListener('input', ({target: {value}}) => filterWith(value));
+  $search.addEventListener('input', ({target: {value}}) => {
+    const chars = filterWith(value);
+
+    // TODO: If no results, use thesaurus
+    // if (results.length === 0) {
+    //   filterWith(value, {useThesaurus: true});
+    // }
+
+    emoji.render(chars);
+  });
 
   // If you press "enter" in the search box, immediately copy the first emoji
   $search.addEventListener('keyup', evt => {  
@@ -67,5 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Start things off with a blank search
-  filterWith('');
+  emoji.render(filterWith(''));
 });
