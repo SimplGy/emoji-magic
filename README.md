@@ -11,10 +11,17 @@ Born of a desire to improve emoji searching even further.
 ## How to Use
 
 1. Click the extension icon: `🔮`
-2. Type in what you want, like "cat"
-3. Hit "enter" or click on the exact emoji you want
+2. Type in what you want, like `"cat"`
+3. Press `enter` or click on the exact emoji you want
 
 > Tip: choose a keyboard shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts) -> `Emoji Magic` so you can add Emojis easily, anytime.
+
+## Features
+
+1. 🔧 Actual unicode chars -- no images, native emoji rendering
+1. 🔗 Multi-word queries -- try "sad cat", or "blue heart"
+1. 🧠 Remembers locally -- Saves the last emoji you picked so you can pick them again easily
+1. 🔒 Strong security -- Doesn't ask for dangerous Chrome permissions, just clipboard access
 
 ## Extension Security
 
@@ -52,6 +59,12 @@ Run Tests:
 
 ```sh
 node src/browser_action/emoji.test.js
+```
+
+Update the thesaurus decorated contents in `data/emojilib_thesaurus.js`:
+
+```sh
+node scripts/thesaurus.js
 ```
 
 ## Deploying

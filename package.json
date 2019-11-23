@@ -1,0 +1,9 @@
+{
+  "name": "emoji-magic",
+  "author": "@simplgy",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "moby": "^1.1.2",
+    "thesaurus": "0.0.1"
+  }
+}

@@ -20,6 +20,7 @@
 
 - [x] Hitting enter right after a query works
 - [x] Arrow keys work (up, down, left, right)
+- [ ] Hitting escape when in a blank search box closes the popup
 
 ### Tech Debt
 
