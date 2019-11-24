@@ -29,6 +29,7 @@ try {
 const includes = [
   'manifest.json',
   'icons/*.png',
+  'src/browser_action/data/*.js',
   'src/*/*.js',
   'src/*/*.css',
   'src/*/*.html',

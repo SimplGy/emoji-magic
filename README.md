@@ -11,8 +11,8 @@ Born of a desire to improve emoji searching even further.
 ## How to Use
 
 1. Click the extension icon: `🔮`
-2. Type in what you want, like `"cat"`
-3. Press `enter` or click on the exact emoji you want
+2. Type in what you want, like "cat"
+3. Hit "enter" or click on the exact emoji you want
 
 > Tip: choose a keyboard shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts) -> `Emoji Magic` so you can add Emojis easily, anytime.
 
@@ -67,6 +67,16 @@ Update the thesaurus decorated contents in `data/emojilib_thesaurus.js`:
 ```sh
 node scripts/thesaurus.js
 ```
+
+## Extension Development Gripes
+
+### Three Environments
+
+When building one of these, I think most developers will want to do testing on the command line with Node, rapid development with live reload in the browser, and of course must deploy to a Chrome extension target.
+
+I have had no end of bugs that only exhibit on one or another of these platforms. Sometimes it's only broken when run in an extension context. Sometimes only in node for tests.
+
+Most extensions are simple and adding a rollup/webpack build system seems like a lot of overhead that isn't deserved, but it's hard to avoid. Would be nice for Chrome to get opinionated about this and make a happy path Typescript/test/local dev environment really easy to run.
 
 ## Deploying
 
