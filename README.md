@@ -18,11 +18,11 @@ Born of a desire to improve emoji searching even further.
 
 ## Features
 
-1. 🔧 Actual unicode chars -- no images, native emoji rendering
-2. 📘 Rich Text Matching -- Uses a thesaurus to support broad keyword matching.
-3. 🔗 Multi-word queries -- try "sad cat", or "blue heart"
+1. 🔧 Actual Unicode Chars -- Native emoji rendering, no big slow images
+2. 📘 Rich Text Matching -- Finds synonyms using a thesaurus
+3. 🔗 Multi-word Queries -- Try "sad cat", or "blue heart"
 4. 🧠 Remembers locally -- Saves the last emoji you picked so you can pick them again easily
-5. 🔒 Strong security -- Doesn't ask for dangerous Chrome permissions, just clipboard access
+5. 🔒 Strong security -- No dangerous Chrome permissions, just clipboard access
 
 ## Extension Security
 
@@ -65,6 +65,7 @@ node src/browser_action/emoji.test.js
 Update the thesaurus decorated contents in `data/emojilib_thesaurus.js`:
 
 ```sh
+npm i # install dev dependencies
 node scripts/thesaurus.js
 ```
 

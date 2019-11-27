@@ -14,7 +14,8 @@
 ### Nice Touches
 
 - [ ] Add better tooltips for emoji (canonical name, unicode char, how it matched your search query, other fun facts?)
-- [ ] Periodically clear the "multi emoji copy" buffer (otherwise it hangs around forever)
+- [ ] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
+- [ ] limit emoji count to what fits in chrome's 600px tall browser popup limit
 
 ### Power User Features
 
