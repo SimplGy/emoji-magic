@@ -26,12 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Filter as you type
   $search.addEventListener('input', ({target: {value}}) => {
-    const chars = filterWith(value, {useThesaurus: true});
+    const chars = filterWith(value);
 
     // TODO: If no results, use thesaurus
-    // if (results.length === 0) {
-    //   filterWith(value, {useThesaurus: true});
-    // }
+    if (results.length === 0) {
+      filterWith(value, {useThesaurus: true});
+    }
 
     emoji.render(chars);
   });
