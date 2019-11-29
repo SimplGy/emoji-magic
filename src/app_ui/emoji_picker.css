@@ -21,8 +21,8 @@ body {
   font-family: Helvetica, Ubuntu, Arial, sans-serif;
 }
 
-aside {
-  width: 300px;
+.emoji-picker {
+  min-width: 300px;
 }
 
 .search {

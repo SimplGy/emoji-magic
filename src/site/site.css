@@ -2,11 +2,16 @@ body {
   background: #222;
 }
 
+.appContainer {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
 h1 {
   text-align: center;
   font-weight: 300;
   color: #ccc;
-  margin: 1em;
+  margin-top: 1em;
   margin-bottom: 1.3em;
 }
 
@@ -16,5 +21,16 @@ h1 {
   -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.4);
   background: whitesmoke;
+}
+
+footer {
+  font-size: smaller;
+  color: gray;
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer a {
+  color: gray;
 }
 /*# sourceMappingURL=site.css.map */

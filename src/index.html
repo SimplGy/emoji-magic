@@ -9,18 +9,27 @@
 </head>
 <body>
 
-  <h1>🔮 Emoji Magic</h1>
-  
-  <aside class="emoji-picker flex-kids-y">
-    <input id="search" class="search" autocomplete="off" autofocus type="search" placeholder="Search for Emoji. (eg: 'party')">
-    <div class="results">
-      <ol id="results"></ol>
-    </div>
-    <output>
-      <button id="copyBtn" class="copy animated fast">Copy</button> <!-- first in tab order -->
-      <input id="clipboard" class="pseudo-clipboard flex-1" type="text">
-    </output>
-  </aside>
+  <div class="appContainer">
+
+    <h1>🔮 Emoji Magic</h1>
+    
+    <aside class="emoji-picker flex-kids-y">
+      <input id="search" class="search" autocomplete="off" autofocus type="search" placeholder="Search for Emoji. (eg: 'party')">
+      <div class="results">
+        <ol id="results"></ol>
+      </div>
+      <output>
+        <button id="copyBtn" class="copy animated fast">Copy</button> <!-- first in tab order -->
+        <input id="clipboard" class="pseudo-clipboard flex-1" type="text">
+      </output>
+    </aside>
+
+    <footer>
+      Download the
+      <a target="_blank" href="https://chrome.google.com/webstore/detail/emoji-magic/jfegjdogmpipkpmapflkkjpkhbnfppln">Chrome Extension</a>
+    </footer>
+
+  </div>
 
 	<script src="js_utils/emulate_node_modules.js"></script>
 	<script src="js_utils/store.js"></script> <!-- window.store -->
