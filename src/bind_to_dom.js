@@ -19,18 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const $search = el('search');
   const $copyBtn = el('copyBtn');
   
-  // transform emojilib into simple array of emoji data objects
-  // put key name into 'name' property
-  // const data = Object.entries(window.emojilib).map(([name, obj]) => ({name, ...obj}));
-  const filterWith = emoji.filter(emoji_data.array); // 2nd order fn
-  
   // Filter as you type
   $search.addEventListener('input', ({target: {value}}) => {
-    const chars = filterWith(value);
+    const chars = emoji.search(value);
 
     // TODO: If no results, use thesaurus
     if (results.length === 0) {
-      filterWith(value, {useThesaurus: true});
+      emoji.search(value, {useThesaurus: true});
     }
 
     emoji.render(chars);
@@ -76,5 +71,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Start things off with a blank search
-  emoji.render(filterWith(''));
+  emoji.render(emoji.search());
 });

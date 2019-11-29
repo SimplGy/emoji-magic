@@ -39,21 +39,17 @@ const unitTest = (function emojiTest() {
   
   // -------------------------------------------- Validate Data
   console.assert(emoji_data.array.length > 1500, "there are more than 1500 emojilib_thesaurus emojis", emoji_data.array.length);
-  const filterWith = emoji.filter(emoji_data.array);
-  
-    
-
 
   // -------------------------------------------- Describe `filter`
   let result;
 
-  result = filterWith('crystal');
+  result = emoji.search('crystal');
   // WARNING: if you check length on the string result, you'll probably see 4, not 2, because many emoji are double-byte chars.
   console.assert(result.length === 2, "searching for 'crystal' returns 2 results", result);
   console.assert(result.includes('🔮'), "filter 'crystal' returns a crystal ball", result);
   console.assert(result.includes('💠'), "filter 'crystal' returns quartet of diamonds", result);
   
-  result = filterWith('pepper');
+  result = emoji.search('pepper');
   console.assert(result.length === 1, "searching for 'pepper' returns 1 emoji", result);
   console.assert(result[0] === '🌶', "searching for 'pepper' returns the pepper emoji", result);
 
@@ -95,12 +91,12 @@ const unitTest = (function emojiTest() {
 
 
   function assertFilterIncludes(needle, has, opts) {
-    let result = filterWith(needle, opts);
+    let result = emoji.search(needle, opts);
     console.assert(result.includes(has), `Searching for '${needle}' includes '${has}'`, result); 
   }
 
   function assertFilterIs(needle, target, opts) {
-    let result = filterWith(needle, opts);
+    let result = emoji.search(needle, opts);
     console.assert(result.length === 1, `Searching for '${needle}' has only 1 result`, result); 
     console.assert(result[0] === target, `Searching for '${needle}' returns '${target}'`, result); 
   }

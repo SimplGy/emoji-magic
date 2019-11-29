@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-const {toChars} = require('./emoji_data');
+const {toChars, array} = require('./emoji_data');
 const store = require('../js_utils/store');
 
 module.exports = (() => {
@@ -90,7 +90,7 @@ module.exports = (() => {
     store.set(RECENT_KEY, recentSelections);
   }
 
-  const filter = (data = []) => (str = '', { useThesaurus } = {}) => {
+  const searchOn = (data = []) => (str = '', { useThesaurus } = {}) => {
     str = str.trim();
     let results;
     let chars;
@@ -298,7 +298,8 @@ module.exports = (() => {
   // }
 
   return {
-    filter,
+    searchOn,
+    search: searchOn(array),
     render,
     htmlForAllEmoji,
     onPressEmoji,
