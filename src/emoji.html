@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"> <!-- required to show platform-rendered emojis -->
+	<link rel="stylesheet" type="text/css" href="app_ui/emoji_picker.css">
+	<link rel="stylesheet" type="text/css" href="app_ui/emoji_details.css">
+	<link rel="stylesheet" type="text/css" href="site/site.css">
+</style>
+</head>
+<body>
+
+  <section class="emoji-details" id="Output"></section>
+
+  <footer>
+    Download the
+    <a target="_blank" href="https://chrome.google.com/webstore/detail/emoji-magic/jfegjdogmpipkpmapflkkjpkhbnfppln">Chrome Extension</a>
+  </footer>
+
+	<script src="js_utils/emulate_node_modules.js"></script>
+	<script src="js_utils/store.js"></script> <!-- window.store -->
+	<script src="app_data/emojilib_thesaurus.js"></script> <!-- window.emojilib_thesaurus -->
+	<script src="app_data/emoji_data.js"></script> <!-- window.emoji_data -->
+	<script src="app_ui/emoji_details.js"></script> <!-- window.emoji_details -->
+  <script>
+    // Map back and forth:
+    // '👍'.codePointAt(0) // 128077
+    // String.fromCodePoint(128077) // 👍
+
+    const $output = document.getElementById('Output');
+    // get the emoji from the url param
+    const d = window.location.search.split('?').pop();
+    const char = String.fromCodePoint(d);
+    const emoji = emoji_data.toObj(char);
+    console.log({emoji});
+
+    $output.innerHTML = emoji_details.render(emoji);
+  </script>
+</body>
+</html>

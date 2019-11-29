@@ -14,7 +14,7 @@
 ### Nice Touches
 
 - [x] Add a basic tooltip for emoji (canonical name, keywords, thesaurus words)
-- [ ] have an emoji details page (for the demo site, and maybe some way to get to from Chrome)
+- [x] have an emoji details page (for the demo site, and maybe some way to get to from Chrome)
 - [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [ ] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
@@ -72,3 +72,4 @@
   - full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)
 - [ ] Add urban dictionary style data (use case: "ice" -> "💎")
 - [ ] Add a way to contribute more seed/human keywords (use case: "mad"/"angry" -> "🤬")
+- [ ] Mix in canonical names/values from https://www.utf8-chartable.de/unicode-utf8-table.pl?start=128000
