@@ -137,7 +137,9 @@ module.exports = (() => {
     console.log(emoji);
     return `${emoji.char} ${emoji.name}\n\n` +
     `keywords: ${keywords.join(', ')}\n\n` +
-    thesaurus.map((arr, idx) => `${keywords[idx]}:\n${arr.join(', ')}`).join('\n\n')
+    thesaurus
+      .filter(arr => arr.length > 0)
+      .map((arr, idx) => `${keywords[idx]}:\n${arr.join(', ')}`).join('\n\n')
   }
 
   // Dom aware
