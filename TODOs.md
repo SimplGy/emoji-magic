@@ -13,9 +13,10 @@
 
 ### Nice Touches
 
-- [ ] Add better tooltips for emoji (canonical name, unicode char, how it matched your search query, other fun facts?)
+- [x] Add a basic tooltip for emoji (canonical name, keywords, thesaurus words)
+- [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [ ] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
-- [ ] limit emoji count to what fits in chrome's 600px tall browser popup limit
+- [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
 
 ### Power User Features
 
@@ -30,7 +31,8 @@
 - [ ] Don't ship the tests with the app bundle
 - [ ] Migrate to TypeScript for a clear definition of the Emoji data object type
 - [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables delete first/excludes)
-- [ ] Do the "copied" animation without the animate.css dependency
+- [x] Do the "copied" animation without the animate.css dependency
+- [ ] stop the `favicon.ico` browser error
 
 ### Bugs
 
@@ -64,6 +66,7 @@
 - [x] Show recently used emoji when the user hasn't searched yet
 - [x] support multi-token matching (eg: "red car" and "green heart")
 - [x] Use thesaurus to extend hand-written keywords
+- [ ] Improve sorting with a scoring criteria. Factors: full/partial match. name/keyword/thesaurus match.
+  - full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)
 - [ ] Add urban dictionary style data (use case: "ice" -> "💎")
 - [ ] Add a way to contribute more seed/human keywords (use case: "mad"/"angry" -> "🤬")
-- [ ] full word matches are more significant than partial word matches (eg: "car" matches many things partially, putting actual cars low on the list)

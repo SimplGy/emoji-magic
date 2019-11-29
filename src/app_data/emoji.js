@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-const {toChars, array} = require('./emoji_data');
+const {toChars, toChar, toObj, array} = require('./emoji_data');
 const store = require('../js_utils/store');
 
 module.exports = (() => {
@@ -90,6 +90,9 @@ module.exports = (() => {
     store.set(RECENT_KEY, recentSelections);
   }
 
+  // Main search method.
+  // Given a search string, return an array of matching emoji objects
+  // The data is usually pre-bound but you can provide your own data set as well (eg: testing)
   const searchOn = (data = []) => (str = '', { useThesaurus } = {}) => {
     str = str.trim();
     let results;
@@ -97,7 +100,7 @@ module.exports = (() => {
     
     // Blank search? Exit early.
     if (str === '') {
-      chars = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
+      chars = recentSelections.length > 0 ? recentSelections.map(toObj) : DEFAULT_RESULTS.map(toObj);
       return chars;
     }
 
@@ -109,7 +112,7 @@ module.exports = (() => {
       } else {
         results = data.filter(emojiMatches(token));
       }
-      return toChars(results);
+      return results;
     });
 
     // Must match all search tokens
@@ -118,27 +121,35 @@ module.exports = (() => {
     return chars;
   };
 
-  function htmlForAllEmoji(charArray = []) {
-    const html = charArray.map(htmlForEmoji).join('\n');
+  function htmlForAllEmoji(emojiArray = []) {
+    const html = emojiArray.map(htmlForEmoji).join('\n');
     return html
   }
 
-  function htmlForEmoji(char) {
-    return `<li><button>${char}</button></li>`;
+  function htmlForEmoji(emoji) {
+    const char = toChar(emoji);
+    return `<li><button title='${summaryString(emoji)}'>${char}</button></li>`;
+  }
+
+  // Take an emoji object and summarize it as a multiline string (useful for tooltips)
+  function summaryString(emoji) {
+    const { keywords = [], thesaurus = []} = emoji
+    console.log(emoji);
+    return `${emoji.char} ${emoji.name}\n\n` +
+    `keywords: ${keywords.join(', ')}\n\n` +
+    thesaurus.map((arr, idx) => `${keywords[idx]}:\n${arr.join(', ')}`).join('\n\n')
   }
 
   // Dom aware
   // Tasks: Put result html into container, update disabled state of btn
-  function render(chars = []) {
-    chars = chars.slice(0, RESULT_LIMIT);
-    $.results().innerHTML = htmlForAllEmoji(chars);
-    if (chars.length === 0) {
+  function render(emoji = []) {
+    emoji = emoji.slice(0, RESULT_LIMIT);
+    $.results().innerHTML = htmlForAllEmoji(emoji);
+    if (emoji.length === 0) {
       $.copyBtn().setAttribute('disabled', true);
     } else {
       $.copyBtn().removeAttribute('disabled');
     }
-    const disabled = true;
-    
   }
 
   // Dom aware

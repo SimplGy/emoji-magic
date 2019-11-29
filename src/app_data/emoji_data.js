@@ -32,6 +32,7 @@ module.exports = ((global) => {
 
   return {
     toObj,
+    toChar,
     toChars,
     array: emojilib_thesaurus.array,
     __id__: 'emoji_data', // emulated node modules
