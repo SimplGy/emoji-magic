@@ -59,7 +59,7 @@ sass --update src/browser_action/all.sass
 Run Tests:
 
 ```sh
-node src/browser_action/emoji.test.js
+node src/app_data/emoji.test.js
 ```
 
 Update the thesaurus decorated contents in `data/emojilib_thesaurus.js`:

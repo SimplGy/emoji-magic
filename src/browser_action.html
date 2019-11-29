@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8"> <!-- required to show platform-rendered emojis -->
-	<link rel="stylesheet" type="text/css" href="all.css">
+	<link rel="stylesheet" type="text/css" href="app_ui/emoji_picker.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </style>
 </head>
@@ -21,11 +21,11 @@
 		</output>
 	</aside>
 
-	<script src="emulate_node_modules.js"></script>
-	<script src="data/emojilib_thesaurus.js"></script> <!-- window.emojilib_thesaurus -->
-	<script src="emoji_data.js"></script> <!-- window.emoji_data -->
-	<script src="store.js"></script> <!-- window.store -->
-	<script src="emoji.js"></script> <!-- window.emoji -->
-	<script src="run.js"></script>
+	<script src="js_utils/emulate_node_modules.js"></script>
+	<script src="js_utils/store.js"></script> <!-- window.store -->
+	<script src="app_data/emojilib_thesaurus.js"></script> <!-- window.emojilib_thesaurus -->
+	<script src="app_data/emoji_data.js"></script> <!-- window.emoji_data -->
+	<script src="app_data/emoji.js"></script> <!-- window.emoji -->
+	<script src="bind_to_dom.js"></script>
 </body>
 </html>

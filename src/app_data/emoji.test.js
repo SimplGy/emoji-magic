@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 const emoji_data = require('./emoji_data');
-const store = require('./store');
+const store = require('../js_utils/store');
 const emoji = require('./emoji');
 const emojilib = require('../../third_party/emojilib/emojilib');
 

@@ -29,10 +29,10 @@ try {
 const includes = [
   'manifest.json',
   'icons/*.png',
-  'src/browser_action/data/*.js',
-  'src/*/*.js',
+  'src/browser_action.html',
+  'src/*.js',
   'src/*/*.css',
-  'src/*/*.html',
+  'src/*/*.js',
   '_locales',
   'third_party/emojilib/emojilib.js',
 ];

@@ -2,7 +2,7 @@
   "name": "Emoji Magic",
   "short_name": "Emoji Magic - Find Emojis Fast and Easy",
   "description": "Find Emoji Easily. Safe and secure: only asks for clipboard permissions.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage_url": "https://www.simple.gy/projects/emoji-magic/",
   "offline_enabled": true,
   "manifest_version": 2,
@@ -14,7 +14,7 @@
   "browser_action": {
     "default_icon": "icons/icon19.png",
     "default_title": "Emoji Magic",
-    "default_popup": "src/browser_action/index.html"
+    "default_popup": "src/browser_action.html"
   },
   "permissions": [
     "clipboardRead",
