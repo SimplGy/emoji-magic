@@ -17,15 +17,23 @@ limitations under the License.
 
 
 module.exports = ((global) => {
+  const WORD = 'word';
   
+  // given an array of words, return html with WORD classnames
+  const renderWords = (arr, joiner = ", ") => arr.map(renderWord).join(joiner);
+  // Given a word, return html with WORD classname
+  const renderWord = str => `<span class="${WORD}">${str}</span>`
+
   // return a string of rendered html for the given emoji
   function render(emoji) {
     const { keywords = [], thesaurus = [] } = emoji;
 
+    const nameWords = emoji.name.split('_');
+
     return `
-    <h1>${emoji.char} ${emoji.name}</h1>
+    <h1>${emoji.char} ${renderWords(nameWords, ' ')}</h1>
     <p>
-      ${ keywords.join(', ') }
+      ${ renderWords(keywords) }
     </p>
     
     <dl>
@@ -34,7 +42,7 @@ module.exports = ((global) => {
           .filter(arr => arr.length > 0)
           .map((arr, idx) => `
             <dt>${keywords[idx]}</dt>
-            <dd>${arr.join(', ')}</dd>
+            <dd>${renderWords(arr)}</dd>
           `)
           .join('\n')
       }
@@ -43,6 +51,7 @@ module.exports = ((global) => {
   }
 
   return {
+    WORD,
     render,
     __id__: 'emoji_details', // emulated node modules
   };
