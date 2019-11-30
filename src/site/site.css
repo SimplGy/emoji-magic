@@ -44,4 +44,9 @@ footer a {
 dt {
   margin-top: 0.5rem;
 }
+
+.highlight {
+  background: rgba(255, 250, 130, 0.8);
+  color: black;
+}
 /*# sourceMappingURL=site.css.map */

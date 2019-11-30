@@ -9,6 +9,10 @@
 </head>
 <body>
 
+  <header style="text-align: center; margin-top: 10px; opacity: 0.2;">
+    <input id="SearchBox" type="search" autofocus title="Why is that word matching this emoji?">
+  </header>
+
   <section class="emoji-details" id="Output"></section>
 
   <footer>
@@ -26,8 +30,38 @@
     // '👍'.codePointAt(0) // 128077
     // String.fromCodePoint(128077) // 👍
 
+    const HIGHLIGHT = 'highlight';
+
     const $output = document.getElementById('Output');
+    const $search = document.getElementById('SearchBox');
+    
+
+    // let currentSearch;
+    $search.addEventListener('input', ({target: {value}}) => {
+      // currentSearch = value;
+      updateHighlights(value);
+    });
+
+    function updateHighlights(query) {
+      // Start from a blank slate
+      Array.from(document.querySelectorAll('.' + HIGHLIGHT))
+        .forEach(el => el.classList.remove(HIGHLIGHT));
+
+      const $words = Array.from(document.querySelectorAll('.' + emoji_details.WORD));  
+      
+      // TODO: Use the same code path the actual search filtering uses
+      for (let word of query.split(' ')) {
+        if (word.trim() === '') continue;
+        $words.forEach(el => {
+          if (el.innerText.includes(word)) {
+            el.classList.add(HIGHLIGHT);
+          }
+        })
+      }
+    }
+
     // get the emoji from the url param
+    // TODO: greenland flag (and probably most flags) need to be fixed
     const d = window.location.search.split('?').pop();
     const char = String.fromCodePoint(d);
     const emoji = emoji_data.toObj(char);
