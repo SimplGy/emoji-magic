@@ -16,7 +16,7 @@
 - [x] Add a basic tooltip for emoji (canonical name, keywords, thesaurus words)
 - [x] have an emoji details page (for the demo site, and maybe some way to get to from Chrome)
 - [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
-- [ ] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
+- [x] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
 
 

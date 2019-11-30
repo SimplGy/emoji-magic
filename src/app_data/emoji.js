@@ -17,13 +17,19 @@ const {toChars, toChar, toObj, array} = require('./emoji_data');
 const store = require('../js_utils/store');
 
 module.exports = (() => {
+  const CLIPBOARD_CLEAR_DELAY = 1000; // how long to leave the psuedo-clipboard content in place before clearing. (this user visible "clipboard" is what enables clicking three times in a row to copy a set of three emoji)
+  const CLOSE_POPUP_DELAY = 800; // How long to wait after a successful copy before closing the browser extension popup
+  const ANIMATION = 'tada'; // from https://github.com/daneden/animate.css
+  const TADA_ANIM_DURATION = 800; // 800); // https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
+  const SHOW_COPIED_MSG_DURATION = 1500; // how long to show the "copied" message (on the button)
   const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 8 * 15; // for render perf, don't draw everything. 15 rows fit in Chrome's 600px height limit for default font size/zoom settings.
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
   const DEFAULT_RESULTS = ['🔮','🎩','✨','🐇'];
   const WORD_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
   let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
-  store.get(RECENT_KEY, val => recentSelections = val || []);
+  store.get(RECENT_KEY, val => recentSelections = val || []); // seed the recentSelections
+  let willClearClipboard; // reference to the timeout that will clear this
 
   // does anything in this array start with str?
   const someStartWith = (arr, str) => arr.some(a => a.startsWith(str));
@@ -134,7 +140,6 @@ module.exports = (() => {
   // Take an emoji object and summarize it as a multiline string (useful for tooltips)
   function summaryString(emoji) {
     const { keywords = [], thesaurus = []} = emoji
-    console.log(emoji);
     return `${emoji.char} ${emoji.name}\n\n` +
     `keywords: ${keywords.join(', ')}\n\n` +
     thesaurus
@@ -158,9 +163,11 @@ module.exports = (() => {
   function onPressEmoji(char) {
     $.clipboard().value += char;
 
-    // Which emoji?
-    trackRecent(char);
+    // Every so often, clear this "clipboard"
+    clearTimeout(willClearClipboard);
+    willClearClipboard = setTimeout(clearClipboard, CLIPBOARD_CLEAR_DELAY);
 
+    trackRecent(char);
     copyToClipboard();
   }
 
@@ -168,6 +175,10 @@ module.exports = (() => {
   // true if there are any items in the tray ready to copy
   function clipboardHasStuff() {
     return $.clipboard().value.trim().length > 0;
+  }
+
+  function clearClipboard() {
+    $.clipboard().value = '';
   }
 
   // true if there are no results in dom right now
@@ -191,7 +202,7 @@ module.exports = (() => {
       closePopup();
     } else {
       animateCopySuccessDebounced();
-      setTimeout(closePopup, 1000);
+      setTimeout(closePopup, CLOSE_POPUP_DELAY);
     }
   }
 
@@ -200,13 +211,10 @@ module.exports = (() => {
   function animateCopySuccess() {
     const $copyBtn = document.getElementById('copyBtn');
     $copyBtn.innerText = "Copied";
-    const animation = 'tada'; // from https://github.com/daneden/animate.css
-    $copyBtn.classList.add(animation);
+    $copyBtn.classList.add(ANIMATION);
     $copyBtn.classList.add('copied');
-    $copyBtn.setAttribute('disabled', true);
-    setTimeout(() => $copyBtn.classList.remove(animation), 800); // match animation speed: https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
-    setTimeout(() => $copyBtn.removeAttribute('disabled'), 1500);
-    setTimeout(() => $copyBtn.innerText = "Copy", 1500);
+    setTimeout(() => $copyBtn.classList.remove(ANIMATION), TADA_ANIM_DURATION);
+    setTimeout(() => $copyBtn.innerText = "Copy", SHOW_COPIED_MSG_DURATION);
   }
 
   function closePopup() {
