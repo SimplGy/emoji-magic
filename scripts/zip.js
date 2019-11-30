@@ -35,6 +35,7 @@ const includes = [
   'src/*/*.js',
   '_locales',
   'third_party/emojilib/emojilib.js',
+  'third_party/animate.min.css',
 ];
 
 child_process.execSync(`zip -r ${zipFile} ${includes.join(' ')}`, {
