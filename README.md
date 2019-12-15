@@ -65,7 +65,7 @@ sass --update src/app_ui/emoji_picker.sass src/site/site.sass
 Run Tests:
 
 ```sh
-node src/app_data/emoji.test.js
+npm test
 ```
 
 Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
