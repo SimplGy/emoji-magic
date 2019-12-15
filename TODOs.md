@@ -18,6 +18,7 @@
 - [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [x] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
+- [x] only match startsWith, because "ice" shouldn't match "office worker"
 - [ ] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying
 
 ### Power User Features
@@ -47,6 +48,7 @@
 - [x] arrow keys do unexpected things when working with text selections in search -- only leave search for the down arrow key (and tab, of course)
 - [x] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird. (root cause: matching `__id__`)
 - [x] Only close the window after picking an emoji in the browser popup context
+- [ ] if you press enter to copy the default emoji from an empty search, it doesn't clear the input clipboard
 
 ### Gloss & Packaging
 
@@ -59,16 +61,16 @@
 - [x] Deploy a demo version as a simple web app with a link to the Chrome store -- simple.gy/emoji-magic
 - [ ] Youtube video demo (better/show extension icon context)
 - [ ] Collect more/better screenshots
-- [ ] get that "runs offline" checkmark -- https://developer.chrome.com/apps/manifest/offline_enabled
+- [x] get that "runs offline" checkmark -- https://developer.chrome.com/apps/manifest/offline_enabled
 
 ### Advanced Functionality
 
 - [ ] skin tone setting
-- [ ] mini game: "what do most people call this emoji?" (data source for search keywords)
+- [ ] mini game: "what's the most best name for this emoji?" (data source for search keywords) use family-feud style scoring
 
 ### Platform Render Quirks
 
-- [ ] detect which emoji the user's current platform can render (big user pain point)
+- [ ] detect which emoji the user's current platform can render (big user pain/confusion point for users in the reviews of other emoji apps)
 - [ ] if cannot render, don't suggest it unless it's the only option(s). provide explanation.
 
 ### Searching, suggesting

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {toChars, toChar, toObj, array} = require('./emoji_data');
+const {toChar, toObj, array} = require('./emoji_data');
 const store = require('../js_utils/store');
 const {fromCodePoints, toCodePoints} = require('../js_utils/code_points'); // re-exporting these for convenience
 
@@ -37,18 +37,23 @@ module.exports = (() => {
 
   // does anything in this array start with str?
   const someStartWith = (arr, str) => arr.some(a => a.startsWith(str));
-  const someInclude = (arr, str) => arr.some(a => a.includes(str));
+
+  // Given an_emoji_name, does it match the str?
+  const matchesName = (name, str) => someStartWith(name.split('_'), str);
 
   // 2nd order. given data and str, return true if data has it
+  // The "name" of the emoji is _ delimited words
+  // The "keywords" are human entered descriptors
   const emojiMatches = (str) => ({name, keywords = []} = {}) =>
-    name.includes(str) || someInclude(keywords, str);
+    matchesName(name, str) || someStartWith(keywords, str);
 
   // 2nd order. given data and str, return true if data has it
   // also search thesaurus words if they're in the data set
   const emojiMatchesThesaurus = (str, useThesaurus = false) =>
     ({name, keywords = [], thesaurus = []} = {}) => {
+      if (emojiMatches(str)({name, keywords})) return true;
       thesaurus = flatten(thesaurus);
-      return name.includes(str) || someInclude(keywords, str) || someInclude(thesaurus, str);
+      return someStartWith(thesaurus, str);
     }
 
   const $ = {

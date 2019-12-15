@@ -38,7 +38,7 @@ describe("emoji.js", () => {
 
   // expect that the top ranked result for a term is emojiChar
   expectFirstResult = (term, emojiChar, opts) => {
-    let result = s(term, opts);
+    const result = s(term, opts);
     expect(result[0]).toBe(emojiChar);
   };
 
@@ -76,6 +76,34 @@ describe("emoji.js", () => {
       expectFirstResult('  heart    blue ', '💙'); // funny spacing
       expectFirstResult('green ball', '🎾');
       expectFirstResult('sad cat', '😿');
+    });
+
+    it("only matches prefixes", () => {
+      const result = s('ice');
+      expect(result).not.toContain('👨‍💼'); // Shouldn't match "off[ice] worker"
+    });
+
+    it("matches some common prefixes", () => {
+      const result = s('fire');
+      expect(result).toContain('🔥'); // fire
+      expect(result).toContain('🚒'); // fire_engine
+      expect(result).toContain('👩‍🚒'); // woman_firefighter
+    });
+
+    it("matches prefixes in multi_word emoji names", () => {
+      const emojiObj = toObj('🍧');
+      expect(emojiObj.name).toBe('shaved_ice');
+
+      // even though it doesn't startWith "ice", because it's in the name, it matches
+      expectSearchIncludes('ice', '🍧')
+    });
+
+    it("does't just blindly match anywhere in multi_word emoji names", () => {
+      const emojiObj = toObj('🍧');
+      expect(emojiObj.name).toBe('shaved_ice');
+
+      // even though it doesn't startWith "ice", because it's in the name, it matches
+      expect(s('have')).not.toContain('🍧') // "have" does not match "shaved"
     });
   });
 
