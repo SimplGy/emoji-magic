@@ -24,15 +24,15 @@
 
 - [x] Hitting enter right after a query works
 - [x] Arrow keys work (up, down, left, right)
-- [ ] Hitting escape when in a blank search box closes the popup
+- [x] Hitting escape when in a blank search box closes the popup
 
 ### Tech Debt / Dev Chores
 
-- [x] Basic unit tests (when search for A, expect set B)
 - [ ] Support multiple `.test.js` files (right now the "runner" command is in the only test file)
 - [ ] Don't ship the tests with the app bundle
 - [ ] Migrate to TypeScript for a clear definition of the Emoji data object type
 - [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables delete first/excludes)
+- [x] Basic unit tests (when search for A, expect set B)
 - [x] Do the "copied" animation without the animate.css dependency
 - [x] stop the `favicon.ico` browser error
 

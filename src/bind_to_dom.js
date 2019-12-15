@@ -32,9 +32,23 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // If you press "enter" in the search box, immediately copy the first emoji
-  $search.addEventListener('keyup', evt => {  
-    if (evt.key === 'Enter' || evt.keyCode === 13) {
-      emoji.copyFirstEmoji();
+  $search.addEventListener('keyup', evt => {
+    switch (evt.key) {
+      case 'Enter':
+        emoji.copyFirstEmoji();
+        break;
+    }
+  });
+
+  // If you press "Escape" in the search box AND the query is blank, close the popup
+  // This effectively means you can hit escape twice to close the browser popup. Nice!
+  // NOTE: use 'keydown', because by 'keyup' the search query is already cleared
+  $search.addEventListener('keydown', evt => {
+    switch (evt.key) {
+      case 'Escape':
+        const query = evt.target.value;
+        if (query === '') emoji.closePopup();
+        break;
     }
   });
 

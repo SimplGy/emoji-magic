@@ -343,6 +343,7 @@ module.exports = (() => {
     moveFocusY,
     toCodePoints,
     fromCodePoints,
+    closePopup,
     __id__: 'emoji',
   }
 })();
