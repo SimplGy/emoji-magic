@@ -3,7 +3,12 @@
   "author": "@simplgy",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
+    "jasmine": "^3.5.0",
     "moby": "^1.1.2",
     "thesaurus": "0.0.1"
+  },
+  "scripts": {
+    "test": "jasmine **/*.test.js --color",
+    "v": "node -v"
   }
 }

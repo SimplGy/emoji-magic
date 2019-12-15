@@ -13,8 +13,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
 const {toChars, toChar, toObj, array} = require('./emoji_data');
 const store = require('../js_utils/store');
+const {fromCodePoints, toCodePoints} = require('../js_utils/code_points'); // re-exporting these for convenience
+
+
 
 module.exports = (() => {
   const CLIPBOARD_CLEAR_DELAY = 1000; // how long to leave the psuedo-clipboard content in place before clearing. (this user visible "clipboard" is what enables clicking three times in a row to copy a set of three emoji)
@@ -328,16 +332,7 @@ module.exports = (() => {
   //   return template.content.firstChild;
   // }
 
-  // Given an emoji, return an array of code points.
-  // Must be an array to support multichar emoji like "🇨🇨" (2) and "🙇‍♀️" (4)
-  function toCodePoints(char) {
-    return Array.from(char).map(s => s.codePointAt(0));
-  }
 
-  // Given an array of numeric "code points", return a char
-  function fromCodePoints(arr = []) {
-    return arr.map(n => String.fromCodePoint(n)).join('');
-  }
 
 
 

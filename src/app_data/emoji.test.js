@@ -19,118 +19,108 @@ const store = require('../js_utils/store');
 const emoji = require('./emoji');
 const emojilib = require('../../third_party/emojilib/emojilib');
 
+function flatten(arr) {
+  return arr.reduce((acc, val) => acc.concat(val), []);
+}
 
 
-// A global storing all the tests to run for this application
-// window = global || window; // work for node or browser
-// const unit_tests = global.unit_tests || [];
-// window.unit_tests.push(function emojiTest() {
-const unitTest = (function emojiTest() {
 
+describe("emoji.js", () => {
 
-  // -------------------------------------------- Setup
-  console.assert(store != null, "store is defined");
-  console.assert(emoji != null, "emoji is defined");
-  console.assert(emojilib != null, "emojilib is defined");
+  // shorthand for doing an emoji search and converting the results to chars instead of objects
+  s = (term, opts) => toChars(emoji.search(term, opts));
+
+  // expect that a term includes emojiChar somewhere in results
+  expectSearchIncludes = (term, emojiChar, opts) => {
+    let result = s(term, opts);
+    expect(result).toContain(emojiChar);
+  };
+
+  // expect that the top ranked result for a term is emojiChar
+  expectFirstResult = (term, emojiChar, opts) => {
+    let result = s(term, opts);
+    expect(result[0]).toBe(emojiChar);
+  };
+
+  describe("setup", () => {
+    it("has prerequisites defined", () => {
+      expect(store).toBeDefined();
+      expect(emoji).toBeDefined();
+      expect(emojilib).toBeDefined();
+    });
+    it("has more than 1500 emojilib_thesaurus emojis", () => {
+      expect(array.length).toBeGreaterThan(1500);
+    });
+  });
   
   
-  
-  // -------------------------------------------- Validate Data
-  console.assert(array.length > 1500, "there are more than 1500 emojilib_thesaurus emojis", array.length);
+  describe("emoji.search()", () => {
+    it("matches epected symbols for 'crystal'", () => {
+      const result = s('crystal');
+      // WARNING: if you check length on a joined string result instead of this array, you'll probably see 4, not 2, because many emoji are multi-byte chars.
+      expect(result.length).toBe(2);
+      expect(result).toContain('🔮');
+      expect(result).toContain('💠');
+    });
 
-  // -------------------------------------------- Describe `filter`
-  // WARNING: if you check length on a joined string result, you'll probably see 4, not 2, because many emoji are double-byte chars.
-  console.assert(emoji.search('crystal').length === 2, "searching for 'crystal' returns 2 results", emoji.search('crystal'));
-  assertFilterIncludes('crystal', '🔮');
-  assertFilterIncludes('crystal', '💠');
+    it("matches epected symbols for 'pepper'", () => {
+      expectFirstResult('pepper', '🌶');
+    });
 
-  assertFilterIs('pepper', '🌶');
+    it("matches other simple searches", () => {
+      expect(s('green')).toContain('💚');
+    });
 
-  // tests I'd like to pass:
-  assertFilterIncludes('green', '💚');
-  
-
-
-  // -------------------------------------------- Multi-word searches
-  assertFilterIs('blue heart', '💙');
-  assertFilterIs('  heart    blue ', '💙'); // funny spacing
-  assertFilterIs('green ball', '🎾');
-  assertFilterIs('sad cat', '😿');
+    it("handles multi-word searches", () => {
+      expectFirstResult('blue heart', '💙');
+      expectFirstResult('  heart    blue ', '💙'); // funny spacing
+      expectFirstResult('green ball', '🎾');
+      expectFirstResult('sad cat', '😿');
+    });
+  });
 
 
 
-  // -------------------------------------------- Thesaurized searches
-  assertFilterIncludes('visage', '😀', {useThesaurus: true});
-  assertFilterIncludes('ice', '🥶', {useThesaurus: true});
-  
-  // Doesn't work, but maybe should:
-  // assertFilterIncludes('angry', '🤬',  {useThesaurus: true});
-  
-  // Test obvious synonyms
-  assertFilterIncludes('sick', '🤮'); // this is the human entered, "canonical" keyword
-  assertFilterIncludes('barf', '🤮', {useThesaurus: true});
-  assertFilterIncludes('puke', '🤮', {useThesaurus: true});
+  describe("Thesaurus Matching", () => {
+    
+    it("finds things using thesaurus it otherwise wouldn't", () => {
+      expectSearchIncludes('visage', '😀', {useThesaurus: true});
+      expectSearchIncludes('ice', '🥶', {useThesaurus: true});
+      // Doesn't work, but maybe should:
+      // assertFilterIncludes('angry', '🤬',  {useThesaurus: true});
+    });
+    
+    it("finds synonyms for 'barf'", () => {
+      expectSearchIncludes('sick', '🤮'); // this is the human entered, "canonical" keyword
+      expectSearchIncludes('barf', '🤮', {useThesaurus: true});
+      expectSearchIncludes('puke', '🤮', {useThesaurus: true});
+    });
+  });
+
+
 
 
 
   // -------------------------------------------- Reverse search. Do we see expected keywords and synonyms for a symbol?
-  const sickEmoji = toObj('🤮');
-  console.assert(sickEmoji.keywords.length >= 2, `'🤮' has some keywords`, sickEmoji);
-  const sickThesaurus = flatten(sickEmoji.thesaurus)
-  console.assert(sickThesaurus.length >= 100, `'🤮' has >= 100 thesaurus entries`, sickThesaurus.length);
-  const hasAll = ['afflicted','seasick','dizzy','unwell'].every(s => sickThesaurus.includes(s))
-  console.assert(hasAll, `'🤮' has all synonyms you'd expect`, sickThesaurus);
+  describe("Emoji Objects", () => {
+    const sickEmoji = toObj('🤮');
+    it('has keywords', () => {
+      expect(sickEmoji.keywords.length).toBeGreaterThanOrEqual(2); // '🤮' has some keywords
+    });
+    it('has a reasonable looking thesaurus', () => {
+      const sickThesaurus = flatten(sickEmoji.thesaurus);
+      expect(sickThesaurus.length).toBeGreaterThan(100);
+      // Has expected synonyms
+      expect(sickThesaurus).toEqual(jasmine.arrayContaining(['afflicted','seasick','dizzy','unwell']));
+      // And not ones you wouldn't
+      expect(sickThesaurus).not.toEqual(jasmine.arrayContaining(['giraffe','elephant']));
+    });
+  });
+  
+  
+  
 
 
 
-  // -------------------------------------------- Test to/from codePoint transforms. Multichar in particular is a little tricky.
-  (() => {
-    const char = '💙';
-    const codes = emoji.toCodePoints(char);
-    console.assert(codes.length === 1, `toCodePoints(${char}).length === 1`);
-    console.assert(codes[0] === 128153, `toCodePoints(${char})[0] === ${codes[0]}`);
-    const backToChar = emoji.fromCodePoints(codes);
-    console.assert(backToChar === char, `${backToChar} === ${char}`);
-  })();
-  (() => {
-    const char = '🇨🇨';
-    const back = emoji.fromCodePoints(emoji.toCodePoints(char));
-    console.assert(back === char, `${back} === ${char}`);
-  })();
-  (() => {
-    const char = '🙇‍♀️';
-    const back = emoji.fromCodePoints(emoji.toCodePoints(char));
-    console.assert(back === char, `${back} === ${char}`);
-  })();
-
-
-
-
-
-
-
-
-
-
-
-  // -------------------------------------------- Test Helpers
-  function assertFilterIncludes(needle, has, opts) {
-    let result = toChars(emoji.search(needle, opts));
-    console.assert(result.includes(has), `Searching for '${needle}' includes '${has}'`, result); 
-  }
-
-  function assertFilterIs(needle, target, opts) {
-    let result = toChars(emoji.search(needle, opts));
-    console.assert(result.length === 1, `Searching for '${needle}' has only 1 result`, result); 
-    console.assert(result[0] === target, `Searching for '${needle}' returns '${target}'`, result); 
-  }
-
-  function flatten(arr) {
-    return arr.reduce((acc, val) => acc.concat(val), []);
-  }
 
 });
-
-
-
-unitTest(); // TODO: do this execution on the node/runner side

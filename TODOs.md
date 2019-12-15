@@ -28,10 +28,16 @@
 
 ### Tech Debt / Dev Chores
 
-- [ ] Support multiple `.test.js` files (right now the "runner" command is in the only test file)
 - [ ] Use TypeScript for a clear definition of the Emoji data object type
 - [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables "excludes")
   - [ ] Don't ship the tests with the app bundle
+- [x] Support multiple `.test.js` files (right now the "runner" command is in the only test file)
+  - [x] Use `jasmine` for tests
+    - [x] ~~Update npm so that `**/*.test.js` pattern matching can work~~
+    - [x] ~~Update nvm so that I can update npm -- `node -v` should match `npm run node -v`~~
+    - [x] ~~Use a local dep to match the npm triggered node to my dev env -- `npm i node@11.8.0 --save-exact --save-dev`~~
+    - [x] Use `jasmine` instead of `jasmine-node`. the latter is deprecated and maybe had something wrong with the npm versioning.
+- [x] support multiple tests
 - [x] Basic unit tests (when search for A, expect set B)
 - [x] Do the "copied" animation without the animate.css dependency
 - [x] stop the `favicon.ico` browser error
