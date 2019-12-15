@@ -163,3 +163,44 @@ button.copy
 	flex-direction: column
 .flex-1
 	flex: 1 1 0
+
+
+
+// ------------------------------------------ Animation
+// Adapted from https://daneden.github.io/animate.css/
+// @keyframes tada
+// 	0%
+// 		transform: scaleX(1)
+// 	10%,20%
+// 		transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg)
+// 	30%,50%,70%,90%
+// 		transform: scale3d(1.1, 1.1, 1.1) rotate(3deg)
+// 	40%,60%,80%
+// 		transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg)
+// 	to
+// 		transform: scaleX(1)
+@keyframes tada
+	0%
+		transform: scaleX(1)
+	10%,20%
+		transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg)
+	40%, 80%
+		transform: scale3d(1.1, 1.1, 1.1) rotate(3deg)
+	60%
+		transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg)
+	to
+		transform: scaleX(1)
+
+.tada
+	animation-name: tada
+
+.animated
+	animation-duration: .4s
+	-webkit-animation-fill-mode: both
+	animation-fill-mode: both
+
+@media (prefers-reduced-motion: reduce), (print)
+	.animated
+		animation-duration: 1ms !important
+		transition-duration: 1ms !important
+		animation-iteration-count: 1 !important
