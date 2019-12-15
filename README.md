@@ -59,7 +59,7 @@ Compile SASS into css:
 
 ```sh
 # Use VSCode's SASS live watch plugin, or...
-sass --update src/browser_action/all.sass
+sass --update src/app_ui/emoji_picker.sass src/site/site.sass
 ```
 
 Run Tests:
@@ -68,9 +68,7 @@ Run Tests:
 node src/app_data/emoji.test.js
 ```
 
-
-
-Update the thesaurus decorated contents in `data/emojilib_thesaurus.js`:
+Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
 
 ```sh
 npm i # install dev dependencies
@@ -99,6 +97,12 @@ Create an extension-deployable zip file and unpack it for local testing with Chr
 
 ```sh
 node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+```
+
+Build the "web app" demo version to `dist/www`:
+
+```sh
+node scripts/to-www
 ```
 
 ## Contributing
