@@ -29,9 +29,9 @@
 ### Tech Debt / Dev Chores
 
 - [ ] Support multiple `.test.js` files (right now the "runner" command is in the only test file)
-- [ ] Don't ship the tests with the app bundle
-- [ ] Migrate to TypeScript for a clear definition of the Emoji data object type
-- [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables delete first/excludes)
+- [ ] Use TypeScript for a clear definition of the Emoji data object type
+- [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables "excludes")
+  - [ ] Don't ship the tests with the app bundle
 - [x] Basic unit tests (when search for A, expect set B)
 - [x] Do the "copied" animation without the animate.css dependency
 - [x] stop the `favicon.ico` browser error
@@ -40,6 +40,7 @@
 
 - [ ] arrow keys do unexpected things when working with text selections in search
 - [x] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird. (root cause: matching `__id__`)
+- [x] Only close the window after picking an emoji in the browser popup context
 
 ### Gloss & Packaging
 

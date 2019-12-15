@@ -217,9 +217,11 @@ module.exports = (() => {
     setTimeout(() => $copyBtn.innerText = "Copy", SHOW_COPIED_MSG_DURATION);
   }
 
+  // Close the popup, but not if:
+  // 1) we're in a unit test (node)
+  // 2) We're on the demo/webapp, rather than in the Chrome browser_popup
   function closePopup() {
-    // don't bother for unit tests/node
-    if (typeof window.close === 'function') {
+    if (typeof window.close === 'function' && chrome.browserAction) {
       window.close();
     }
   }
