@@ -21,7 +21,7 @@ module.exports = (() => {
   const CLOSE_POPUP_DELAY = 800; // How long to wait after a successful copy before closing the browser extension popup
   const ANIMATION = 'tada'; // must match a css class
   const TADA_ANIM_DURATION = 400; // should match css animation duration
-  const SHOW_COPIED_MSG_DURATION = 1000; // how long to show the "copied" message (on the button)
+  const SHOW_COPIED_MSG_DURATION = 600; // how long to show the "copied" message (on the button)
   const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 8 * 15; // for render perf, don't draw everything. 15 rows fit in Chrome's 600px height limit for default font size/zoom settings.
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
@@ -239,6 +239,8 @@ module.exports = (() => {
   // boundary protection works because focusOn just exits if it doesn't find an el to focus
   // really really dom coupled
   function moveFocusX(direction = 0) {
+    const wasFromSearch = document.activeElement === $.search();
+    if (wasFromSearch) return; // don't do custom arrow behavior if we're in the search box already
     const curLi = document.activeElement.parentElement;
     const idx = Array.from($.results().children).indexOf(curLi);
     focusOn(idx + direction);
@@ -246,7 +248,16 @@ module.exports = (() => {
 
   // +1 is down, -1 is up
   function moveFocusY(direction = 0) {
+
+    // special case: moving down from search
     const wasFromSearch = document.activeElement === $.search();
+    if(wasFromSearch) {
+      if (direction > 0) {
+        focusOn(0);
+      }
+      return; // don't do custom arrow behavior if we're in the search box already
+    }
+
     let el = document.activeElement.parentElement;
     const left = el.offsetLeft;
     const top = el.offsetTop;
@@ -290,9 +301,6 @@ module.exports = (() => {
       if (direction < 0) {
         $.search().focus();
         $.search().select();
-      // if moving down from search
-      } else if(wasFromSearch && direction > 0) {
-        focusOn(0);
       } else {
         focusOnButton(prevEl);
       }

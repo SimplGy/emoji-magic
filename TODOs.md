@@ -38,7 +38,7 @@
 
 ### Bugs
 
-- [ ] arrow keys do unexpected things when working with text selections in search
+- [x] arrow keys do unexpected things when working with text selections in search -- only leave search for the down arrow key (and tab, of course)
 - [x] Searching for only the letter "d" shows "undefined" in the emoji list, which is weird. (root cause: matching `__id__`)
 - [x] Only close the window after picking an emoji in the browser popup context
 
