@@ -43,7 +43,7 @@
   document.addEventListener('dblclick', (evt) => {
     if (evt.target.tagName === 'BUTTON') {
       const char = evt.target.innerText;
-      window.location = `./emoji?${char.codePointAt(0)}`; // encode the emoji for reasons
+      window.location = `./emoji?${emoji.toCodePoints(char)}`; // encode the emoji for reasons
     }
   });
   </script>

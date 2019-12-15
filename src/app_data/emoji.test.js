@@ -80,9 +80,40 @@ const unitTest = (function emojiTest() {
   console.assert(sickThesaurus.length >= 100, `'🤮' has >= 100 thesaurus entries`, sickThesaurus.length);
   const hasAll = ['afflicted','seasick','dizzy','unwell'].every(s => sickThesaurus.includes(s))
   console.assert(hasAll, `'🤮' has all synonyms you'd expect`, sickThesaurus);
-  
 
 
+
+  // -------------------------------------------- Test to/from codePoint transforms. Multichar in particular is a little tricky.
+  (() => {
+    const char = '💙';
+    const codes = emoji.toCodePoints(char);
+    console.assert(codes.length === 1, `toCodePoints(${char}).length === 1`);
+    console.assert(codes[0] === 128153, `toCodePoints(${char})[0] === ${codes[0]}`);
+    const backToChar = emoji.fromCodePoints(codes);
+    console.assert(backToChar === char, `${backToChar} === ${char}`);
+  })();
+  (() => {
+    const char = '🇨🇨';
+    const back = emoji.fromCodePoints(emoji.toCodePoints(char));
+    console.assert(back === char, `${back} === ${char}`);
+  })();
+  (() => {
+    const char = '🙇‍♀️';
+    const back = emoji.fromCodePoints(emoji.toCodePoints(char));
+    console.assert(back === char, `${back} === ${char}`);
+  })();
+
+
+
+
+
+
+
+
+
+
+
+  // -------------------------------------------- Test Helpers
   function assertFilterIncludes(needle, has, opts) {
     let result = toChars(emoji.search(needle, opts));
     console.assert(result.includes(has), `Searching for '${needle}' includes '${has}'`, result); 

@@ -318,6 +318,19 @@ module.exports = (() => {
   //   return template.content.firstChild;
   // }
 
+  // Given an emoji, return an array of code points.
+  // Must be an array to support multichar emoji like "🇨🇨" (2) and "🙇‍♀️" (4)
+  function toCodePoints(char) {
+    return Array.from(char).map(s => s.codePointAt(0));
+  }
+
+  // Given an array of numeric "code points", return a char
+  function fromCodePoints(arr = []) {
+    return arr.map(n => String.fromCodePoint(n)).join('');
+  }
+
+
+
   return {
     searchOn,
     search: searchOn(array),
@@ -328,6 +341,8 @@ module.exports = (() => {
     copyFirstEmoji,
     moveFocusX,
     moveFocusY,
+    toCodePoints,
+    fromCodePoints,
     __id__: 'emoji',
   }
 })();

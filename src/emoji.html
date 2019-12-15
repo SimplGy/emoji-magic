@@ -23,12 +23,12 @@
 	<script src="js_utils/emulate_node_modules.js"></script>
 	<script src="js_utils/store.js"></script> <!-- window.store -->
 	<script src="app_data/emojilib_thesaurus.js"></script> <!-- window.emojilib_thesaurus -->
-	<script src="app_data/emoji_data.js"></script> <!-- window.emoji_data -->
+  <script src="app_data/emoji_data.js"></script> <!-- window.emoji_data -->
+  <script src="app_data/emoji.js"></script> <!-- window.emoji -->
 	<script src="app_ui/emoji_details.js"></script> <!-- window.emoji_details -->
   <script>
-    // Map back and forth:
-    // '👍'.codePointAt(0) // 128077
-    // String.fromCodePoint(128077) // 👍
+    // This is the "Details" screen for emoji
+    // It's useful for seeing what keywords and synonyms matched a query
 
     const HIGHLIGHT = 'highlight';
 
@@ -36,9 +36,7 @@
     const $search = document.getElementById('SearchBox');
     
 
-    // let currentSearch;
     $search.addEventListener('input', ({target: {value}}) => {
-      // currentSearch = value;
       updateHighlights(value);
     });
 
@@ -61,13 +59,19 @@
     }
 
     // get the emoji from the url param
-    // TODO: greenland flag (and probably most flags) need to be fixed
-    const d = window.location.search.split('?').pop();
-    const char = String.fromCodePoint(d);
-    const emoji = emoji_data.toObj(char);
-    console.log({emoji});
+    const str = window.location.search.split('?').pop();
+    const codes = str.split(',');
+    const char = emoji.fromCodePoints(codes);
+    updateEmoji(char);
 
-    $output.innerHTML = emoji_details.render(emoji);
+    function updateEmoji(char) {
+      const emoji = emoji_data.toObj(char);
+      if (emoji == null) return console.warn(`${char} is not a known emoji`)
+      console.log({emoji});
+      $output.innerHTML = emoji_details.render(emoji);
+    }
+
+    
   </script>
 </body>
 </html>
