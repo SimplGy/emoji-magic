@@ -75,6 +75,12 @@ npm i # install dev dependencies
 node scripts/thesaurus.js
 ```
 
+## About the folders
+
+* `dist` -- dist bundle for chrome extention
+* `docs` -- for the demo web app. Only called "docs" so Github Static Pages can deploy it
+* `src` -- this is the only source code you should be editing
+
 ## Extension Development Gripes
 
 ### Three Environments
@@ -97,12 +103,14 @@ Create an extension-deployable zip file and unpack it for local testing with Chr
 
 ```sh
 node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+# test by using "load unpacked extension" in Chrome
 ```
 
-Build the "web app" demo version to `dist/www`:
+Build the "web app" demo version to `docs/` (so named for [Github Pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)):
 
 ```sh
 node scripts/to-www
+# test with `serve docs`
 ```
 
 ## Contributing

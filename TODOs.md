@@ -49,7 +49,7 @@
 - [x] Make Chrome extension available
 - [x] promo tile images
 - [x] Youtube video demo (from gif)
-- [ ] Deploy a demo version as a simple web app with a link to the Chrome store
+- [x] Deploy a demo version as a simple web app with a link to the Chrome store -- simple.gy/emoji-magic
 - [ ] Youtube video demo (better/show extension icon context)
 - [ ] Collect more/better screenshots
 - [ ] get that "runs offline" checkmark -- https://developer.chrome.com/apps/manifest/offline_enabled

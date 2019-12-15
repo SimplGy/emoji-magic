@@ -25,15 +25,19 @@ child_process.execSync(`rm -rf ${dest}`, {cwd});
 // put things in place
 child_process.execSync(`mkdir -p ${dest}/icons`, {cwd});
 child_process.execSync(`cp -r ./src/** ${dest}/`, {cwd});
-child_process.execSync(`cp ./icons/favicon* ${dest}/icons/`, {cwd});
+
+// reset icons
+child_process.execSync(`rm -rf ${dest}/icons`, {cwd});
+child_process.execSync(`mkdir -p ${dest}/icons`, {cwd});
+child_process.execSync(`cp ./src/icons/favicon-32x32.png ${dest}/icons/`, {cwd});
 
 toRemove = [
   `${dest}/browser_action.html`,
-  `${dest}/bind_to_dom.js`,
   `${dest}/**/*.sass`,
   `${dest}/**/*.css.map`,
   `${dest}/**/*.test.js`,
+  `${dest}/**/*.sketch`,
 ];
 
 // rm nonessential things
-child_process.execSync(`rm ${toRemove.join(' ')}`, {cwd});
+child_process.execSync(`rm -rf ${toRemove.join(' ')}`, {cwd});
