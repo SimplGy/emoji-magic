@@ -45,7 +45,6 @@ module.exports = ((global) => {
     
   // Guard: Are we running in a node context with no localStorage?
   if (global == null || global.localStorage == null) {
-    console.info("localStorage not available");
     return {
       get: noop,
       set: noop,

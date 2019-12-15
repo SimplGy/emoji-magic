@@ -34,7 +34,7 @@
 - [ ] Migrate to TypeScript for a clear definition of the Emoji data object type
 - [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables delete first/excludes)
 - [x] Do the "copied" animation without the animate.css dependency
-- [ ] stop the `favicon.ico` browser error
+- [x] stop the `favicon.ico` browser error
 
 ### Bugs
 

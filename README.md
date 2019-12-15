@@ -66,8 +66,6 @@ Run Tests:
 
 ```sh
 node src/app_data/emoji.test.js
-
-# If it says "localStorage not available", that's WAI, don't worry.
 ```
 
 
