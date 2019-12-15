@@ -78,7 +78,7 @@ node scripts/thesaurus.js
 ## About the folders
 
 * `dist` -- dist bundle for chrome extention
-* `docs` -- for the demo web app. Only called "docs" so Github Static Pages can deploy it
+* `docs` -- for the demo web app. Called "docs" for Github Static Pages. Don't modify things here. Modify `src`, then run the build step.
 * `src` -- this is the only source code you should be editing
 
 ## Extension Development Gripes
