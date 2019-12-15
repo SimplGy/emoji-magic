@@ -19,9 +19,9 @@ const store = require('../js_utils/store');
 module.exports = (() => {
   const CLIPBOARD_CLEAR_DELAY = 1000; // how long to leave the psuedo-clipboard content in place before clearing. (this user visible "clipboard" is what enables clicking three times in a row to copy a set of three emoji)
   const CLOSE_POPUP_DELAY = 800; // How long to wait after a successful copy before closing the browser extension popup
-  const ANIMATION = 'tada'; // from https://github.com/daneden/animate.css
-  const TADA_ANIM_DURATION = 800; // 800); // https://github.com/daneden/animate.css#slow-slower-fast-and-faster-class
-  const SHOW_COPIED_MSG_DURATION = 1500; // how long to show the "copied" message (on the button)
+  const ANIMATION = 'tada'; // must match a css class
+  const TADA_ANIM_DURATION = 400; // should match css animation duration
+  const SHOW_COPIED_MSG_DURATION = 1000; // how long to show the "copied" message (on the button)
   const RECENT_KEY = 'recent-selections';
   const RESULT_LIMIT = 8 * 15; // for render perf, don't draw everything. 15 rows fit in Chrome's 600px height limit for default font size/zoom settings.
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
