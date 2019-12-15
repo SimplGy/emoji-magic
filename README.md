@@ -109,7 +109,7 @@ node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
 Build the "web app" demo version to `docs/` (so named for [Github Pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)):
 
 ```sh
-node scripts/to-www
+node scripts/to-docs
 # test with `serve docs`
 ```
 

@@ -18,7 +18,7 @@
 - [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [x] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
-
+- [ ] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying
 
 ### Power User Features
 
