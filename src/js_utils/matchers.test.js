@@ -40,7 +40,6 @@ describe("matchers", () => {
       expect(prefixOverlap('fa')('farm')).toBe(0.50);
       expect(prefixOverlap('far')('farm')).toBe(0.75);
       expect(prefixOverlap('farm')('farm')).toBe(1);
-
     });
     
   });
