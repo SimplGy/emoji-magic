@@ -15,10 +15,10 @@
 
 - [x] Add a basic tooltip for emoji (canonical name, keywords, thesaurus words)
 - [x] have an emoji details page (for the demo site, and maybe some way to get to from Chrome)
-- [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [x] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
 - [x] only match startsWith, because "ice" shouldn't match "office worker"
+- [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
 - [ ] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying
 
 ### Power User Features
@@ -26,6 +26,8 @@
 - [x] Hitting enter right after a query works
 - [x] Arrow keys work (up, down, left, right)
 - [x] Hitting escape when in a blank search box closes the popup
+- [ ] Find the emoji that is most like [this word]. Tell the search engine to crawl some graph as far as possible until it finds at least some kind of result, even if it wouldn't otherwise.
+  - use case: "Pikachu". Obviously not an emoji, but maybe the world's greatest emoji search engine would find "lighting bolt" and "mouse"?
 
 ### Tech Debt / Dev Chores
 
