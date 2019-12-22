@@ -21,21 +21,17 @@ const {prefixOverlap, maxPrefixOverlap} = require('./matchers');
 describe("matchers", () => {
 
   describe("prefixOverlap", () => {
-    
     it('sees matches', () => {
       const result = prefixOverlap('foo')('foobar');
       expect(result).toBeGreaterThan(0);
     });
-
     it('only matches prefixes', () => {
       expect(prefixOverlap('a')('ab')).toBeGreaterThan(0);
       expect(prefixOverlap('b')('ab')).toBe(0);
     });
-    
     it('does not match a blank keyword', () => {
       expect(prefixOverlap('')('foo')).toBe(0);
     });
-    
     it('calculates expected prefix ratios', () => {
       expect(prefixOverlap('f')('farm')).toBe(0.25);
       expect(prefixOverlap('fa')('farm')).toBe(0.50);
@@ -48,12 +44,10 @@ describe("matchers", () => {
     it('returns 0 for no matches', () => {
       expect(maxPrefixOverlap('a')(['boo', 'baby', 'car'])).toBe(0);
     });
-
     it('returns the expected maximum', () => {
       const candidates = ['camera', 'california', 'card', 'cabrio'];
       expect(maxPrefixOverlap('ca')(candidates)).toBe(0.5); // 50% overlap in 'ca'/'card'
     });
   });
-
 
 });
