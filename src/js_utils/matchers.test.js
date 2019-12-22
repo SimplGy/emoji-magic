@@ -14,11 +14,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {prefixOverlap} = require('./matchers');
+const {prefixOverlap, maxPrefixOverlap} = require('./matchers');
 
 
 
 describe("matchers", () => {
+
   describe("prefixOverlap", () => {
     
     it('sees matches', () => {
@@ -41,6 +42,18 @@ describe("matchers", () => {
       expect(prefixOverlap('far')('farm')).toBe(0.75);
       expect(prefixOverlap('farm')('farm')).toBe(1);
     });
-    
   });
+
+  describe("maxPrefixOverlap", () => {
+    it('returns 0 for no matches', () => {
+      expect(maxPrefixOverlap('a')(['boo', 'baby', 'car'])).toBe(0);
+    });
+
+    it('returns the expected maximum', () => {
+      const candidates = ['camera', 'california', 'card', 'cabrio'];
+      expect(maxPrefixOverlap('ca')(candidates)).toBe(0.5); // 50% overlap in 'ca'/'card'
+    });
+  });
+
+
 });

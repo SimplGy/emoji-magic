@@ -21,14 +21,23 @@ module.exports = (() => {
   // eg: "foo", "foobar" -> 0.50 prefix
   // eg: "b",   "bake"   -> 0.25 prefix
   // Returns a number between 0 and 1, representing the overlap ratio
-  const prefixOverlap = (keyword = '') => (candidate = '') => {
-    if (keyword.length === 0 || candidate.lenth === 0) return 0;
+  const prefixOverlap = (term = '') => (candidate = '') => {
+    if (term.length === 0 || candidate.lenth === 0) return 0;
 
-    if(candidate.startsWith(keyword)) {
-      return keyword.length / candidate.length;
+    if(candidate.startsWith(term)) {
+      return term.length / candidate.length;
     }
 
     return 0;
+  };
+
+  // Given a string, then an array of strings, return the maxPrefixOverlap
+  // Returns a number between 0 and 1, representing the overlap ratio
+  const maxPrefixOverlap = (term = '') => (candidates = []) => {
+    if (term.length === 0 || candidates.lenth === 0) return 0;
+
+    const weights = candidates.map(prefixOverlap(term));
+    return Math.max.apply(Math, weights);
   };
 
 
@@ -36,6 +45,7 @@ module.exports = (() => {
 
   return {
     prefixOverlap,
+    maxPrefixOverlap,
     __id__: 'matchers',
   }
 })();
