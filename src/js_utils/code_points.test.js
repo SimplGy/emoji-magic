@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {fromCodePoints, toCodePoints} = require('./code_points'); // re-exporting these for convenience
+const {fromCodePoints, toCodePoints} = require('./code_points');
 
 
 
