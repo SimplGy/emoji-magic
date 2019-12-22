@@ -40,12 +40,17 @@ module.exports = (() => {
     return Math.max.apply(Math, weights);
   };
 
-
+  // Given a string, then a string[][], calculate the maxPrefixOverlap for each candidate array
+  // Returns an array of numbers between 0 and 1, one number for each element in arr.
+  const calcPrefixOverlaps = (term) => (arr = []) => {
+    return arr.map(maxPrefixOverlap(term));
+  };
 
 
   return {
     prefixOverlap,
     maxPrefixOverlap,
+    calcPrefixOverlaps,
     __id__: 'matchers',
   }
 })();
