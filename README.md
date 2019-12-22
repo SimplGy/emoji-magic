@@ -57,23 +57,22 @@ python3 -m http.server 8080
 
 Compile SASS into css:
 
-```sh
-# Use VSCode's SASS live watch plugin, or...
-sass --update src/app_ui/emoji_picker.sass src/site/site.sass
-```
+    # Use VSCode's SASS live watch plugin, or...
+    sass --update src/app_ui/emoji_picker.sass src/site/site.sass
 
 Run Tests:
 
-```sh
-npm test
-```
+    npm test
+
+Run live watching tests (needs `npm i -g nodemon`):
+
+    nodemon --exec npm test
+
 
 Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
 
-```sh
-npm i # install dev dependencies
-node scripts/thesaurus.js
-```
+    npm i # install dev dependencies
+    node scripts/thesaurus.js
 
 ## About the folders
 
