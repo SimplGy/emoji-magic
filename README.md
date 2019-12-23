@@ -80,6 +80,16 @@ Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
 * `docs` -- for the demo web app. Called "docs" for Github Static Pages. Don't modify things here. Modify `src`, then run the build step.
 * `src` -- this is the only source code you should be editing
 
+## Uh, what's up with the crazy module system?
+
+I wanted an environment that works in:
+
+1. The Browser (for web app and demo)
+2. Chrome Extension (for the main use case)
+3. Node (for tests)
+
+I also didn't want a build system, for... reasons (for fun). And also just the dependencies they involve, and the complexity... just didn't seem worth it. So, that's what `emulate_node_modules.js` is about. It works just fine, so long as you add an `__id__` for every module that matches the file name, and don't make a module that has the same name as a different one.
+
 ## Extension Development Gripes
 
 ### Three Environments
