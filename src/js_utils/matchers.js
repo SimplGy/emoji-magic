@@ -17,6 +17,8 @@ limitations under the License.
 
 module.exports = (() => {
 
+  const QUERY_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
+
   // Given a pair of strings, how much does the `keyword` prefix the `candidate`?
   // eg: "foo", "foobar" -> 0.50 prefix
   // eg: "b",   "bake"   -> 0.25 prefix
@@ -32,6 +34,7 @@ module.exports = (() => {
   };
 
   // Given a string, then an array of strings, return the maxPrefixOverlap
+  // eg: "ca", ["cake", "calendar"] -> 0.5 is the max prefix overlap
   // Returns a number between 0 and 1, representing the overlap ratio
   const maxPrefixOverlap = (term = '') => (candidates = []) => {
     if (term.length === 0 || candidates.lenth === 0) return 0;
@@ -41,16 +44,25 @@ module.exports = (() => {
   };
 
   // Given a string, then a string[][], calculate the maxPrefixOverlap for each candidate array
+  // eg: "ca", [["cake", "calendar"],["ca"]] -> [0.5, 1] is the max for each
   // Returns an array of numbers between 0 and 1, one number for each element in arr.
-  const calcPrefixOverlaps = (term) => (arr = []) => {
-    return arr.map(maxPrefixOverlap(term));
-  };
+  const calcPrefixOverlaps = (term) => (arr = []) =>
+    arr.map(maxPrefixOverlap(term));
+  
+  // Given a (possibly) multi-term query, call calcPrefixOverlaps for each term
+  // Return an array of prefixOverlap arrays, one for each term set
+  const prefixOverlapsForQuery = (queryString = '') => (arr = []) => {
+    const terms = queryString.split(QUERY_SEPARATORS);
+    return terms.map(t => calcPrefixOverlaps(t)(arr));
+  }
 
 
   return {
+    QUERY_SEPARATORS,
     prefixOverlap,
     maxPrefixOverlap,
     calcPrefixOverlaps,
+    prefixOverlapsForQuery,
     __id__: 'matchers',
   }
 })();

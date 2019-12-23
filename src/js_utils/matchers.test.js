@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {prefixOverlap, maxPrefixOverlap, calcPrefixOverlaps} = require('./matchers');
+const {prefixOverlap, maxPrefixOverlap, calcPrefixOverlaps, prefixOverlapsForQuery} = require('./matchers');
 
 
 
@@ -51,7 +51,7 @@ describe("matchers.js", () => {
   });
 
   describe("calcPrefixOverlaps()", () => {
-    it('', () => {
+    it('calculates overlaps for multiple word sets', () => {
       const keywords = ['card', 'camera'];
       const lessCertainKeywords = ['cardinals', 'car'];
       const term = 'car';
@@ -59,6 +59,18 @@ describe("matchers.js", () => {
       expect(result).toEqual([
         0.75, // car/card
         1,    // car/car
+      ]);
+    });
+  });
+
+  describe("prefixOverlapsForQuery()", () => {
+    it('calculates overlaps for a multi-term query against multiple word sets', () => {
+      const keywords = ['card', 'camera', 'redemption'];
+      const lessCertainKeywords = ['cardinals', 'car'];
+      const result = prefixOverlapsForQuery('red car')([keywords, lessCertainKeywords]);
+      expect(result).toEqual([
+        [0.3,  0], // 'red'
+        [0.75, 1], // 'car'
       ]);
     });
   });
