@@ -8,7 +8,7 @@
     "thesaurus": "0.0.1"
   },
   "scripts": {
-    "test": "jasmine **/*.test.js",
+    "test": "jasmine src/**/*.test.js",
     "v": "node -v"
   }
 }
