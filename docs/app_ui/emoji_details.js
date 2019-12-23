@@ -31,7 +31,8 @@ module.exports = ((global) => {
     const nameWords = emoji.name.split('_');
 
     return `
-    <h1>${emoji.char} ${renderWords(nameWords, ' ')}</h1>
+    <h1>${emoji.char}</h1>
+    <h2>${renderWords(nameWords, ' ')}</h2>
     <p>
       ${ renderWords(keywords) }
     </p>
