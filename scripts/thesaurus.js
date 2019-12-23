@@ -18,20 +18,33 @@ const thesaurus = require("thesaurus"); // consice results
 const fs = require('fs');
 const child_process = require("child_process");
 
-const emoji_data = require('../src/browser_action/emoji_data')
+const emojilib = require('../third_party/emojilib/emojilib');
+
+// Underscore is all, for now
+const NAME_SPLITTERS = /_/;
 
 
 
 // ---------------------------------------------- Procedure
 // Make sure the folder exists
-const DIR = 'src/browser_action/data'
-child_process.execSync(`mkdir -p ${DIR}`, {cwd: '.'})
+const DIR = 'src/app_data';
+child_process.execSync(`mkdir -p ${DIR}`, {cwd: '.'});
+
+// First turn the emoji hash into an array. Copy over the keys as "name" too.
+const rawEmojis = Object.entries(emojilib)
+.filter(([name, _]) => name !== '__id__')
+.map(([name, o]) => {
+  return {
+    ...o,
+    name,
+  }
+});
 
 // Calculate contents and write the files
-const thesaurized = emoji_data.array.map(withThesaurus)
+const thesaurized = rawEmojis.map(withThesaurus).map(nameIntoKeywords);
 // moby creates a 19 MB file, let's not do this one yet/this way.
 // const thesaurized = emoji_data.array.map(withMoby)
-fs.writeFileSync(`${DIR}/emojilib_thesaurus.js`, buildFile(thesaurized))
+fs.writeFileSync(`${DIR}/emojilib_thesaurus.js`, buildFile(thesaurized));
 
 
 
@@ -55,6 +68,14 @@ function withThesaurus(emojiObj) {
     ...emojiObj,
     thesaurus: related,
   }
+}
+
+// mutate obj, for efficiency.
+// Split the name and mix individual words into "keywords" for easier searching, later
+function nameIntoKeywords(emojiObj) {
+  const { name, keywords = [] } = emojiObj;
+  emojiObj.keywords = [...name.split(NAME_SPLITTERS), ...keywords];
+  return emojiObj;
 }
 
 function withMoby(emojiObj) {
