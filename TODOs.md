@@ -18,8 +18,9 @@
 - [x] Periodically clear the "multi emoji copy" DOM buffer (otherwise it hangs around forever)
 - [x] limit emoji count to what fits in chrome's 600px tall browser popup limit
 - [x] only match startsWith, because "ice" shouldn't match "office worker"
-- [ ] Add better tooltips for emoji (unicode char, how it matched your search query)
-- [ ] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying
+- [ ] Emoji tooltip that shows why it matched your search query, unicode values, etc.
+- [x] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying -- implemented a new sorting system
+- [ ] Introduct a clear separation between "strong matches" and "far away matches". Some of the thesaurus matches are quite a stretch.
 
 ### Power User Features
 

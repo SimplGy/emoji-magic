@@ -17,7 +17,6 @@ limitations under the License.
 const {array, toChars, toObj} = require('./emoji_data');
 const store = require('../js_utils/store');
 const emoji = require('./emoji');
-const emojilib = require('../../third_party/emojilib/emojilib');
 
 function flatten(arr) {
   return arr.reduce((acc, val) => acc.concat(val), []);
@@ -46,19 +45,22 @@ describe("emoji.js", () => {
     it("has prerequisites defined", () => {
       expect(store).toBeDefined();
       expect(emoji).toBeDefined();
-      expect(emojilib).toBeDefined();
     });
     it("has more than 1500 emojilib_thesaurus emojis", () => {
       expect(array.length).toBeGreaterThan(1500);
     });
+    it("copied the 'name' into 'keywords'", () => {
+      const o = toObj('💚');
+      expect(o.name).toBe('green_heart');
+      expect(o.keywords).toContain('green');
+      expect(o.keywords).toContain('heart');
+    });
   });
-  
   
   describe("emoji.search()", () => {
     it("matches epected symbols for 'crystal'", () => {
       const result = s('crystal');
       // WARNING: if you check length on a joined string result instead of this array, you'll probably see 4, not 2, because many emoji are multi-byte chars.
-      expect(result.length).toBe(2);
       expect(result).toContain('🔮');
       expect(result).toContain('💠');
     });
@@ -106,26 +108,68 @@ describe("emoji.js", () => {
       expect(s('have')).not.toContain('🍧') // "have" does not match "shaved"
     });
   });
+    
+  describe("emoji.matchKeywordsAndThesaurus(emojiObj, query)", () => {
+    const subject = toObj('💚');
+    it('calculates match strength for both', () => {
+      const result = emoji.matchKeywordsAndThesaurus(subject, 'love green heart');
+      expect(result.length).toBe(2);
+    });
+    it('finds "green heart" in keywords for "💚"', () => {
+      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'green heart');
+      expect(k).toBe(1);
+    });
+    it('finds "love" in "💚"', () => {
+      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'love');
+      expect(k).toBeGreaterThan(0, 'keyword match strength');
+      expect(t).toBeGreaterThan(0, 'thesaurus match strength');
+    });
+    it('returns a zero score on "rutabaga" for "💚"', () => {
+      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'rutabaga');
+      expect(k + t).toBe(0);
+    });
+  });
 
+  describe("emoji.matchStrengthFor(emojiObj, query)", () => {
+    // static emoji
+    const subject = {
+      char: 'z',
+      keywords: ['aaaa', 'cc'],
+      thesaurus: [
+        ['aa', 'cccccccc'],
+        ['aaa', 'ccccc']
+      ],
+    };
+    const query = 'aa cc';
 
+    it('calculates match strength', () => {
+      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, query)
 
+      // Test the setup
+      expect(k).toBe(0.5, 'keyword'); // "aa" is the weakest query term at "aa"/"aaaa"
+      expect(t).toBe(0.4, 'thesaurus'); // "cc" is the weakest query term at "cc"/"ccccc"
+
+      // Test the vector combination "math"
+      const strength = emoji.matchStrengthFor(subject, query);
+      expect(strength).toBe(0.5 + 0.4/1000); // the thesaurus matches are `x/1000` so they sort lower
+    });
+  });
+  
   describe("Thesaurus Matching", () => {
     
     it("finds things using thesaurus it otherwise wouldn't", () => {
-      expectSearchIncludes('visage', '😀', {useThesaurus: true});
-      expectSearchIncludes('ice', '🥶', {useThesaurus: true});
+      expectSearchIncludes('visage', '😀');
+      expectSearchIncludes('ice', '🥶');
       // Doesn't work, but maybe should:
-      // assertFilterIncludes('angry', '🤬',  {useThesaurus: true});
+      // expectSearchIncludes('angry', '🤬');
     });
     
     it("finds synonyms for 'barf'", () => {
       expectSearchIncludes('sick', '🤮'); // this is the human entered, "canonical" keyword
-      expectSearchIncludes('barf', '🤮', {useThesaurus: true});
-      expectSearchIncludes('puke', '🤮', {useThesaurus: true});
+      expectSearchIncludes('barf', '🤮');
+      expectSearchIncludes('puke', '🤮');
     });
   });
-
-
 
 
 
@@ -144,11 +188,5 @@ describe("emoji.js", () => {
       expect(sickThesaurus).not.toEqual(jasmine.arrayContaining(['giraffe','elephant']));
     });
   });
-  
-  
-  
-
-
-
 
 });
