@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {prefixOverlap, maxPrefixOverlap, calcPrefixOverlaps, prefixOverlapsForQuery} = require('./matchers');
+const {prefixOverlap, maxPrefixOverlap, calcPrefixOverlaps, prefixOverlapsByQueryTerm, prefixOverlapsByWordSet, minPrefixOverlapsByWordSet} = require('./matchers');
 
 
 
@@ -63,16 +63,51 @@ describe("matchers.js", () => {
     });
   });
 
-  describe("prefixOverlapsForQuery()", () => {
+  describe("prefixOverlapsByQueryTerm()", () => {
+    const a = ['card', 'camera', 'redemption', 'foo'];
+    const b = ['cardinals', 'car', 'bar', 'baz'];
+    const result = prefixOverlapsByQueryTerm('red car goes')([a, b]);
+    it('uses query terms as the primary dimension', () => {
+      expect(result.length).toBe(3);
+      expect(result[0].length).toBe(2);
+    });
     it('calculates overlaps for a multi-term query against multiple word sets', () => {
-      const keywords = ['card', 'camera', 'redemption'];
-      const lessCertainKeywords = ['cardinals', 'car'];
-      const result = prefixOverlapsForQuery('red car')([keywords, lessCertainKeywords]);
       expect(result).toEqual([
-        [0.3,  0], // 'red'
-        [0.75, 1], // 'car'
+      // a    b
+        [.3,  0],  // 'red'
+        [.75, 1],  // 'car'
+        [0,   0],  // 'goes'
       ]);
     });
   });
-
+  
+  describe("prefixOverlapsByWordSet()", () => {
+    const a = ['card', 'camera', 'redemption', 'foo'];
+    const b = ['cardinals', 'car', 'bar', 'baz'];
+    const result = prefixOverlapsByWordSet('red car goes')([a, b]);
+    it('uses candidate word sets as the primary dimension', () => {
+      expect(result.length).toBe(2);
+      expect(result[0].length).toBe(3);
+    });
+    it('calculates overlaps for a multi-term query against multiple word sets', () => {
+      expect(result).toEqual([
+      // red car  goes
+        [.3, .75, 0],   // a
+        [0,  1,   0],   // b
+      ]);
+    });
+  });
+  
+  describe("minPrefixOverlapsByWordSet()", () => {
+    const a = ['card', 'carmen', 'red'];
+    const b = ['cardinals', 'car', 'redemptive'];
+    const result = minPrefixOverlapsByWordSet('red car')([a, b]);
+    it('picks the min for each word set', () => {
+      //                      a     b
+      expect(result).toEqual([.75, .3]);
+                          // car/card
+                                 // red/redemptive
+    });
+  });
+  
 });

@@ -18,6 +18,8 @@ limitations under the License.
 module.exports = (() => {
 
   const QUERY_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
+  const min = arr => Math.min.apply(Math, arr);
+  const max = arr => Math.max(Math.max.apply(Math, arr), 0);
 
   // Given a pair of strings, how much does the `keyword` prefix the `candidate`?
   // eg: "foo", "foobar" -> 0.50 prefix
@@ -40,7 +42,7 @@ module.exports = (() => {
     if (term.length === 0 || candidates.lenth === 0) return 0;
 
     const weights = candidates.map(prefixOverlap(term));
-    return Math.max.apply(Math, weights);
+    return max(weights);
   };
 
   // Given a string, then a string[][], calculate the maxPrefixOverlap for each candidate array
@@ -50,19 +52,46 @@ module.exports = (() => {
     arr.map(maxPrefixOverlap(term));
   
   // Given a (possibly) multi-term query, call calcPrefixOverlaps for each term
-  // Return an array of prefixOverlap arrays, one for each term set
-  const prefixOverlapsForQuery = (queryString = '') => (arr = []) => {
+  // Return an array of prefixOverlap arrays, one for each term
+  // eg:
+  // "red car goes", [a, b] ->
+  // 'red':  [number, number]
+  // 'car':  [number, number]
+  // 'goes': [number, number]
+  const prefixOverlapsByQueryTerm = (queryString = '') => (arr = []) => {
     const terms = queryString.split(QUERY_SEPARATORS);
     return terms.map(t => calcPrefixOverlaps(t)(arr));
-  }
+  };
+  
+  // Given a (possibly) multi-term query, call calcPrefixOverlaps for each set of words
+  // same as prefixOverlapsByQueryTerm, but the first dimension is the set of words, rather than the query term
+  // Return an array of prefixOverlap arrays, one for each word set
+  // eg:
+  // "red car goes", [a, b] ->
+  // a: [number, number, number]
+  // b: [number, number, number]
+  const prefixOverlapsByWordSet = (queryString = '') => (arr = []) => {
+    const terms = queryString.split(QUERY_SEPARATORS);
+    return arr.map(candidates =>
+      terms.map(t => maxPrefixOverlap(t)(candidates))
+    );
+  };
 
+  const minPrefixOverlapsByWordSet = (queryString = '') => {
+    const fn = prefixOverlapsByWordSet(queryString);
+    return (arr = []) => fn(arr).map(min);
+  };
+    
 
+    
   return {
     QUERY_SEPARATORS,
     prefixOverlap,
     maxPrefixOverlap,
     calcPrefixOverlaps,
-    prefixOverlapsForQuery,
+    prefixOverlapsByQueryTerm,
+    prefixOverlapsByWordSet,
+    minPrefixOverlapsByWordSet,
     __id__: 'matchers',
   }
 })();
