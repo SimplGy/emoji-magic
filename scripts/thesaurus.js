@@ -41,7 +41,10 @@ const rawEmojis = Object.entries(emojilib)
 });
 
 // Calculate contents and write the files
-const thesaurized = rawEmojis.map(withThesaurus).map(nameIntoKeywords);
+const thesaurized = rawEmojis
+  .map(nameIntoKeywords) // do this first, so these get thesaurized too
+  .map(withThesaurus);
+  
 // moby creates a 19 MB file, let's not do this one yet/this way.
 // const thesaurized = emoji_data.array.map(withMoby)
 fs.writeFileSync(`${DIR}/emojilib_thesaurus.js`, buildFile(thesaurized));
