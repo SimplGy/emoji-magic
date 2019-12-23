@@ -21,6 +21,10 @@
 - [ ] Emoji tooltip that shows why it matched your search query, unicode values, etc.
 - [x] support thesaurus matches, but group/sort results so the increased quantity of matches isn't annoying -- implemented a new sorting system
 - [ ] Introduct a clear separation between "strong matches" and "far away matches". Some of the thesaurus matches are quite a stretch.
+- [ ] Work on performance. The new search+sort has taken a toll, I think.
+  - [ ] use a trie for `startsWith` matching 
+  - [ ] optimization: when the user is only adding chars, reduce the current result set, instead of always starting from the full data set
+  - [ ] Preconstruct the emoji object to have the match/matchVector field so that the VM can optimize the object shape as stable
 
 ### Power User Features
 
