@@ -111,7 +111,7 @@ node scripts/zip
 Create an extension-deployable zip file and unpack it for local testing with Chrome:
 
 ```sh
-node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+rm -rf ./dist/emoji-magic && node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
 # test by using "load unpacked extension" in Chrome
 ```
 

@@ -36,6 +36,8 @@
 
 ### Tech Debt / Dev Chores
 
+- [ ] Make the "bundle for chrome" script a one-liner, instead of "remove, zip, unzip"
+- [ ] Include a test for "all the icons referenced by the manifest are present". This has caused two "production" failures.
 - [ ] Use TypeScript for a clear definition of the Emoji data object type
 - [ ] make `scripts/zip.js` do a clean before it works. Also have it copy things to a folder, then zip that folder. (enables "excludes")
   - [ ] Don't ship the tests with the app bundle
@@ -49,6 +51,7 @@
 - [x] Basic unit tests (when search for A, expect set B)
 - [x] Do the "copied" animation without the animate.css dependency
 - [x] stop the `favicon.ico` browser error
+- [ ] validate that autoupdating works -- https://stackoverflow.com/questions/24100507/how-often-do-chrome-extensions-automatically-update
 
 ### Bugs
 

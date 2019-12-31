@@ -28,7 +28,7 @@ try {
 // bring over only the good stuff
 const includes = [
   'manifest.json',
-  'icons/*.png',
+  'src/icons/*.png',
   'src/browser_action.html',
   'src/*.js',
   'src/*/*.css',
