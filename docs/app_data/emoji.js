@@ -155,7 +155,10 @@ module.exports = (() => {
   function summaryString(emoji) {
     const { keywords = [], thesaurus = []} = emoji
     return `${emoji.char} ${emoji.name}\n\n` +
-    `keywords: ${keywords.join(', ')}\n\n` +
+
+    `keywords: ${keywords.join(', ')}\n` +
+    `version (emoji/unicode): ${emoji.emoji_version} / ${emoji.unicode_version}\n\n` +
+
     thesaurus
       .filter(arr => arr.length > 0)
       .map((arr, idx) => `${keywords[idx]}:\n${arr.join(', ')}`).join('\n\n')
@@ -348,7 +351,6 @@ module.exports = (() => {
       "grin"
     ],
     "char": "😀",
-    "fitzpatrick_scale": false,
     "category": "people",
     "thesaurus": [
       ["human face","external body part"],
