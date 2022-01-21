@@ -13,40 +13,125 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
+// This script reads in emoji data
+// For each emoji, it looks up thesaurus information and mixes it in
+// It then writes this to a file called `emojilib_thesaurus.js`
+// That file is the main data source used by this application
+
 const moby = require('moby') // many results
 const thesaurus = require("thesaurus"); // consice results
 const fs = require('fs');
 const child_process = require("child_process");
 
-const emojilib = require('../third_party/emojilib/emojilib');
-
-// Underscore is all, for now
-const NAME_SPLITTERS = /_/;
+const emoji_keywords_json = require('../third_party/emojilib/emoji-en-US.json');
+const data_by_emoji_json = require('../third_party/emojilib/data-by-emoji.json');
 
 
 
+// ---------------------------------------------- Data Format (explanation)
+/*
+Input format, `data-by-emoji.json`:
+```
+{
+  "💯": {
+    "name": "hundred points",
+    "slug": "hundred_points",
+    "group": "Smileys & Emotion",
+    "emoji_version": "0.6",
+    "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+}
+```
+
+
+Input format, `emoji-en-US.json` (emojilib keywords):
+```
+{
+  "💯": [
+    "hundred_points",
+    "score",
+    "perfect",
+    "numbers",
+    "century",
+    "exam",
+    "quiz",
+    "test",
+    "pass",
+    "hundred"
+  ],
+}
+```
+
+
+Output format, `emojilib_thesaurus.js` (array):
+```
+[
+  {
+    "keywords": [
+      "100", // "name" was mixed into the keywords first so thesaurus would generate for it
+      "score",
+      "perfect",
+    ],
+    "char": "💯",
+    "category": "symbols",
+    "name": "100",
+    // generated for each keyword
+    "thesaurus": [
+      [
+        "hundred",
+        "a hundred",
+        "one hundred",
+      ],
+      [
+        "mark",
+        "grade",
+        "evaluation",
+      ],
+      [
+        "perfect",
+        "clean",
+        "clear",
+        "cold",
+      ],
+    ]
+  }
+]
+```
+
+*/
 // ---------------------------------------------- Procedure
 // Make sure the folder exists
 const DIR = 'src/app_data';
 child_process.execSync(`mkdir -p ${DIR}`, {cwd: '.'});
 
-// First turn the emoji hash into an array. Copy over the keys as "name" too.
-const rawEmojis = Object.entries(emojilib)
-.filter(([name, _]) => name !== '__id__')
-.map(([name, o]) => {
+// Summarize our data set
+const a = Object.keys(data_by_emoji_json);
+const b = Object.keys(emoji_keywords_json);
+console.log(`found ${a.length} emoji in data_by_emoji_json`);
+console.log(`found ${b.length} emoji in emoji_keywords_json`);
+const allKeys = Array.from(new Set([...a, ...b]));
+console.log(`${allKeys.length} total unique emoji`);
+console.log();
+
+// Zip the data into a simple array
+const rawEmojiArray = allKeys.map(char => {
+  const data = data_by_emoji_json[char];
+  const keywords = emoji_keywords_json[char] || [];
   return {
-    ...o,
-    name,
-  }
+    char,
+    keywords: unslugifyKeywords(keywords),
+    ...data,
+  };
 });
 
-// Calculate contents and write the files
-const thesaurized = rawEmojis
-  .map(nameIntoKeywords) // do this first, so these get thesaurized too
-  .map(withThesaurus);
-  
-// moby creates a 19 MB file, let's not do this one yet/this way.
-// const thesaurized = emoji_data.array.map(withMoby)
+// Add in thesaurus data
+const thesaurized = rawEmojiArray.map(withThesaurus);
+// Alternative thesaurus: `moby`. Creates a 19 MB file, let's not do this one yet/this way:
+// const thesaurized = emoji_data.array.map(withMoby);
+
+// Write the file to disk
 fs.writeFileSync(`${DIR}/emojilib_thesaurus.js`, buildFile(thesaurized));
 
 
@@ -57,7 +142,6 @@ Input object example:
 {
   name: '100',
   char: '💯',
-  fitzpatrick_scale: false,
   category: 'symbols',
   keywords:[ 'score', 'perfect', 'hundred' ]
 }
@@ -65,7 +149,7 @@ Input object example:
 
 function withThesaurus(emojiObj) {
   const { keywords = [] } = emojiObj;
-  if (keywords.length === 0) console.warn(`no keywords for emoji:`, emojiObj);
+  if (keywords.length === 0) console.warn(`\nno keywords for emoji:`, emojiObj);
   const related = keywords.map(word => thesaurus.find(word))
   return {
     ...emojiObj,
@@ -73,17 +157,21 @@ function withThesaurus(emojiObj) {
   }
 }
 
-// mutate obj, for efficiency.
-// Split the name and mix individual words into "keywords" for easier searching, later
-function nameIntoKeywords(emojiObj) {
-  const { name, keywords = [] } = emojiObj;
-  emojiObj.keywords = [...name.split(NAME_SPLITTERS), ...keywords];
-  return emojiObj;
+// Some keywords may be slugified (eg: emojilib puts the slugified_name in as the first keyword)
+// Unslugify them (also) for better keyword matches
+function unslugifyKeywords(arr = []) {
+  const spacey = [];
+  for (let word of arr) {
+    if (word.includes('_')) { // heh
+      spacey.push(word.replace(/_/g, ' '));
+    }
+  }
+  return [...spacey, ...arr];
 }
 
 function withMoby(emojiObj) {
   const { keywords = [] } = emojiObj;
-  if (keywords.length === 0) console.warn(`no keywords for emoji:`, emojiObj);
+  if (keywords.length === 0) console.warn(`\nno keywords for emoji:`, emojiObj);
   const related = keywords.map(word => moby.search(word))
   return {
     ...emojiObj,
