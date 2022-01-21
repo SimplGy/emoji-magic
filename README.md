@@ -41,9 +41,7 @@ Serve the local repo for live editing and a fast dev experience:
 
 ```
 # run in repo root:
-serve -l 8080
-# or:
-python3 -m http.server 8080 
+python -m SimpleHTTPServer 8080
 
 # To view the demo version of the app with a "website" wrapper:
 # http://0.0.0.0:8080/src/
@@ -99,6 +97,14 @@ When building one of these, I think most developers will want to do testing on t
 I have had no end of bugs that only exhibit on one or another of these platforms. Sometimes it's only broken when run in an extension context. Sometimes only in node for tests.
 
 Most extensions are simple and adding a rollup/webpack build system seems like a lot of overhead that isn't deserved, but it's hard to avoid. Would be nice for Chrome to get opinionated about this and make a happy path Typescript/test/local dev environment for extensions that is impossible to mess up.
+
+## Updating the Emoji Data (new Unicode emoji available)
+
+1. `node scripts/update-3p.js` to update the raw data set
+1. `node scripts/thesaurus.js` to re-generate the thesaurus
+1. `python -m SimpleHTTPServer 8080` to test in the web ui
+
+If you're happy with the results, bump the manifest version and follow the steps in the "Deploying" section.
 
 ## Deploying
 
