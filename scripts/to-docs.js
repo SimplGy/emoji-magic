@@ -14,6 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// This script copies the right content to the `docs/` folder, which is where GitHub Pages expects static content to live.
+// https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/
+
 const child_process = require("child_process");
 
 const dest = './docs';
