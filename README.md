@@ -11,7 +11,7 @@ Born of a desire to improve emoji searching even further.
 ## How to Use
 
 1. Click the extension icon: `🔮`
-2. Type in what you want, like "cat"
+2. Type what you want, like "cat"
 3. Hit "enter" or click on the exact emoji you want
 
 > Tip: choose a keyboard shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts) -> `Emoji Magic` so you can add Emojis easily, anytime.
