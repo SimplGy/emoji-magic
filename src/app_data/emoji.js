@@ -87,7 +87,8 @@ module.exports = (() => {
   // Main search method.
   // Given a search string, return an array of matching emoji objects
   // The data is usually pre-bound but you can provide your own data set as well (eg: testing)
-  const searchOn = (data = []) => (str = '', { useThesaurus } = {}) => {
+  // eg: options.useThesaurus is not used today (always match the thesaurus)
+  const searchOn = (data = []) => (str = '', options) => {
     str = str.trim();
     
     // Blank search? Exit early.

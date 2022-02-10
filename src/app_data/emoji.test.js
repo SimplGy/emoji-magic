@@ -27,17 +27,17 @@ function flatten(arr) {
 describe("emoji.js", () => {
 
   // shorthand for doing an emoji search and converting the results to chars instead of objects
-  s = (term, opts) => toChars(emoji.search(term, opts));
+  s = (term) => toChars(emoji.search(term));
 
   // expect that a term includes emojiChar somewhere in results
-  expectSearchIncludes = (term, emojiChar, opts) => {
-    let result = s(term, opts);
+  expectSearchIncludes = (term, emojiChar) => {
+    let result = s(term);
     expect(result).toContain(emojiChar);
   };
 
   // expect that the top ranked result for a term is emojiChar
-  expectFirstResult = (term, emojiChar, opts) => {
-    const result = s(term, opts);
+  expectFirstResult = (term, emojiChar) => {
+    const result = s(term);
     expect(result[0]).toBe(emojiChar);
   };
 
@@ -58,6 +58,15 @@ describe("emoji.js", () => {
   });
   
   describe("emoji.search()", () => {
+    it('returns an array of structured objects', () => {
+      const result = emoji.search('diamond');
+      expect(result.length).toBeGreaterThanOrEqual(6); // might add emoji, but never remove or invalidate keywords
+      expect(result[0].char).toBe('💍');
+      expect(result[0].keywords).toContain('wedding');
+      expect(result[0].keywords).toContain('engagement');
+      expect(flatten(result[0].thesaurus)).toContain('hoop');
+      expect(flatten(result[0].thesaurus)).toContain('ceremony');
+    });
     it("matches epected symbols for 'crystal'", () => {
       const result = s('crystal');
       // WARNING: if you check length on a joined string result instead of this array, you'll probably see 4, not 2, because many emoji are multi-byte chars.
