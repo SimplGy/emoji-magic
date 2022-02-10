@@ -29,6 +29,13 @@ const data_by_emoji_json = require('../third_party/emojilib/data-by-emoji.json')
 
 
 
+// ---------------------------------------------- Config
+// Manually, add additional keywords to certain emoji
+MANUAL_KEYWORDS = {
+  '🤬': ['angry'],
+}
+
+
 // ---------------------------------------------- Data Format (explanation)
 /*
 Input format, `data-by-emoji.json`:
@@ -117,11 +124,21 @@ console.log();
 
 // Zip the data into a simple array
 const rawEmojiArray = allKeys.map(char => {
+  // this is metadata like name/slug/unicode_version
   const data = data_by_emoji_json[char];
-  const keywords = emoji_keywords_json[char] || [];
+  const nameParts = data.name.split(' ').map(s => s.trim()); // 'foo bar' -> ['foo', 'bar']
+  // emojilib/emoji-en-US.json includes the "slugified_name" of the emoji. Leave it there for advanced match/debug use cases.
+  let keywords = emoji_keywords_json[char] || [];
+  // add in keywords defined by this project
+  const manualKeywords = MANUAL_KEYWORDS[char] || [];
+  keywords = [...keywords, ...manualKeywords];
+  // remove exact matches from keywords that are also in names (prevent double counting)
+  keywords = keywords.filter(k => !nameParts.includes(k));
+
   return {
     char,
-    keywords: unslugifyKeywords(keywords),
+    nameParts,  
+    keywords,
     ...data,
   };
 });
@@ -148,31 +165,21 @@ Input object example:
 */
 
 function withThesaurus(emojiObj) {
-  const { keywords = [] } = emojiObj;
+  const { keywords = [], nameParts = [] } = emojiObj;
+  const allWords = [...keywords, ...nameParts];
   if (keywords.length === 0) console.warn(`\nno keywords for emoji:`, emojiObj);
-  const related = keywords.map(word => thesaurus.find(word))
+  const related = allWords.map(word => thesaurus.find(word))
   return {
     ...emojiObj,
     thesaurus: related,
   }
 }
 
-// Some keywords may be slugified (eg: emojilib puts the slugified_name in as the first keyword)
-// Unslugify them (also) for better keyword matches
-function unslugifyKeywords(arr = []) {
-  const spacey = [];
-  for (let word of arr) {
-    if (word.includes('_')) { // heh
-      spacey.push(word.replace(/_/g, ' '));
-    }
-  }
-  return [...spacey, ...arr];
-}
-
 function withMoby(emojiObj) {
-  const { keywords = [] } = emojiObj;
+  const { keywords = [], nameParts = [] } = emojiObj;
+  const allWords = [...keywords, ...nameParts];
   if (keywords.length === 0) console.warn(`\nno keywords for emoji:`, emojiObj);
-  const related = keywords.map(word => moby.search(word))
+  const related = allWords.map(word => moby.search(word))
   return {
     ...emojiObj,
     thesaurus: related,

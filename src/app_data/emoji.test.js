@@ -46,26 +46,16 @@ describe("emoji.js", () => {
       expect(store).toBeDefined();
       expect(emoji).toBeDefined();
     });
-    it("has more than 1500 emojilib_thesaurus emojis", () => {
-      expect(array.length).toBeGreaterThan(1500);
-    });
-    it("copied the 'name' into 'keywords'", () => {
-      const o = toObj('💚');
-      expect(o.name).toBe('green_heart');
-      expect(o.keywords).toContain('green');
-      expect(o.keywords).toContain('heart');
-    });
   });
   
   describe("emoji.search()", () => {
     it('returns an array of structured objects', () => {
       const result = emoji.search('diamond');
-      expect(result.length).toBeGreaterThanOrEqual(6); // might add emoji, but never remove or invalidate keywords
-      expect(result[0].char).toBe('💍');
-      expect(result[0].keywords).toContain('wedding');
-      expect(result[0].keywords).toContain('engagement');
-      expect(flatten(result[0].thesaurus)).toContain('hoop');
-      expect(flatten(result[0].thesaurus)).toContain('ceremony');
+      expect(result.length).toBeGreaterThanOrEqual(6); // might add more emoji. Never remove or invalidate keywords
+      expect(toChars(result)).toContain('💍');
+      expect(result[0].nameParts.length).toBeGreaterThan(0);
+      expect(result[0].keywords.length).toBeGreaterThan(0);
+      expect(result[0].thesaurus.length).toBeGreaterThan(0);
     });
     it("matches epected symbols for 'crystal'", () => {
       const result = s('crystal');
@@ -75,7 +65,8 @@ describe("emoji.js", () => {
     });
 
     it("matches epected symbols for 'pepper'", () => {
-      expectFirstResult('pepper', '🌶');
+      const topThreeResults = s('pepper').slice(0,3);
+      expect(topThreeResults).toContain('🌶️');
     });
 
     it("matches other simple searches", () => {
@@ -97,80 +88,91 @@ describe("emoji.js", () => {
     it("matches some common prefixes", () => {
       const result = s('fire');
       expect(result).toContain('🔥'); // fire
-      expect(result).toContain('🚒'); // fire_engine
-      expect(result).toContain('👩‍🚒'); // woman_firefighter
+      expect(result).toContain('🚒'); // fire engine
+      expect(result).toContain('👩‍🚒'); // woman firefighter
     });
 
-    it("matches prefixes in multi_word emoji names", () => {
+    it("can match the second word of multi word emoji names like 'shaved ice'", () => {
       const emojiObj = toObj('🍧');
-      expect(emojiObj.name).toBe('shaved_ice');
+      expect(emojiObj.name).toBe('shaved ice');
 
       // even though it doesn't startWith "ice", because it's in the name, it matches
       expectSearchIncludes('ice', '🍧')
     });
 
-    it("does't just blindly match anywhere in multi_word emoji names", () => {
+    it("does't just blindly match anywhere in multi word emoji names", () => {
       const emojiObj = toObj('🍧');
-      expect(emojiObj.name).toBe('shaved_ice');
+      expect(emojiObj.name).toBe('shaved ice');
 
       // even though it doesn't startWith "ice", because it's in the name, it matches
       expect(s('have')).not.toContain('🍧') // "have" does not match "shaved"
     });
   });
     
-  describe("emoji.matchKeywordsAndThesaurus(emojiObj, query)", () => {
+  describe("emoji.computeMatchVectorForEmoji(emojiObj, query)", () => {
     const subject = toObj('💚');
-    it('calculates match strength for both', () => {
-      const result = emoji.matchKeywordsAndThesaurus(subject, 'love green heart');
-      expect(result.length).toBe(2);
+    it('calculates a three component vector', () => {
+      const result = emoji.computeMatchVectorForEmoji(subject, 'love green heart');
+      expect(result.length).toBe(3);
     });
     it('finds "green heart" in keywords for "💚"', () => {
-      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'green heart');
-      expect(k).toBe(1);
+      const [n, k, t] = emoji.computeMatchVectorForEmoji(subject, 'green heart');
+      expect(n).toBe(1); // 100% match on name -- all of the input words match 100% of something in corpus
     });
     it('finds "love" in "💚"', () => {
-      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'love');
+      const [n, k, t] = emoji.computeMatchVectorForEmoji(subject, 'love');
       expect(k).toBeGreaterThan(0, 'keyword match strength');
       expect(t).toBeGreaterThan(0, 'thesaurus match strength');
     });
     it('returns a zero score on "rutabaga" for "💚"', () => {
-      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, 'rutabaga');
-      expect(k + t).toBe(0);
+      const [n, k, t] = emoji.computeMatchVectorForEmoji(subject, 'rutabaga');
+      expect(n + k + t).toBe(0);
     });
   });
 
   describe("emoji.matchStrengthFor(emojiObj, query)", () => {
-    // static emoji
+    // mock "emoji" data with known match percentages
     const subject = {
       char: 'z',
+      nameParts: ['aaaaaaaa', 'cc'],
       keywords: ['aaaa', 'cc'],
       thesaurus: [
         ['aa', 'cccccccc'],
         ['aaa', 'ccccc']
       ],
     };
+    // Multi word query, so all words must match at least a little bit
     const query = 'aa cc';
 
-    it('calculates match strength', () => {
-      const [k, t] = emoji.matchKeywordsAndThesaurus(subject, query)
-
-      // Test the setup
-      expect(k).toBe(0.5, 'keyword'); // "aa" is the weakest query term at "aa"/"aaaa"
-      expect(t).toBe(0.4, 'thesaurus'); // "cc" is the weakest query term at "cc"/"ccccc"
-
+    it('computeMatchVectorForEmoji() returns expected vector strengths', () => {
+      const [n, k, t] = emoji.computeMatchVectorForEmoji(subject, query);
+      expect(n).toBe(0.25, 'name'); // "aa" is the weakest query term at "aa"/"aaaaaaaa" -- 25% match
+      expect(k).toBe(0.5, 'keyword'); // "aa" is the weakest query term at "aa"/"aaaa" -- 50% match
+      expect(t).toBe(0.4, 'thesaurus'); // "cc" is the weakest query term at "cc"/"ccccc" -- 40% match
+    });
+    it('calculates match strength as expected', () => {
       // Test the vector combination "math"
       const strength = emoji.matchStrengthFor(subject, query);
-      expect(strength).toBe(0.5 + 0.4/1000); // the thesaurus matches are `x/1000` so they sort lower
+      const name = 0.25; // known result, validated in test above
+      const keyword = 0.5; // known result
+      const thesaurus = 0.4; // known result
+      expect(strength).toBe(name + keyword/10 + thesaurus/1000); // the keywords and thesaurus matches are downweighted so they sort lower
     });
   });
   
   describe("Thesaurus Matching", () => {
     
-    it("finds things using thesaurus it otherwise wouldn't", () => {
+    it("finds things using thesaurus it otherwise wouldn't (eg: 😀)", () => {
       expectSearchIncludes('visage', '😀');
+    });
+
+    it("finds things using thesaurus it otherwise wouldn't (eg: 🥶)", () => {
       expectSearchIncludes('ice', '🥶');
-      // Doesn't work, but maybe should:
-      // expectSearchIncludes('angry', '🤬');
+      
+    });
+
+    it("finds things using thesaurus it otherwise wouldn't (eg: 🤬)", () => {
+      expectSearchIncludes('tempestuous', '🤬');
     });
     
     it("finds synonyms for 'barf'", () => {
@@ -190,7 +192,7 @@ describe("emoji.js", () => {
     });
     it('has a reasonable looking thesaurus', () => {
       const sickThesaurus = flatten(sickEmoji.thesaurus);
-      expect(sickThesaurus.length).toBeGreaterThan(100);
+      expect(sickThesaurus.length).toBeGreaterThan(80);
       // Has expected synonyms
       expect(sickThesaurus).toEqual(jasmine.arrayContaining(['afflicted','seasick','dizzy','unwell']));
       // And not ones you wouldn't

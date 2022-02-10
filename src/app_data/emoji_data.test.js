@@ -23,7 +23,7 @@ describe("emoji_data.js", () => {
     it("has more than 1500 emojis", () => {
       expect(emojiData.array.length).toBeGreaterThan(1500);
     });
-    it("did not copy the 'name' into 'keywords'", () => {
+    it("does not always copy the 'name' into 'keywords'", () => {
       const o = emojiData.toObj('💚');
       expect(o.name).toBe('green heart');
       expect(o.keywords).not.toContain('green');
@@ -31,6 +31,23 @@ describe("emoji_data.js", () => {
       expect(o.keywords).not.toContain('green heart');
     });
     it("has the full_slug in 'keywords'", () => {
+      const o = emojiData.toObj('💚');
+      expect(o.slug).toBe('green_heart');
+      expect(o.keywords).toContain('green_heart');
+    });
+    it("provides a special location for multi word names", () => {
+      const o = emojiData.toObj('💚');
+      expect(o.name).toBe('green heart');
+      expect(o.nameParts).toContain('green');
+      expect(o.nameParts).toContain('heart');
+    });
+    // Validate this, because then the search weighting score would count it for both
+    it("never has a name that exactly matches a keyword", () => {
+      for (let emoji of emojiData.array) {
+        for (let namePart of emoji.nameParts) {
+          expect(emoji.keywords).not.toContain(namePart, emoji.char);
+        }
+      }
       const o = emojiData.toObj('💚');
       expect(o.slug).toBe('green_heart');
       expect(o.keywords).toContain('green_heart');
