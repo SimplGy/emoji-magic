@@ -19,8 +19,6 @@ const store = require('../js_utils/store');
 const {minPrefixOverlapsByWordSet} = require('../js_utils/matchers');
 const {fromCodePoints, toCodePoints} = require('../js_utils/code_points'); // re-exporting these for convenience
 
-const sum = (a, b) => a + b;
-
 
 
 module.exports = (() => {
