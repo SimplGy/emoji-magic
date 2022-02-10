@@ -33,6 +33,10 @@ const data_by_emoji_json = require('../third_party/emojilib/data-by-emoji.json')
 // Manually, add additional keywords to certain emoji
 MANUAL_KEYWORDS = {
   '🤬': ['angry'],
+  '❗': ['bang'],
+  '❕': ['bang'],
+  '‼️': ['bang'],
+  '🙏': ['thank', 'pray'],
 }
 
 
