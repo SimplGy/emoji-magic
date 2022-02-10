@@ -100,8 +100,8 @@ Most extensions are simple and adding a rollup/webpack build system seems like a
 
 ## Updating the Emoji Data (new Unicode emoji available)
 
-1. `node scripts/update-3p.js` to update the raw data set
-1. `node scripts/thesaurus.js` to re-generate the thesaurus
+1. `node scripts/update-3p.js` to update the raw data set (`emoji-en-US.json` and `data-by-emoji.json`)
+1. `node scripts/thesaurus.js` to re-generate the thesaurus (`emojilib_thesaurus.js`)
 1. `python -m SimpleHTTPServer 8080` to test in the web ui
 
 If you're happy with the results, bump the manifest version and follow the steps in the "Deploying" section.
