@@ -19,8 +19,6 @@ const store = require('../js_utils/store');
 const {minPrefixOverlapsByWordSet} = require('../js_utils/matchers');
 const {fromCodePoints, toCodePoints} = require('../js_utils/code_points'); // re-exporting these for convenience
 
-const sum = (a, b) => a + b;
-
 
 
 module.exports = (() => {
@@ -89,25 +87,27 @@ module.exports = (() => {
   // Main search method.
   // Given a search string, return an array of matching emoji objects
   // The data is usually pre-bound but you can provide your own data set as well (eg: testing)
-  const searchOn = (data = []) => (str = '', { useThesaurus } = {}) => {
+  // eg: options.useThesaurus is not used today (always match the thesaurus)
+  const searchOn = (data = []) => (str = '', options) => {
     str = str.trim();
     
     // Blank search? Exit early.
     if (str === '') {
-      return recentSelections.length > 0 ? recentSelections.map(toObj) : DEFAULT_RESULTS.map(toObj);
+      const results = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
+      return results.map(toObj);
     }
 
     const matchesByStrength = data
       .map(r => [
         r,
-        {
-          match: matchStrengthFor(r, str),
-          matchVector: matchKeywordsAndThesaurus(r, str),
-        },
+        matchStrengthFor(r, str),
       ])
-      .filter(r => r[1].match > 0)
-      .sort((a, b) => b[1].match - a[1].match)
-      .map(r => r[0]); // plain emoji again
+      // Anything above zero counts as a match (either keywords or thesaurus):
+      .filter(r => r[1] > 0)
+      // Sort by the match strength
+      .sort((a, b) => b[1] - a[1])
+      // Drop the match strength vector from the response (plain emoji objects):
+      .map(r => r[0]);
 
     // TODO: make it obvious which words are matching, so it's not confusing why unrelated-seeming results appear
     // console.log(matchesByStrength.map(({char, match}) => char + ' ' + match));
@@ -345,16 +345,25 @@ module.exports = (() => {
    * eg: 1 number: `0.501` (indicating a 50% avg keyword match and a 100% avg thesaurus match)
    */
   function matchStrengthFor(emojiObj = {}, query = '') {
-    const [k, t] = matchKeywordsAndThesaurus(emojiObj, query);
-    // console.log(`\nmatchStrengthFor('${emojiObj.char}', '${query}') keywordMatches`, k)
-    // console.log(`\nmatchStrengthFor('${emojiObj.char}', '${query}') thesaurusMatches`, t)
-    return k + t/1000; // eg: 1.001 or 0.005
+    const [n, k, t] = computeMatchVectorForEmoji(emojiObj, query);
+
+    // debug: log the match strength with nice readable output:
+    // if (n + k + t > 0) {
+    //   console.log(`\nmatchStrengthFor('${emojiObj.char}', '${query}') name`, n)
+    //   console.log(`matchStrengthFor('${emojiObj.char}', '${query}') keyword`, k)
+    //   console.log(`matchStrengthFor('${emojiObj.char}', '${query}') thesaurus`, t)
+    // }
+
+    return n + k/10 + t/1000; // eg: 1.001 or 0.005
   }
 
-  function matchKeywordsAndThesaurus(emojiObj = {}, query = '') {
-    const { keywords } = emojiObj;
+  // returns a set like [0, 0, 0.25] representing match strength on three vectors:
+  // [name, keywords, thesaurus]
+  function computeMatchVectorForEmoji(emojiObj = {}, query = '') {
+    const nameParts = emojiObj.nameParts;
+    const keywords = emojiObj.keywords;
     const thesaurus = flatten(emojiObj.thesaurus);
-    return minPrefixOverlapsByWordSet(query)([keywords, thesaurus]);
+    return minPrefixOverlapsByWordSet(query)([nameParts, keywords, thesaurus]);
   }
 
 
@@ -375,7 +384,7 @@ module.exports = (() => {
     toCodePoints,
     fromCodePoints,
     // Exported for test only:
-    matchKeywordsAndThesaurus,
+    computeMatchVectorForEmoji,
     matchStrengthFor,
     htmlForAllEmoji,
     searchOn,

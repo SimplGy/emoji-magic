@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Filter as you type
   $search.addEventListener('input', ({target: {value}}) => {
     const chars = emoji.search(value);
+
+    // TODO: If no results, use thesaurus
+    if (results.length === 0) {
+      emoji.search(value, {useThesaurus: true});
+    }
+
     emoji.render(chars);
   });
 
