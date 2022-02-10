@@ -93,20 +93,21 @@ module.exports = (() => {
     
     // Blank search? Exit early.
     if (str === '') {
-      return recentSelections.length > 0 ? recentSelections.map(toObj) : DEFAULT_RESULTS.map(toObj);
+      const results = recentSelections.length > 0 ? recentSelections : DEFAULT_RESULTS;
+      return results.map(toObj);
     }
 
     const matchesByStrength = data
       .map(r => [
         r,
-        {
-          match: matchStrengthFor(r, str),
-          matchVector: matchKeywordsAndThesaurus(r, str),
-        },
+        matchStrengthFor(r, str),
       ])
-      .filter(r => r[1].match > 0)
-      .sort((a, b) => b[1].match - a[1].match)
-      .map(r => r[0]); // plain emoji again
+      // Anything above zero counts as a match (either keywords or thesaurus):
+      .filter(r => r[1] > 0)
+      // Sort by the match strength
+      .sort((a, b) => b[1] - a[1])
+      // Drop the match strength vector from the response (plain emoji objects):
+      .map(r => r[0]);
 
     // TODO: make it obvious which words are matching, so it's not confusing why unrelated-seeming results appear
     // console.log(matchesByStrength.map(({char, match}) => char + ' ' + match));
