@@ -20,10 +20,6 @@ const {minPrefixOverlapsByWordSet} = require('../js_utils/matchers');
 const {fromCodePoints, toCodePoints} = require('../js_utils/code_points'); // re-exporting these for convenience
 
 const sum = (a, b) => a + b;
-const times = (a, b) => a * b;
-const avg = (arr = []) => arr.reduce(sum) / arr.length;
-const min = (arr = []) => Math.min.apply(Math, arr);
-const max = (arr = []) => Math.max.apply(Math, arr);
 
 
 
@@ -37,31 +33,9 @@ module.exports = (() => {
   const RESULT_LIMIT = 8 * 15; // for render perf, don't draw everything. 15 rows fit in Chrome's 600px height limit for default font size/zoom settings.
   const RECENT_SELECTION_LIMIT = 8 * 1; // at the default font size, there are 8 per row
   const DEFAULT_RESULTS = ['🔮','🎩','✨','🐇'];
-  const WORD_SEPARATORS = /\s+/; // Specifies how search strings are tokenized
   let recentSelections = []; // in memory store of recent selections. format is plain chars, not objects
   store.get(RECENT_KEY, val => recentSelections = val || []); // seed the recentSelections
   let willClearClipboard; // reference to the timeout that will clear this
-
-  // does anything in this array start with str?
-  const someStartWith = (arr, str) => arr.some(a => a.startsWith(str));
-
-  // Given an_emoji_name, does it match the str?
-  const matchesName = (name, str) => someStartWith(name.split('_'), str);
-
-  // 2nd order. given data and str, return true if data has it
-  // The "name" of the emoji is _ delimited words
-  // The "keywords" are human entered descriptors
-  const emojiMatches = (str) => ({name, keywords = []} = {}) =>
-    matchesName(name, str) || someStartWith(keywords, str);
-
-  // 2nd order. given data and str, return true if data has it
-  // also search thesaurus words if they're in the data set
-  const emojiMatchesThesaurus = (str) =>
-    ({name, keywords = [], thesaurus = []} = {}) => {
-      if (emojiMatches(str)({name, keywords})) return true;
-      thesaurus = flatten(thesaurus);
-      return someStartWith(thesaurus, str);
-    }
 
   const $ = {
     results: () => document.getElementById('results'),
@@ -386,21 +360,24 @@ module.exports = (() => {
 
 
   return {
-    searchOn,
+    __id__: 'emoji',
+    // Key data method
     search: searchOn(array),
+    // UI Methods
     render,
-    htmlForAllEmoji,
     onPressEmoji,
     copyToClipboard,
     copyFirstEmoji,
     moveFocusX,
     moveFocusY,
+    closePopup,
+    // re-exports
     toCodePoints,
     fromCodePoints,
-    closePopup,
-    matchStrengthFor,
+    // Exported for test only:
     matchKeywordsAndThesaurus,
-    // matchVectorsFor,
-    __id__: 'emoji',
+    matchStrengthFor,
+    htmlForAllEmoji,
+    searchOn,
   }
 })();
