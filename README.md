@@ -72,6 +72,12 @@ Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
     npm i # install dev dependencies
     node scripts/thesaurus.js
 
+## Procedure: Adding new manual keywords
+
+1. verify you're unhappy with existing keywords by searching file `emojilib_thesaurus.js`
+1. add it to `MANUAL_KEYWORDS` in `scripts/thesaurus.js`
+1. run `node scripts/thesaurus`
+
 ## Procedure: Updating the Emoji Data (~yearly when new Unicode emoji are available)
 
 1. Note current version of emoji support
@@ -87,6 +93,7 @@ Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
 1. run `node scripts/show-unicode-versions` again to verify there is new content
 1. Do commit that contains all of `emoji-en-US.json`, `data-by-emoji.json`, and `emojilib_thesaurus.js`.
 1. test in the web ui (dev instructions above)
+    1. note: I think you have to do a "hard refresh" (cmd+shift+r) to pick up the new large edited thesaurus file
 
 If you're happy with the results, bump the manifest version and follow the steps in the "Deploying" section.
 

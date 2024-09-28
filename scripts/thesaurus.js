@@ -41,6 +41,7 @@ MANUAL_KEYWORDS = {
   '😩': ['suffering'],
   '😳': ['shocked'],
   '😱': ['shocked'],
+  '🚐': ['van', 'rv'],
 }
 
 
