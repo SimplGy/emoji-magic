@@ -18,6 +18,8 @@ Born of a desire to improve emoji searching even further.
 
 ## Features
 
+> `1898` total unique emoji supported, Up to Unicode Emoji version `15.1`.
+
 1. 🔧 Actual Unicode Chars -- Native emoji rendering, no big slow images
 2. 📘 Rich Text Matching -- Finds synonyms using a thesaurus
 3. 🔗 Multi-word Queries -- Try "sad cat", or "blue heart"
@@ -31,9 +33,9 @@ This app requires absolutely minimal permissions.
 1. Only clipboard access
 1. No background script
 
-Other emoji extensions I've seen want to "read and change the data on all the sites you visit".
+Some other emoji extensions I've seen want to "read and change the data on all the sites you visit".
 
-These permissions are unsafe, and not necessary for a emoji picker. Read more: [1], [2], [3]
+These permissions are unsafe and unnecessary for a emoji picker. Read more about Chrome extension safety: [1], [2], [3].
 
 ## Developing
 
@@ -66,12 +68,6 @@ Run live watching tests (needs `npm i -g nodemon`):
 
     nodemon --exec npm test
 
-
-Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
-
-    npm i # install dev dependencies
-    node scripts/thesaurus.js
-
 ## Procedure: Adding new manual keywords
 
 1. verify you're unhappy with existing keywords by searching file `emojilib_thesaurus.js`
@@ -79,6 +75,8 @@ Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
 1. run `node scripts/thesaurus`
 
 ## Procedure: Updating the Emoji Data (~yearly when new Unicode emoji are available)
+
+(You may need a one-time `npm i` to install dev dependencies)
 
 1. Note current version of emoji support
     1. run `node scripts/show-unicode-versions`. latest version: `13.1`
@@ -148,6 +146,24 @@ node scripts/to-docs
 ## Contributing
 
 Contributions welcome. See `CONTRIBUTING.md`.
+
+## Fun
+
+Distribution of new emojis in each Unicode version since v3:
+
+```
+15.1   (28)  ████████████████████████████
+15.0   (21)  █████████████████████
+14.0   (37)  █████████████████████████████████████
+13.1   (7)   ███████
+13.0   (67)  ███████████████████████████████████████████████████████████████████
+12.1   (23)  ███████████████████████
+12.0   (75)  ███████████████████████████████████████████████████████████████████████████
+11.0   (77)  █████████████████████████████████████████████████████████████████████████████
+5.0    (79)  ███████████████████████████████████████████████████████████████████████████████
+4.0    (113) █████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+3.0    (72)  ████████████████████████████████████████████████████████████████████████
+```
 
 ## Technical Design
 
