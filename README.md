@@ -95,6 +95,34 @@ Run live watching tests (needs `npm i -g nodemon`):
 
 If you're happy with the results, bump the manifest version and follow the steps in the "Deploying" section.
 
+## Procedure: Test as an unpacked chrome extension
+
+Create an extension-deployable zip file and unpack it for local testing with Chrome:
+
+```sh
+rm -rf ./dist/emoji-magic && node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
+# test by using "load unpacked extension" in Chrome
+```
+
+## Deploying the Chrome extension
+
+1. bump `manifest_version`
+1. Create an extension-deployable zip file `node scripts/zip`
+1. Go to Chrome's extension [devconsole](https://chrome.google.com/webstore/devconsole)
+1. Add release notes for the update
+1. upload the new zip file and "submit for review"
+
+## Deploying static "web app"
+
+Build the "web app" demo version to `docs/` (so named for [Github Pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)):
+
+```sh
+node scripts/to-docs
+# test with `serve docs` or similar local web server
+```
+
+Then just commit and push, Github will do the rest.
+
 ## About the folders
 
 * `dist` -- dist bundle for chrome extention
@@ -120,28 +148,6 @@ When building one of these, I think most developers will want to do testing on t
 I have had no end of bugs that only exhibit on one or another of these platforms. Sometimes it's only broken when run in an extension context. Sometimes only in node for tests.
 
 Most extensions are simple and adding a rollup/webpack build system seems like a lot of overhead that isn't deserved, but it's hard to avoid. Would be nice for Chrome to get opinionated about this and make a happy path Typescript/test/local dev environment for extensions that is impossible to mess up.
-
-## Deploying
-
-Create an extension-deployable zip file:
-
-```sh
-node scripts/zip
-```
-
-Create an extension-deployable zip file and unpack it for local testing with Chrome:
-
-```sh
-rm -rf ./dist/emoji-magic && node scripts/zip && unzip -o ./dist/emoji-magic.zip -d ./dist/emoji-magic
-# test by using "load unpacked extension" in Chrome
-```
-
-Build the "web app" demo version to `docs/` (so named for [Github Pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)):
-
-```sh
-node scripts/to-docs
-# test with `serve docs`
-```
 
 ## Contributing
 

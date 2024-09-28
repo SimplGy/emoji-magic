@@ -14,6 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// This script copies over a bunch of files and puts them in a zip file in dist/
+// dist/ is gitignored so it won't show in source control or commits
+
 const fs = require('fs');
 const child_process = require("child_process");
 

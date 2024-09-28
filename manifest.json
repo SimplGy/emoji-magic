@@ -1,17 +1,17 @@
 {
   "name": "Emoji Magic",
   "short_name": "Emoji Magic - Find Emojis Fast and Easy",
-  "description": "Find Emoji Easily. Safe and secure: only asks for clipboard permissions.",
-  "version": "1.13.2",
+  "description": "Find Emoji instantly. Safe and secure - clipboard permissions only.",
+  "version": "1.13.3",
   "homepage_url": "https://www.simple.gy/projects/emoji-magic/",
   "offline_enabled": true,
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "16": "src/icons/icon16.png",
     "48": "src/icons/icon48.png",
     "128": "src/icons/icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "src/icons/icon19.png",
     "default_title": "Emoji Magic",
     "default_popup": "src/browser_action.html"
@@ -23,7 +23,7 @@
     "keyword": "emoji search find keyword emojis smileys unicode keyboard synonym thesaurus"
   },
   "commands": {
-    "_execute_browser_action": {
+    "_execute_action": {
       "suggested_key": {
         "windows": "Ctrl+Shift+O",
         "mac": "Command+Shift+O",
