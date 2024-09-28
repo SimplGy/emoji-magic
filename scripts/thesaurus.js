@@ -37,6 +37,10 @@ MANUAL_KEYWORDS = {
   '❕': ['bang'],
   '‼️': ['bang'],
   '🙏': ['thank', 'pray'],
+  '😫': ['suffering'],
+  '😩': ['suffering'],
+  '😳': ['shocked'],
+  '😱': ['shocked'],
 }
 
 

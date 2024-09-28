@@ -14,7 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// This script updates the emojilib dependency data
+// This script uses an upstream dependency to fetch emoji metdata and keywords
+// It then writes out to this app's data set.
+// It replaces, does not append, so if the upstream changes or removes something, it could remove existing data in this app.
 
 const fs = require('fs')
 const https = require('https')

@@ -78,8 +78,14 @@ Update the thesaurus-annotated contents in `data/emojilib_thesaurus.js`:
     1. run `node scripts/show-unicode-versions`. latest version: `13.1`
     1. Note current version of [unicode](https://www.unicode.org/emoji/charts-16.0/emoji-released.html): `16.0`.
     1. Example new emoji: "root vegetable"
-1. `node scripts/update-3p.js` to update the raw data set (`emoji-en-US.json` and `data-by-emoji.json`)
-1. `node scripts/thesaurus.js` to re-generate the thesaurus (`emojilib_thesaurus.js`)
+1. run `node scripts/update-3p` to update and regenerate the third_party local raw data for this app (`emoji-en-US.json` and `data-by-emoji.json`)
+    1. This depends on an upstream project https://github.com/muan/unicode-emoji-json
+    1. The upstream project provides unicode metadata and some manual keywords
+    1. It is not always up-to-date (eg: 2024 september, does not have 16.0). It's probably more up to date than this project, but it's not 100% real time.
+    1. check the diff after you run this to make sure it's WAI. Some of the added keywords are fun (eg: "slay" for painting nails.)
+1. run `node scripts/thesaurus` to re-generate the main data file used by the app (`emojilib_thesaurus.js`)
+1. run `node scripts/show-unicode-versions` again to verify there is new content
+1. Do commit that contains all of `emoji-en-US.json`, `data-by-emoji.json`, and `emojilib_thesaurus.js`.
 1. test in the web ui (dev instructions above)
 
 If you're happy with the results, bump the manifest version and follow the steps in the "Deploying" section.
